@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプル投資判断</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        .industry-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .industry-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .industry-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        a {
+            color: #2c3e50;
+            text-decoration: none;
+            display: block;
+            font-size: 16px;
+        }
+        a:hover {
+            color: #3498db;
+        }
+        .stock-count {
+            color: #666;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>33業種区分別 株式投資判断</h1>
+    <div class="industry-grid">
+        <div class="industry-card">
+            <a href="industry/情報・通信業.html">情報・通信業</a>
+            <div class="stock-count">銘柄数: 632社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/サービス業.html">サービス業</a>
+            <div class="stock-count">銘柄数: 566社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/-.html">-</a>
+            <div class="stock-count">銘柄数: 434社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/小売業.html">小売業</a>
+            <div class="stock-count">銘柄数: 352社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/卸売業.html">卸売業</a>
+            <div class="stock-count">銘柄数: 309社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/電気機器.html">電気機器</a>
+            <div class="stock-count">銘柄数: 239社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/機械.html">機械</a>
+            <div class="stock-count">銘柄数: 223社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/化学.html">化学</a>
+            <div class="stock-count">銘柄数: 208社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/建設業.html">建設業</a>
+            <div class="stock-count">銘柄数: 164社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/不動産業.html">不動産業</a>
+            <div class="stock-count">銘柄数: 158社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/食料品.html">食料品</a>
+            <div class="stock-count">銘柄数: 127社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/その他製品.html">その他製品</a>
+            <div class="stock-count">銘柄数: 107社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/金属製品.html">金属製品</a>
+            <div class="stock-count">銘柄数: 89社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/輸送用機器.html">輸送用機器</a>
+            <div class="stock-count">銘柄数: 88社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/医薬品.html">医薬品</a>
+            <div class="stock-count">銘柄数: 81社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/銀行業.html">銀行業</a>
+            <div class="stock-count">銘柄数: 79社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/陸運業.html">陸運業</a>
+            <div class="stock-count">銘柄数: 62社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/ガラス・土石製品.html">ガラス・土石製品</a>
+            <div class="stock-count">銘柄数: 53社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/精密機器.html">精密機器</a>
+            <div class="stock-count">銘柄数: 51社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/繊維製品.html">繊維製品</a>
+            <div class="stock-count">銘柄数: 49社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/鉄鋼.html">鉄鋼</a>
+            <div class="stock-count">銘柄数: 42社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/その他金融業.html">その他金融業</a>
+            <div class="stock-count">銘柄数: 41社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/証券、商品先物取引業.html">証券、商品先物取引業</a>
+            <div class="stock-count">銘柄数: 41社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/倉庫・運輸関連業.html">倉庫・運輸関連業</a>
+            <div class="stock-count">銘柄数: 37社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/非鉄金属.html">非鉄金属</a>
+            <div class="stock-count">銘柄数: 34社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/電気・ガス業.html">電気・ガス業</a>
+            <div class="stock-count">銘柄数: 28社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/パルプ・紙.html">パルプ・紙</a>
+            <div class="stock-count">銘柄数: 25社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/ゴム製品.html">ゴム製品</a>
+            <div class="stock-count">銘柄数: 18社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/保険業.html">保険業</a>
+            <div class="stock-count">銘柄数: 15社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/水産・農林業.html">水産・農林業</a>
+            <div class="stock-count">銘柄数: 12社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/石油・石炭製品.html">石油・石炭製品</a>
+            <div class="stock-count">銘柄数: 11社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/海運業.html">海運業</a>
+            <div class="stock-count">銘柄数: 11社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/空運業.html">空運業</a>
+            <div class="stock-count">銘柄数: 6社</div>
+        </div>
+        <div class="industry-card">
+            <a href="industry/鉱業.html">鉱業</a>
+            <div class="stock-count">銘柄数: 5社</div>
+        </div>
+    </div>
+</body>
+</html>

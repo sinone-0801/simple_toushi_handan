@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>銘柄詳細 - シンプル投資判断</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .stock-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .company-name {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .metric {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .metric-label {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .metric-value {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="stock-card">
+        <h1 class="company-name" id="companyName"></h1>
+        <div class="metrics">
+            <div class="metric">
+                <div class="metric-label">株価</div>
+                <div class="metric-value" id="stockPrice"></div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">PER</div>
+                <div class="metric-value" id="per"></div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">PBR</div>
+                <div class="metric-value" id="pbr"></div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">EPS</div>
+                <div class="metric-value" id="eps"></div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">信用格付け</div>
+                <div class="metric-value" id="rating"></div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">ミックス係数</div>
+                <div class="metric-value" id="mixFactor"></div>
+            </div>
+        </div>
+    </div>
+    <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
+
+    <script>
+        // URLからファイル名を取得してJSONを読み込む
+        const fileName = location.pathname.split('/').pop().replace('.html', '');
+        fetch(`${fileName}.json`)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('companyName').textContent = data.name;
+                document.getElementById('stockPrice').textContent = `${data.price.toLocaleString()}円`;
+                document.getElementById('per').textContent = `${data.per.toFixed(2)}倍`;
+                document.getElementById('pbr').textContent = `${data.pbr.toFixed(2)}倍`;
+                document.getElementById('eps').textContent = `${data.eps.toLocaleString()}円`;
+                document.getElementById('rating').textContent = data.rating || 'N/A';
+                document.getElementById('mixFactor').textContent = `${(data.per * data.pbr).toFixed(2)}`;
+            });
+    </script>
+</body>
+</html>

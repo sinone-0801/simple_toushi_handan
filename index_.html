@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PER Data Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <style>
+        .company-section {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .chart-container {
+            width: 800px;
+            height: 400px;
+            margin: 20px 0;
+        }
+        .company-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .company-code {
+            color: #666;
+            font-size: 0.9em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: right;
+        }
+        th {
+            background-color: #f5f5f5;
+        }
+        .red-text {
+            color: red;
+            font-weight: bold;
+        }
+        .legend {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f8f8f8;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+
+    <script>
+        async function loadAndDisplayData() {
+            try {
+                const response = await fetch('per_data.json');
+                const data = await response.json();
+                const container = document.getElementById('app');
+
+                data.forEach(company => {
+                    const section = document.createElement('div');
+                    section.className = 'company-section';
+
+                    // ヘッダー部分
+                    const header = document.createElement('div');
+                    header.className = 'company-header';
+                    header.innerHTML = `
+                        <h2>${company.name}</h2>
+                        <span class="company-code">(${company.code})</span>
+                    `;
+                    section.appendChild(header);
+
+                    // グラフ用のキャンバス
+                    const chartContainer = document.createElement('div');
+                    chartContainer.className = 'chart-container';
+                    const canvas = document.createElement('canvas');
+                    chartContainer.appendChild(canvas);
+                    section.appendChild(chartContainer);
+
+                    // 凡例の追加
+                    const legend = document.createElement('div');
+                    legend.className = 'legend';
+                    legend.innerHTML = '※ 赤字期間はグラフから除外されています';
+                    section.appendChild(legend);
+
+                    // テーブル作成
+                    const table = document.createElement('table');
+                    table.innerHTML = `
+                        <tr>
+                            <th>日付</th>
+                            <th>PER</th>
+                        </tr>
+                        ${company.per_data.map(d => `
+                            <tr>
+                                <td>${d.date}</td>
+                                <td class="${d.is_red ? 'red-text' : ''}">${d.is_red ? '赤字' : d.per.toFixed(2) + '倍'}</td>
+                            </tr>
+                        `).join('')}
+                    `;
+                    section.appendChild(table);
+
+                    // グラフデータの準備（赤字を除外）
+                    const validData = company.per_data.filter(d => !d.is_red);
+
+                    // グラフの描画
+                    new Chart(canvas, {
+                        type: 'line',
+                        data: {
+                            labels: validData.map(d => d.date),
+                            datasets: [{
+                                label: 'PER推移',
+                                data: validData.map(d => d.per),
+                                borderColor: 'rgb(75, 192, 192)',
+                                tension: 0.1
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            scales: {
+                                y: {
+                                    beginAtZero: true,
+                                    title: {
+                                        display: true,
+                                        text: 'PER (倍)'
+                                    }
+                                }
+                            }
+                        }
+                    });
+
+                    container.appendChild(section);
+                });
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        // データの読み込みと表示を実行
+        loadAndDisplayData();
+    </script>
+</body>
+</html>
