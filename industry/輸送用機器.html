@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>輸送用機器 - シンプル投資判断</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .stock-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .companies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .company-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .company-name {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .metric {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+        }
+        .metric-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 2px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="stock-card">
+        <h1>輸送用機器</h1>
+        <div class="companies-grid" id="companiesGrid">
+        </div>
+    </div>
+    <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
+
+    <script>
+    const companiesData = [{"code": "3116", "name": "トヨタ紡織", "per": 0, "pbr": 0, "eps": null}, {"code": "3526", "name": "芦森工業", "per": 0, "pbr": 0, "eps": null}, {"code": "5949", "name": "ユニプレス", "per": 0, "pbr": 0, "eps": null}, {"code": "6016", "name": "ジャパンエンジンコーポレーション", "per": 0, "pbr": 0, "eps": null}, {"code": "6018", "name": "阪神内燃機工業", "per": 0, "pbr": 0, "eps": null}, {"code": "6023", "name": "ダイハツディーゼル", "per": 0, "pbr": 0, "eps": null}, {"code": "6042", "name": "ニッキ", "per": 0, "pbr": 0, "eps": null}, {"code": "6201", "name": "豊田自動織機", "per": 0, "pbr": 0, "eps": null}, {"code": "6455", "name": "モリタホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "6493", "name": "ＮＩＴＴＡＮ", "per": 0, "pbr": 0, "eps": null}, {"code": "6584", "name": "三櫻工業", "per": 0, "pbr": 0, "eps": null}, {"code": "6902", "name": "デンソー", "per": 0, "pbr": 0, "eps": null}, {"code": "6982", "name": "リード", "per": 0, "pbr": 0, "eps": null}, {"code": "6995", "name": "東海理化電機製作所", "per": 0, "pbr": 0, "eps": null}, {"code": "7012", "name": "川崎重工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7014", "name": "名村造船所", "per": 0, "pbr": 0, "eps": null}, {"code": "7018", "name": "内海造船", "per": 0, "pbr": 0, "eps": null}, {"code": "7102", "name": "日本車輌製造", "per": 0, "pbr": 0, "eps": null}, {"code": "7105", "name": "三菱ロジスネクスト", "per": 0, "pbr": 0, "eps": null}, {"code": "7122", "name": "近畿車輛", "per": 0, "pbr": 0, "eps": null}, {"code": "7201", "name": "日産自動車", "per": 0, "pbr": 0, "eps": null}, {"code": "7202", "name": "いすゞ自動車", "per": 0, "pbr": 0, "eps": null}, {"code": "7203", "name": "トヨタ自動車", "per": 0, "pbr": 0, "eps": null}, {"code": "7205", "name": "日野自動車", "per": 0, "pbr": 0, "eps": null}, {"code": "7208", "name": "カネミツ", "per": 0, "pbr": 0, "eps": null}, {"code": "7211", "name": "三菱自動車工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7212", "name": "エフテック", "per": 0, "pbr": 0, "eps": null}, {"code": "7213", "name": "レシップホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "7214", "name": "ＧＭＢ", "per": 0, "pbr": 0, "eps": null}, {"code": "7215", "name": "ファルテック", "per": 0, "pbr": 0, "eps": null}, {"code": "7217", "name": "テイン", "per": 0, "pbr": 0, "eps": null}, {"code": "7218", "name": "田中精密工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7219", "name": "エッチ・ケー・エス", "per": 0, "pbr": 0, "eps": null}, {"code": "7220", "name": "武蔵精密工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7222", "name": "日産車体", "per": 0, "pbr": 0, "eps": null}, {"code": "7224", "name": "新明和工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7226", "name": "極東開発工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7228", "name": "デイトナ", "per": 0, "pbr": 0, "eps": null}, {"code": "7229", "name": "ユタカ技研", "per": 0, "pbr": 0, "eps": null}, {"code": "7231", "name": "トピー工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7235", "name": "東京ラヂエーター製造", "per": 0, "pbr": 0, "eps": null}, {"code": "7236", "name": "ティラド", "per": 0, "pbr": 0, "eps": null}, {"code": "7238", "name": "曙ブレーキ工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7239", "name": "タチエス", "per": 0, "pbr": 0, "eps": null}, {"code": "7240", "name": "ＮＯＫ", "per": 0, "pbr": 0, "eps": null}, {"code": "7241", "name": "フタバ産業", "per": 0, "pbr": 0, "eps": null}, {"code": "7242", "name": "カヤバ", "per": 0, "pbr": 0, "eps": null}, {"code": "7245", "name": "大同メタル工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7246", "name": "プレス工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7247", "name": "ミクニ", "per": 0, "pbr": 0, "eps": null}, {"code": "7250", "name": "太平洋工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7254", "name": "ユニバンス", "per": 0, "pbr": 0, "eps": null}, {"code": "7255", "name": "桜井製作所", "per": 0, "pbr": 0, "eps": null}, {"code": "7256", "name": "河西工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7259", "name": "アイシン", "per": 0, "pbr": 0, "eps": null}, {"code": "7261", "name": "マツダ", "per": 0, "pbr": 0, "eps": null}, {"code": "7264", "name": "ムロコーポレーション", "per": 0, "pbr": 0, "eps": null}, {"code": "7265", "name": "エイケン工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7266", "name": "今仙電機製作所", "per": 0, "pbr": 0, "eps": null}, {"code": "7267", "name": "本田技研工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7268", "name": "タツミ", "per": 0, "pbr": 0, "eps": null}, {"code": "7269", "name": "スズキ", "per": 0, "pbr": 0, "eps": null}, {"code": "7270", "name": "ＳＵＢＡＲＵ", "per": 0, "pbr": 0, "eps": null}, {"code": "7271", "name": "安永", "per": 0, "pbr": 0, "eps": null}, {"code": "7272", "name": "ヤマハ発動機", "per": 0, "pbr": 0, "eps": null}, {"code": "7273", "name": "イクヨ", "per": 0, "pbr": 0, "eps": null}, {"code": "7277", "name": "ＴＢＫ", "per": 0, "pbr": 0, "eps": null}, {"code": "7278", "name": "エクセディ", "per": 0, "pbr": 0, "eps": null}, {"code": "7279", "name": "ハイレックスコーポレーション", "per": 0, "pbr": 0, "eps": null}, {"code": "7282", "name": "豊田合成", "per": 0, "pbr": 0, "eps": null}, {"code": "7283", "name": "愛三工業", "per": 0, "pbr": 0, "eps": null}, {"code": "7284", "name": "盟和産業", "per": 0, "pbr": 0, "eps": null}, {"code": "7287", "name": "日本精機", "per": 0, "pbr": 0, "eps": null}, {"code": "7291", "name": "日本プラスト", "per": 0, "pbr": 0, "eps": null}, {"code": "7292", "name": "村上開明堂", "per": 0, "pbr": 0, "eps": null}, {"code": "7294", "name": "ヨロズ", "per": 0, "pbr": 0, "eps": null}, {"code": "7296", "name": "エフ・シー・シー", "per": 0, "pbr": 0, "eps": null}, {"code": "7297", "name": "カーメイト", "per": 0, "pbr": 0, "eps": null}, {"code": "7299", "name": "フジオーゼックス", "per": 0, "pbr": 0, "eps": null}, {"code": "7309", "name": "シマノ", "per": 0, "pbr": 0, "eps": null}, {"code": "7313", "name": "テイ・エス　テック", "per": 0, "pbr": 0, "eps": null}, {"code": "7314", "name": "小田原機器", "per": 0, "pbr": 0, "eps": null}, {"code": "7317", "name": "松屋アールアンドディ", "per": 0, "pbr": 0, "eps": null}, {"code": "7318", "name": "セレンディップ・ホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "7399", "name": "ナンシン", "per": 0, "pbr": 0, "eps": null}, {"code": "7408", "name": "ジャムコ", "per": 0, "pbr": 0, "eps": null}, {"code": "7409", "name": "ＡｅｒｏＥｄｇｅ", "per": 0, "pbr": 0, "eps": null}, {"code": "7551", "name": "ウェッズ", "per": 0, "pbr": 0, "eps": null}];
+
+    function formatNumber(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toLocaleString();
+    }
+
+    function formatRatio(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toFixed(2);
+    }
+
+    function calculateMixFactor(per, pbr) {
+        if (per === null || per === undefined || isNaN(per) || 
+            pbr === null || pbr === undefined || isNaN(pbr)) {
+            return 'N/A';
+        }
+        return (per * pbr).toFixed(2);
+    }
+
+    function renderCompanies() {
+        const grid = document.getElementById('companiesGrid');
+        companiesData.forEach(company => {
+            const card = document.createElement('div');
+            card.className = 'company-card';
+            
+            const per = Number(company.per) || 0;
+            const pbr = Number(company.pbr) || 0;
+            
+            card.innerHTML = `
+                <div class="company-name">${company.code} - ${company.name}</div>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-label">PER</div>
+                        <div class="metric-value">${formatRatio(per)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">PBR</div>
+                        <div class="metric-value">${formatRatio(pbr)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">EPS</div>
+                        <div class="metric-value">${formatNumber(company.eps)}円</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ミックス係数</div>
+                        <div class="metric-value">${calculateMixFactor(per, pbr)}</div>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    renderCompanies();
+    </script>
+</body>
+</html>

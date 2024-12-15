@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>パルプ・紙 - シンプル投資判断</title>
+    <title>倉庫・運輸関連業 - シンプル投資判断</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
@@ -74,14 +74,14 @@
 </head>
 <body>
     <div class="stock-card">
-        <h1>パルプ・紙</h1>
+        <h1>倉庫・運輸関連業</h1>
         <div class="companies-grid" id="companiesGrid">
         </div>
     </div>
     <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
 
     <script>
-    const companiesData = [{"code": "204A", "name": "タイヨーパッケージ", "per": 0, "pbr": 0, "eps": null}, {"code": "3708", "name": "特種東海製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3861", "name": "王子ホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "3863", "name": "日本製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3864", "name": "三菱製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3865", "name": "北越コーポレーション", "per": 0, "pbr": 0, "eps": null}, {"code": "3877", "name": "中越パルプ工業", "per": 0, "pbr": 0, "eps": null}, {"code": "3880", "name": "大王製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3891", "name": "ニッポン高度紙工業", "per": 0, "pbr": 0, "eps": null}, {"code": "3892", "name": "岡山製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3895", "name": "ハビックス", "per": 0, "pbr": 0, "eps": null}, {"code": "3896", "name": "阿波製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3941", "name": "レンゴー", "per": 0, "pbr": 0, "eps": null}, {"code": "3943", "name": "大石産業", "per": 0, "pbr": 0, "eps": null}, {"code": "3944", "name": "古林紙工", "per": 0, "pbr": 0, "eps": null}, {"code": "3945", "name": "スーパーバッグ", "per": 0, "pbr": 0, "eps": null}, {"code": "3946", "name": "トーモク", "per": 0, "pbr": 0, "eps": null}, {"code": "3947", "name": "ダイナパック", "per": 0, "pbr": 0, "eps": null}, {"code": "3948", "name": "光ビジネスフォーム", "per": 0, "pbr": 0, "eps": null}, {"code": "3950", "name": "ザ・パック", "per": 0, "pbr": 0, "eps": null}, {"code": "3951", "name": "朝日印刷", "per": 0, "pbr": 0, "eps": null}, {"code": "3953", "name": "大村紙業", "per": 0, "pbr": 0, "eps": null}, {"code": "3954", "name": "昭和パックス", "per": 0, "pbr": 0, "eps": null}, {"code": "3955", "name": "イムラ", "per": 0, "pbr": 0, "eps": null}, {"code": "3958", "name": "笹徳印刷", "per": 0, "pbr": 0, "eps": null}];
+    const companiesData = [{"code": "9058", "name": "トランコム", "per": 0, "pbr": 0, "eps": null}, {"code": "9066", "name": "日新", "per": 0, "pbr": 0, "eps": null}, {"code": "9193", "name": "東京汽船", "per": 0, "pbr": 0, "eps": null}, {"code": "9301", "name": "三菱倉庫", "per": 0, "pbr": 0, "eps": null}, {"code": "9302", "name": "三井倉庫ホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "9303", "name": "住友倉庫", "per": 0, "pbr": 0, "eps": null}, {"code": "9304", "name": "澁澤倉庫", "per": 0, "pbr": 0, "eps": null}, {"code": "9306", "name": "東陽倉庫", "per": 0, "pbr": 0, "eps": null}, {"code": "9307", "name": "杉村倉庫", "per": 0, "pbr": 0, "eps": null}, {"code": "9310", "name": "日本トランスシティ", "per": 0, "pbr": 0, "eps": null}, {"code": "9311", "name": "アサガミ", "per": 0, "pbr": 0, "eps": null}, {"code": "9312", "name": "ケイヒン", "per": 0, "pbr": 0, "eps": null}, {"code": "9313", "name": "丸八倉庫", "per": 0, "pbr": 0, "eps": null}, {"code": "9319", "name": "中央倉庫", "per": 0, "pbr": 0, "eps": null}, {"code": "9322", "name": "川西倉庫", "per": 0, "pbr": 0, "eps": null}, {"code": "9324", "name": "安田倉庫", "per": 0, "pbr": 0, "eps": null}, {"code": "9325", "name": "ファイズホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "9326", "name": "関通", "per": 0, "pbr": 0, "eps": null}, {"code": "9327", "name": "イー・ロジット", "per": 0, "pbr": 0, "eps": null}, {"code": "9351", "name": "東洋埠頭", "per": 0, "pbr": 0, "eps": null}, {"code": "9353", "name": "櫻島埠頭", "per": 0, "pbr": 0, "eps": null}, {"code": "9355", "name": "リンコーコーポレーション", "per": 0, "pbr": 0, "eps": null}, {"code": "9361", "name": "伏木海陸運送", "per": 0, "pbr": 0, "eps": null}, {"code": "9362", "name": "兵機海運", "per": 0, "pbr": 0, "eps": null}, {"code": "9363", "name": "大運", "per": 0, "pbr": 0, "eps": null}, {"code": "9364", "name": "上組", "per": 0, "pbr": 0, "eps": null}, {"code": "9365", "name": "トレーディア", "per": 0, "pbr": 0, "eps": null}, {"code": "9366", "name": "サンリツ", "per": 0, "pbr": 0, "eps": null}, {"code": "9367", "name": "大東港運", "per": 0, "pbr": 0, "eps": null}, {"code": "9368", "name": "キムラユニティー", "per": 0, "pbr": 0, "eps": null}, {"code": "9369", "name": "キユーソー流通システム", "per": 0, "pbr": 0, "eps": null}, {"code": "9377", "name": "エージーピー", "per": 0, "pbr": 0, "eps": null}, {"code": "9380", "name": "東海運", "per": 0, "pbr": 0, "eps": null}, {"code": "9381", "name": "エーアイテイー", "per": 0, "pbr": 0, "eps": null}, {"code": "9384", "name": "内外トランスライン", "per": 0, "pbr": 0, "eps": null}, {"code": "9386", "name": "日本コンセプト", "per": 0, "pbr": 0, "eps": null}, {"code": "9388", "name": "パパネッツ", "per": 0, "pbr": 0, "eps": null}];
 
     function formatNumber(value) {
         if (value === null || value === undefined || isNaN(value)) {

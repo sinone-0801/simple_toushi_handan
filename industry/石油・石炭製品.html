@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>パルプ・紙 - シンプル投資判断</title>
+    <title>石油・石炭製品 - シンプル投資判断</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
@@ -74,14 +74,14 @@
 </head>
 <body>
     <div class="stock-card">
-        <h1>パルプ・紙</h1>
+        <h1>石油・石炭製品</h1>
         <div class="companies-grid" id="companiesGrid">
         </div>
     </div>
     <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
 
     <script>
-    const companiesData = [{"code": "204A", "name": "タイヨーパッケージ", "per": 0, "pbr": 0, "eps": null}, {"code": "3708", "name": "特種東海製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3861", "name": "王子ホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "3863", "name": "日本製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3864", "name": "三菱製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3865", "name": "北越コーポレーション", "per": 0, "pbr": 0, "eps": null}, {"code": "3877", "name": "中越パルプ工業", "per": 0, "pbr": 0, "eps": null}, {"code": "3880", "name": "大王製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3891", "name": "ニッポン高度紙工業", "per": 0, "pbr": 0, "eps": null}, {"code": "3892", "name": "岡山製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3895", "name": "ハビックス", "per": 0, "pbr": 0, "eps": null}, {"code": "3896", "name": "阿波製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3941", "name": "レンゴー", "per": 0, "pbr": 0, "eps": null}, {"code": "3943", "name": "大石産業", "per": 0, "pbr": 0, "eps": null}, {"code": "3944", "name": "古林紙工", "per": 0, "pbr": 0, "eps": null}, {"code": "3945", "name": "スーパーバッグ", "per": 0, "pbr": 0, "eps": null}, {"code": "3946", "name": "トーモク", "per": 0, "pbr": 0, "eps": null}, {"code": "3947", "name": "ダイナパック", "per": 0, "pbr": 0, "eps": null}, {"code": "3948", "name": "光ビジネスフォーム", "per": 0, "pbr": 0, "eps": null}, {"code": "3950", "name": "ザ・パック", "per": 0, "pbr": 0, "eps": null}, {"code": "3951", "name": "朝日印刷", "per": 0, "pbr": 0, "eps": null}, {"code": "3953", "name": "大村紙業", "per": 0, "pbr": 0, "eps": null}, {"code": "3954", "name": "昭和パックス", "per": 0, "pbr": 0, "eps": null}, {"code": "3955", "name": "イムラ", "per": 0, "pbr": 0, "eps": null}, {"code": "3958", "name": "笹徳印刷", "per": 0, "pbr": 0, "eps": null}];
+    const companiesData = [{"code": "3315", "name": "日本コークス工業", "per": 0, "pbr": 0, "eps": null}, {"code": "5010", "name": "日本精蝋", "per": 0, "pbr": 0, "eps": null}, {"code": "5011", "name": "ニチレキグループ", "per": 0, "pbr": 0, "eps": null}, {"code": "5013", "name": "ユシロ化学工業", "per": 0, "pbr": 0, "eps": null}, {"code": "5015", "name": "ビーピー・カストロール", "per": 0, "pbr": 0, "eps": null}, {"code": "5017", "name": "富士石油", "per": 0, "pbr": 0, "eps": null}, {"code": "5018", "name": "ＭＯＲＥＳＣＯ", "per": 0, "pbr": 0, "eps": null}, {"code": "5019", "name": "出光興産", "per": 0, "pbr": 0, "eps": null}, {"code": "5020", "name": "ＥＮＥＯＳホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "5021", "name": "コスモエネルギーホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "5022", "name": "レボインターナショナル", "per": 0, "pbr": 0, "eps": null}];
 
     function formatNumber(value) {
         if (value === null || value === undefined || isNaN(value)) {

@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import json
 import time
 from datetime import datetime
+import os
 
 def parse_value(value_text):
     """
@@ -192,7 +193,35 @@ def parse_daily_date(date_str):
         print(f"Daily date parsing error: {date_str} - {e}")
         return None
 
+def parse_dividend_value(value_text):
+    """
+    配当金の値をパースする関数
+    パーセント表記の場合は%を除去して数値に変換
+    """
+    if not value_text or value_text.strip() == '-':
+        return None
+        
+    try:
+        value_text = value_text.strip()
+        # パーセント記号が含まれている場合は除去
+        if '%' in value_text:
+            return float(value_text.replace('%', '').replace(',', ''))
+        # 通常の数値の場合
+        return float(value_text.replace(',', ''))
+    except (ValueError, TypeError) as e:
+        print(f"Failed to parse dividend value: '{value_text}' - Error: {e}")
+        return None
+
 def scrape_stock_data(csv_file):
+    # 出力用のディレクトリ作成
+    os.makedirs('industry', exist_ok=True)
+    
+    # 入力ファイル名から出力JSONのパス作成
+    base_name = os.path.splitext(os.path.basename(csv_file))[0]
+    output_json = f'industry/{base_name}.json'
+    
+    print(f"\n処理開始: {base_name}")
+    
     df = pd.read_csv(csv_file)
     all_data = []
     
@@ -203,18 +232,49 @@ def scrape_stock_data(csv_file):
                 'name': df[df['コード'] == code]['銘柄名'].iloc[0],
                 'annual_data': [],
                 'daily_data': [],
-                'financial_data': []
+                'financial_data': [],
+                'dividend_data': []
             }
 
-            # PER、PBR、業績データの取得
+            # PER、PBR、業績データ、配当データの取得
             for data_type, url in [
                 ('per', f'https://irbank.net/{code}/per'),
                 ('pbr', f'https://irbank.net/{code}/pbr'),
-                ('results', f'https://irbank.net/{code}/results')
+                ('results', f'https://irbank.net/{code}/results'),
+                ('dividend', f'https://irbank.net/{code}/dividend')
             ]:
                 response = requests.get(url)
                 response.raise_for_status()
                 soup = BeautifulSoup(response.text, 'html.parser')
+                
+                if data_type == 'dividend':
+                    # 配当データの処理
+                    table = soup.find('table', class_='cs')
+                    if table and table.find('tbody'):
+                        for row in table.find('tbody').find_all('tr'):
+                            cells = row.find_all('td')
+                            
+                            if cells and '実績' in cells[1].text:
+                                try:
+                                    year_cell = cells[0].text.strip()
+                                    year = year_cell.split('年')[0]
+                                    month = '03'
+                                    fiscal_year = f"{year}/{month}"
+                                    
+                                    total_dividend = parse_dividend_value(cells[4].text)
+                                    dividend_yield = parse_dividend_value(cells[5].text)
+                                    
+                                    if fiscal_year:
+                                        dividend_entry = {
+                                            'fiscal_year': fiscal_year,
+                                            'total_dividend': total_dividend,
+                                            'dividend_yield': dividend_yield
+                                        }
+                                        dividend_entry = {k: v for k, v in dividend_entry.items() if v is not None}
+                                        company_data['dividend_data'].append(dividend_entry)
+                                except Exception as e:
+                                    print(f"Error processing dividend data for company {code}: {e}")
+                                    continue
                 
                 if data_type == 'results':
                     # 業績データの処理
@@ -328,10 +388,11 @@ def scrape_stock_data(csv_file):
                             print(f"Error: {str(e)}")
                             continue
             
-            # 空でないデータのみを追加
+            # データが存在する場合のみ追加
             if (company_data['annual_data'] or 
                 company_data['daily_data'] or 
-                company_data['financial_data']):
+                company_data['financial_data'] or
+                company_data['dividend_data']):
                 all_data.append(company_data)
                 print(f"Scraped data for company {code}")
             
@@ -341,11 +402,11 @@ def scrape_stock_data(csv_file):
             print(f"Error scraping company {code}: {e}")
             continue
     
-    # JSONとして保存
-    with open('stock_data.json', 'w', encoding='utf-8') as f:
+    # 業界ごとのJSONとして保存
+    with open(output_json, 'w', encoding='utf-8') as f:
         json.dump(all_data, f, ensure_ascii=False, indent=2)
     
-    print(f"\n処理が完了しました。")
+    print(f"\n{base_name}の処理が完了しました。")
     print(f"スクレイピングした企業数: {len(all_data)}")
     if all_data:
         print(f"最初の企業のデータ例:")
@@ -354,9 +415,25 @@ def scrape_stock_data(csv_file):
         print(f"- 年間データ数: {len(all_data[0]['annual_data'])}")
         print(f"- 日次データ数: {len(all_data[0]['daily_data'])}")
         print(f"- 財務データ数: {len(all_data[0]['financial_data'])}")
+        print(f"- 配当データ数: {len(all_data[0]['dividend_data'])}")
     
     return all_data
 
-# 実行例
-scrape_stock_data('industry_categories/パルプ_紙.csv')
-# scrape_stock_data('mof_sheets/Sheet1.csv')
+
+def main():
+    # industry_categoriesディレクトリ内のすべてのCSVファイルを処理
+    csv_files = glob.glob('industry_categories/*.csv')
+    
+    print(f"処理対象ファイル数: {len(csv_files)}")
+    
+    for csv_file in csv_files:
+        try:
+            scrape_stock_data(csv_file)
+        except Exception as e:
+            print(f"Error processing file {csv_file}: {e}")
+            continue
+
+if __name__ == "__main__":
+    # main()
+    # 実行例
+    scrape_stock_data('industry_categories/パルプ・紙.csv')

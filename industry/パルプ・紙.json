@@ -109,116 +109,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 87300.0,
-        "price": 438.99999999999994,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 85100.0,
-        "price": 629.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 78100.0,
-        "price": 4330.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 79400.0,
-        "price": 3840.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 77700.0,
-        "price": 3270.0000000000005,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 75600.0,
-        "price": 4170.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 78200.0,
-        "price": 3180.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 78800.0,
-        "price": 2480.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 78500.0,
-        "price": 3750.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 77700.0,
-        "price": 4710.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 79100.0,
-        "price": 3929.9999999999995,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 81900.0,
-        "price": 3140.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 80600.0,
-        "price": 2870.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 76400.0,
-        "price": 3229.9999999999995,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 80700.0,
-        "price": 4230.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 84100.0,
-        "price": 1639.9999999999998,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 86500.0,
-        "price": 2300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 95000.0,
-        "price": 4000.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -447,6 +338,28 @@
         "operating_margin": 3.24,
         "cost_ratio": 4.21
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.01
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.75
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.63
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.34
+      }
     ]
   },
   {
@@ -559,116 +472,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 1320000.0,
-        "price": 42100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 1270000.0,
-        "price": 32800.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 1150000.0,
-        "price": 73700.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 1180000.0,
-        "price": 65400.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 1210000.0,
-        "price": 53800.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 1240000.0,
-        "price": 43500.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 1330000.0,
-        "price": 57300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 1350000.0,
-        "price": 43900.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 1430000.0,
-        "price": 72000.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 1440000.0,
-        "price": 70200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 1490000.0,
-        "price": 70800.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 1550000.0,
-        "price": 110200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 1510000.0,
-        "price": 106100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 1360000.0,
-        "price": 84800.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 1470000.0,
-        "price": 120100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 1710000.0,
-        "price": 84800.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 1700000.0,
-        "price": 72600.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 1880000.0,
-        "price": 70000.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -897,6 +701,28 @@
         "operating_margin": 2.09,
         "cost_ratio": 3.73
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 2.44
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 2.53
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 2.5
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 2.88
+      }
     ]
   },
   {
@@ -981,102 +807,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2010/03",
-        "per": 890000.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 900000.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 840000.0,
-        "price": 26500.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 860000.0,
-        "price": 18300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 1080000.0,
-        "price": 28500.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 1050000.0,
-        "price": 23700.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 1010000.0,
-        "price": 22600.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 990000.0,
-        "price": 23800.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 1050000.0,
-        "price": 17600.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 1070000.0,
-        "price": 19600.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 1040000.0,
-        "price": 35000.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 1010000.0,
-        "price": 19200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 1050000.0,
-        "price": 12100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 1150000.0,
-        "price": -26900.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 1170000.0,
-        "price": 17300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 1200000.0,
-        "price": 23000.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2010/03",
@@ -1276,6 +1007,12 @@
         "operating_margin": 0.17,
         "cost_ratio": 1.92
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 17.5
+      }
     ]
   },
   {
@@ -1388,116 +1125,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 258500.0,
-        "price": 9300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 253100.0,
-        "price": 7109.999999999999,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 219700.0,
-        "price": 4250.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 210800.0,
-        "price": 3479.9999999999995,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 194900.0,
-        "price": 2160.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 200900.0,
-        "price": 3329.9999999999995,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 207500.0,
-        "price": 473.00000000000006,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 214900.0,
-        "price": 1040.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 216300.0,
-        "price": 3870.0000000000005,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 202000.0,
-        "price": 4310.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 201500.0,
-        "price": 1789.9999999999998,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 204000.0,
-        "price": -40.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 194600.0,
-        "price": 1980.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 162300.0,
-        "price": -1770.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 181900.0,
-        "price": -248.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 209500.0,
-        "price": 968.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 193500.0,
-        "price": 5410.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 197000.0,
-        "price": 8000.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -1726,6 +1354,12 @@
         "operating_margin": 3.61,
         "cost_ratio": 4.06
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 0.0
+      }
     ]
   },
   {
@@ -1838,116 +1472,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 172700.0,
-        "price": 8330.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 182800.0,
-        "price": 8120.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 194000.0,
-        "price": 9890.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 217000.0,
-        "price": 8740.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 230600.0,
-        "price": 10800.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 208300.0,
-        "price": 3660.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 223900.0,
-        "price": 3310.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 228400.0,
-        "price": 6140.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 246800.0,
-        "price": 9240.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 262400.0,
-        "price": 12900.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 269100.0,
-        "price": 11400.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 275800.0,
-        "price": 10100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 264600.0,
-        "price": 11200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 222500.0,
-        "price": 1700.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 261600.0,
-        "price": 20500.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 301200.0,
-        "price": 17300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 297100.0,
-        "price": 15300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 310000.0,
-        "price": 20000.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -2176,6 +1701,28 @@
         "operating_margin": 3.83,
         "cost_ratio": 6.45
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.57
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.68
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.18
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.67
+      }
     ]
   },
   {
@@ -2288,116 +1835,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 113300.0,
-        "price": 3370.0000000000005,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 110200.0,
-        "price": 2960.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 100400.0,
-        "price": 2420.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 103800.0,
-        "price": 2130.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 100600.0,
-        "price": 3670.0000000000005,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 90500.0,
-        "price": 258.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 99700.0,
-        "price": 3030.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 101100.0,
-        "price": 1630.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 99900.0,
-        "price": 1410.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 93900.0,
-        "price": 1490.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 94800.0,
-        "price": -1240.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 96700.0,
-        "price": -397.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 95100.0,
-        "price": 2060.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 81900.0,
-        "price": -347.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 90100.0,
-        "price": 2350.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 105700.0,
-        "price": 2590.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 107800.0,
-        "price": 6170.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 112000.0,
-        "price": 5000.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -2626,6 +2064,28 @@
         "operating_margin": 2.74,
         "cost_ratio": 4.46
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 3.57
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 4.0
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 3.3
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 4.0,
+        "dividend_yield": 2.78
+      }
     ]
   },
   {
@@ -2738,116 +2198,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 455800.0,
-        "price": 22300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 465800.0,
-        "price": 18600.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 423100.0,
-        "price": 23200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 410200.0,
-        "price": 13400.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 409000.0,
-        "price": 10500.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 407400.0,
-        "price": 11600.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 430100.0,
-        "price": 16000.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 450200.0,
-        "price": 21800.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 474100.0,
-        "price": 24300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 477100.0,
-        "price": 23500.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 531300.0,
-        "price": 11100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 533900.0,
-        "price": 12100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 546400.0,
-        "price": 30600.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 562900.0,
-        "price": 36900.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 612300.0,
-        "price": 37600.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 646200.0,
-        "price": -21400.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 671700.0,
-        "price": 14400.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 680000.0,
-        "price": 11500.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -3076,6 +2427,28 @@
         "operating_margin": 0.0,
         "cost_ratio": 1.69
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 8.5,
+        "dividend_yield": 1.11
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 8.5,
+        "dividend_yield": 1.33
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 8.5,
+        "dividend_yield": 1.72
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 8.5,
+        "dividend_yield": 1.47
+      }
     ]
   },
   {
@@ -3188,116 +2561,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 17100.0,
-        "price": 1310.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 12600.0,
-        "price": -498.00000000000006,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 13400.0,
-        "price": 1200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 14700.0,
-        "price": 2260.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 12200.0,
-        "price": 693.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 10500.0,
-        "price": -264.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 12500.0,
-        "price": 364.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 12900.0,
-        "price": 548.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 11600.0,
-        "price": 97.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 15100.0,
-        "price": 505.99999999999994,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 17100.0,
-        "price": 1700.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 14400.0,
-        "price": 1350.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 13100.0,
-        "price": 994.9999999999999,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 15900.0,
-        "price": 2760.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 18100.0,
-        "price": 4070.0000000000005,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 17600.0,
-        "price": 3329.9999999999995,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 14800.0,
-        "price": 1720.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 16500.0,
-        "price": 3000.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -3526,6 +2790,28 @@
         "operating_margin": 5.79,
         "cost_ratio": 18.18
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 13.0,
+        "dividend_yield": 1.43
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 18.0,
+        "dividend_yield": 0.86
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 18.0,
+        "dividend_yield": 1.39
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 18.0,
+        "dividend_yield": 2.25
+      }
     ]
   },
   {
@@ -3638,116 +2924,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/05",
-        "per": 9170.0,
-        "price": 463.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/05",
-        "per": 8980.0,
-        "price": 603.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/05",
-        "per": 9060.0,
-        "price": 1190.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/05",
-        "per": 9080.0,
-        "price": 757.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/05",
-        "per": 9160.0,
-        "price": 592.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/05",
-        "per": 8690.0,
-        "price": 501.99999999999994,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/05",
-        "per": 8490.0,
-        "price": 198.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/05",
-        "per": 8640.0,
-        "price": 124.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/05",
-        "per": 8440.0,
-        "price": 268.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/05",
-        "per": 8360.0,
-        "price": 52.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/05",
-        "per": 9070.0,
-        "price": 35.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/05",
-        "per": 10000.0,
-        "price": 753.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/05",
-        "per": 10000.0,
-        "price": 1350.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/05",
-        "per": 9400.0,
-        "price": 825.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/05",
-        "per": 10100.0,
-        "price": 688.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/05",
-        "per": 10900.0,
-        "price": 614.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/05",
-        "per": 11500.0,
-        "price": 1680.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/05",
-        "per": 11500.0,
-        "price": 1000.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/05",
@@ -3979,6 +3156,28 @@
         "roa": 4.35,
         "operating_margin": 8.7
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 3.01
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 3.66
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 3.93
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.99
+      }
     ]
   },
   {
@@ -4091,116 +3290,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 8450.0,
-        "price": 238.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 9220.0,
-        "price": 669.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 8650.0,
-        "price": 1270.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 8340.0,
-        "price": 563.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 8310.0,
-        "price": 444.00000000000006,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 8730.0,
-        "price": 647.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 10400.0,
-        "price": 536.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 10900.0,
-        "price": 457.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 11900.0,
-        "price": 641.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 12600.0,
-        "price": 1440.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 12900.0,
-        "price": 1140.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 12800.0,
-        "price": 685.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 12900.0,
-        "price": 943.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 10600.0,
-        "price": 768.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 10900.0,
-        "price": -62.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 12100.0,
-        "price": -92.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 13200.0,
-        "price": 755.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 13500.0,
-        "price": 550.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -4429,6 +3519,24 @@
         "operating_margin": 2.81,
         "cost_ratio": 4.07
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 2.59
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 3.23
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 3.13
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 2.15
+      }
     ]
   },
   {
@@ -4520,103 +3628,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2010/03",
-        "per": 12300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 16000.0,
-        "price": 970.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 15800.0,
-        "price": 337.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 15700.0,
-        "price": 328.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 15700.0,
-        "price": 253.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 16300.0,
-        "price": 455.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 17000.0,
-        "price": 797.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 16300.0,
-        "price": 520.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 16100.0,
-        "price": 416.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 16200.0,
-        "price": 276.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 15400.0,
-        "price": 247.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 12600.0,
-        "price": -154.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 15000.0,
-        "price": 269.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 17300.0,
-        "price": 376.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 16100.0,
-        "price": 355.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 17600.0,
-        "price": 270.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2010/03",
@@ -4818,6 +3830,20 @@
         "operating_margin": 0.66,
         "cost_ratio": 1.53
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 2.0
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 3.29
+      },
+      {
+        "fiscal_year": "2025/03"
+      }
     ]
   },
   {
@@ -4930,116 +3956,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 440000.0,
-        "price": 12800.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 450000.0,
-        "price": 15200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 460000.0,
-        "price": 33700.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 470000.0,
-        "price": 32400.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 490000.0,
-        "price": 25100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 500000.0,
-        "price": 23900.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 520000.0,
-        "price": 14200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 520000.0,
-        "price": 5570.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 530000.0,
-        "price": 15700.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 550000.0,
-        "price": 23600.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 610000.0,
-        "price": 17100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 650000.0,
-        "price": 25300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 680000.0,
-        "price": 41200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 680000.0,
-        "price": 39900.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 750000.0,
-        "price": 33300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 850000.0,
-        "price": 26000.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 900000.0,
-        "price": 48900.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 100000.0,
-        "price": 50000.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -5268,6 +4185,28 @@
         "operating_margin": 2.81,
         "cost_ratio": 5.0
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 1.82
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.21
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.09
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.52
+      }
     ]
   },
   {
@@ -5380,116 +4319,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 18100.0,
-        "price": 273.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 17400.0,
-        "price": 162.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 16600.0,
-        "price": 609.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 16900.0,
-        "price": 704.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 16900.0,
-        "price": 612.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 17400.0,
-        "price": 908.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 18000.0,
-        "price": 729.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 17900.0,
-        "price": 574.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 17900.0,
-        "price": 1100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 17200.0,
-        "price": 1380.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 18400.0,
-        "price": 1080.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 18800.0,
-        "price": 760.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 19100.0,
-        "price": 997.0000000000001,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 18600.0,
-        "price": 1210.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 19800.0,
-        "price": 1290.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 21800.0,
-        "price": 1130.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 22000.0,
-        "price": 1090.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 23500.0,
-        "price": 1170.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -5718,6 +4548,28 @@
         "operating_margin": 3.91,
         "cost_ratio": 4.99
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 16.0,
+        "dividend_yield": 8.0
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 17.0,
+        "dividend_yield": 8.5
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 17.0,
+        "dividend_yield": 8.5
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 17.0,
+        "dividend_yield": 8.5
+      }
     ]
   },
   {
@@ -5823,116 +4675,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 17100.0,
-        "price": 323.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 16900.0,
-        "price": 340.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 16600.0,
-        "price": 622.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 15500.0,
-        "price": 446.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 15200.0,
-        "price": 241.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 16000.0,
-        "price": 516.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 17100.0,
-        "price": 588.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 16800.0,
-        "price": 459.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 16500.0,
-        "price": 502.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 16300.0,
-        "price": 567.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 16800.0,
-        "price": 630.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 16800.0,
-        "price": 695.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/12",
-        "per": 14700.0,
-        "price": 741.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/12",
-        "per": 16800.0,
-        "price": 566.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/12",
-        "per": 16100.0,
-        "price": 170.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/12",
-        "per": 17100.0,
-        "price": 468.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/12",
-        "per": 17900.0,
-        "price": 590.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/12",
-        "per": 17800.0,
-        "price": 130.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -6161,6 +4904,28 @@
         "operating_margin": 0.89,
         "cost_ratio": 0.73
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.57
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 4.24
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.16
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.91
+      }
     ]
   },
   {
@@ -6273,116 +5038,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 41800.0,
-        "price": 81.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 39900.0,
-        "price": 476.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 34500.0,
-        "price": 704.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 33300.0,
-        "price": 480.99999999999994,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 33600.0,
-        "price": 131.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 34500.0,
-        "price": 22.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 35900.0,
-        "price": -277.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 35300.0,
-        "price": -18.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 35200.0,
-        "price": 301.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 33500.0,
-        "price": 918.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 33100.0,
-        "price": 320.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 33000.0,
-        "price": -206.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 31900.0,
-        "price": 476.99999999999994,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 26300.0,
-        "price": -137.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 25100.0,
-        "price": -496.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 25300.0,
-        "price": 450.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 26800.0,
-        "price": 1030.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 27700.0,
-        "price": 1070.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -6611,6 +5267,24 @@
         "operating_margin": 5.88,
         "cost_ratio": 3.86
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 4.62
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 4.76
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 4.76
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 4.26
+      }
     ]
   },
   {
@@ -6723,116 +5397,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 146100.0,
-        "price": 3550.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 146500.0,
-        "price": 4970.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 136500.0,
-        "price": 6430.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 136400.0,
-        "price": 7059.999999999999,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 138800.0,
-        "price": 6850.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 145300.0,
-        "price": 6759.999999999999,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 150400.0,
-        "price": 6770.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 148600.0,
-        "price": 3970.0000000000005,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 151400.0,
-        "price": 5090.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 152200.0,
-        "price": 7300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 161500.0,
-        "price": 5880.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 171600.0,
-        "price": 5200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 176600.0,
-        "price": 6909.999999999999,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 175600.0,
-        "price": 7230.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 206000.0,
-        "price": 8330.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 212800.0,
-        "price": 7450.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 211500.0,
-        "price": 8059.999999999999,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 226000.0,
-        "price": 10300.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -7061,6 +5626,28 @@
         "operating_margin": 3.38,
         "cost_ratio": 4.56
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.8
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.27
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.61
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.0
+      }
     ]
   },
   {
@@ -7173,110 +5760,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/12",
-        "per": 52200.0,
-        "price": 921.0000000000001,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/12",
-        "per": 47000.0,
-        "price": 591.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/12",
-        "per": 46300.0,
-        "price": 1470.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/12",
-        "per": 45500.0,
-        "price": 1230.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/12",
-        "per": 45700.0,
-        "price": 1580.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/12",
-        "per": 46500.0,
-        "price": 1510.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/12",
-        "per": 46800.0,
-        "price": 488.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/12",
-        "per": 46300.0,
-        "price": 635.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/12",
-        "per": 46600.0,
-        "price": 1019.9999999999999,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/12",
-        "per": 49800.0,
-        "price": 304.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/12",
-        "per": 53100.0,
-        "price": -473.00000000000006,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/12",
-        "per": 55400.0,
-        "price": 354.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/12",
-        "per": 52300.0,
-        "price": 725.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/12",
-        "per": 56300.0,
-        "price": 1220.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/12",
-        "per": 56800.0,
-        "price": 1350.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/12",
-        "per": 58000.0,
-        "price": 1930.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/12",
-        "per": 62000.0,
-        "price": 2100.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/12",
@@ -7493,6 +5977,24 @@
         "operating_margin": 4.09,
         "cost_ratio": 3.39
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2009/03",
+        "total_dividend": 2.91
+      },
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 3.39
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 3.88
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 3.59
+      }
     ]
   },
   {
@@ -7605,110 +6107,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/12",
-        "per": 7640.000000000001,
-        "price": 1150.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/12",
-        "per": 7000.0,
-        "price": 650.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/12",
-        "per": 6830.0,
-        "price": 381.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/12",
-        "per": 6750.0,
-        "price": 175.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/12",
-        "per": 6530.0,
-        "price": 306.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/12",
-        "per": 7240.000000000001,
-        "price": 438.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/12",
-        "per": 7009.999999999999,
-        "price": 236.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/12",
-        "per": 6980.0,
-        "price": 216.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/12",
-        "per": 6990.000000000001,
-        "price": 216.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/12",
-        "per": 7100.0,
-        "price": 196.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/12",
-        "per": 6880.0,
-        "price": 168.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/12",
-        "per": 7409.999999999999,
-        "price": 416.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/12",
-        "per": 7259.999999999999,
-        "price": 446.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/12",
-        "per": 9570.0,
-        "price": 1200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/12",
-        "per": 12000.0,
-        "price": 1970.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/12",
-        "per": 9880.0,
-        "price": 1270.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/12",
-        "per": 7700.0,
-        "price": 229.99999999999997,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/12",
@@ -7928,6 +6327,28 @@
         "roa": 1.61,
         "operating_margin": 2.99
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2009/03",
+        "total_dividend": 30.0,
+        "dividend_yield": 4.92
+      },
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 15.0,
+        "dividend_yield": 3.86
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 15.0,
+        "dividend_yield": 5.62
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 15.0,
+        "dividend_yield": 4.84
+      }
     ]
   },
   {
@@ -8040,110 +6461,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/12",
-        "per": 84100.0,
-        "price": 4900.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/12",
-        "per": 81600.0,
-        "price": 5460.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/12",
-        "per": 82200.0,
-        "price": 5760.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/12",
-        "per": 82600.0,
-        "price": 5270.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/12",
-        "per": 84600.0,
-        "price": 5040.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/12",
-        "per": 84300.0,
-        "price": 5250.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/12",
-        "per": 85800.0,
-        "price": 5480.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/12",
-        "per": 88000.0,
-        "price": 6230.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/12",
-        "per": 89200.0,
-        "price": 6480.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/12",
-        "per": 90300.0,
-        "price": 7270.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/12",
-        "per": 93100.0,
-        "price": 6920.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/12",
-        "per": 95500.0,
-        "price": 6850.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/12",
-        "per": 78400.0,
-        "price": 3279.9999999999995,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/12",
-        "per": 79700.0,
-        "price": 4140.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/12",
-        "per": 89100.0,
-        "price": 5970.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/12",
-        "per": 97700.0,
-        "price": 7740.000000000001,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/12",
-        "per": 101000.0,
-        "price": 8100.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/12",
@@ -8360,6 +6678,28 @@
         "operating_margin": 6.59,
         "cost_ratio": 8.02
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2009/03",
+        "total_dividend": 40.0,
+        "dividend_yield": 3.12
+      },
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 40.0,
+        "dividend_yield": 2.76
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 40.0,
+        "dividend_yield": 3.58
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 50.0,
+        "dividend_yield": 3.45
+      }
     ]
   },
   {
@@ -8472,116 +6812,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 25600.0,
-        "price": 2160.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 28000.0,
-        "price": 2260.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 28500.0,
-        "price": 2370.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 28600.0,
-        "price": 2320.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 29800.0,
-        "price": 2100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 31300.0,
-        "price": 2260.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 31900.0,
-        "price": 2310.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 32700.0,
-        "price": 2440.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 35000.0,
-        "price": 2530.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 37600.0,
-        "price": 2480.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 38500.0,
-        "price": 2520.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 39300.0,
-        "price": 1870.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 40500.0,
-        "price": 1839.9999999999998,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 40100.0,
-        "price": 2000.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 38800.0,
-        "price": 2300.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 40300.0,
-        "price": 2260.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 41900.0,
-        "price": 2030.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 44100.0,
-        "price": 2650.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -8810,6 +7041,28 @@
         "operating_margin": 2.7,
         "cost_ratio": 6.01
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 42.0,
+        "dividend_yield": 21.0
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 45.0,
+        "dividend_yield": 22.5
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 35.0,
+        "dividend_yield": 17.5
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 40.0,
+        "dividend_yield": 20.0
+      }
     ]
   },
   {
@@ -8922,116 +7175,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 4960.0,
-        "price": 348.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 5120.0,
-        "price": 345.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 4990.0,
-        "price": 436.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 5240.0,
-        "price": 485.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 5020.0,
-        "price": 409.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 5020.0,
-        "price": 420.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 4940.0,
-        "price": 414.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 5030.0,
-        "price": 259.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 5220.0,
-        "price": 298.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 4970.0,
-        "price": 396.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 5030.0,
-        "price": 284.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 5220.0,
-        "price": 202.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 5260.0,
-        "price": 312.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 4800.0,
-        "price": 270.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 4980.0,
-        "price": 255.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 5420.0,
-        "price": 269.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 5740.0,
-        "price": 342.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 5890.0,
-        "price": 372.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -9263,6 +7407,28 @@
         "roa": 3.67,
         "operating_margin": 6.32
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 1.72
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 15.0,
+        "dividend_yield": 2.82
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 1.9
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 1.77
+      }
     ]
   },
   {
@@ -9375,116 +7541,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2008/03",
-        "per": 20000.0,
-        "price": 562.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2009/03",
-        "per": 18500.0,
-        "price": 341.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/03",
-        "per": 17300.0,
-        "price": 505.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/03",
-        "per": 19500.0,
-        "price": 1019.9999999999999,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/03",
-        "per": 18900.0,
-        "price": 778.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/03",
-        "per": 18700.0,
-        "price": 742.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/03",
-        "per": 19600.0,
-        "price": 889.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/03",
-        "per": 19800.0,
-        "price": 816.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/03",
-        "per": 20100.0,
-        "price": 1100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/03",
-        "per": 20000.0,
-        "price": 1200.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/03",
-        "per": 20800.0,
-        "price": 1390.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/03",
-        "per": 21800.0,
-        "price": 1520.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/03",
-        "per": 21400.0,
-        "price": 1360.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/03",
-        "per": 19900.0,
-        "price": 1170.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/03",
-        "per": 21600.0,
-        "price": 1400.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/03",
-        "per": 22300.0,
-        "price": 1120.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/03",
-        "per": 21700.0,
-        "price": 1019.9999999999999,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/03",
-        "per": 23500.0,
-        "price": 1180.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2008/03",
@@ -9713,6 +7770,28 @@
         "operating_margin": 3.37,
         "cost_ratio": 5.02
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 2.02
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.59
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.79
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.64
+      }
     ]
   },
   {
@@ -9825,110 +7904,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2009/01",
-        "per": 25100.0,
-        "price": -115.99999999999999,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2010/01",
-        "per": 23900.0,
-        "price": 97.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2011/01",
-        "per": 22300.0,
-        "price": -343.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2012/01",
-        "per": 21300.0,
-        "price": -47.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2013/01",
-        "per": 21300.0,
-        "price": 70.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2014/01",
-        "per": 21900.0,
-        "price": 220.00000000000003,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2015/01",
-        "per": 22200.0,
-        "price": 244.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2016/01",
-        "per": 23200.0,
-        "price": 594.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2017/01",
-        "per": 22600.0,
-        "price": 548.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2018/01",
-        "per": 22600.0,
-        "price": 501.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/01",
-        "per": 22600.0,
-        "price": 391.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/01",
-        "per": 23400.0,
-        "price": 675.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/01",
-        "per": 21200.0,
-        "price": 873.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/01",
-        "per": 20200.0,
-        "price": 1100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/01",
-        "per": 21700.0,
-        "price": 1420.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/01",
-        "per": 20900.0,
-        "price": 1310.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/01",
-        "per": 21000.0,
-        "price": 1450.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2009/01",
@@ -10145,6 +8121,28 @@
         "operating_margin": 4.18,
         "cost_ratio": 6.9
       }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 4.0,
+        "dividend_yield": 1.68
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 4.0,
+        "dividend_yield": 2.05
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 2.0,
+        "dividend_yield": 1.27
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 0.0,
+        "dividend_yield": 0.0
+      }
     ]
   },
   {
@@ -10159,53 +8157,7 @@
         "is_pbr_red": false
       }
     ],
-    "daily_data": [
-      {
-        "date": "2024/2018/06",
-        "per": 12700.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2019/06",
-        "per": 12400.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2020/06",
-        "per": 12100.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2021/06",
-        "per": 11900.0,
-        "price": 145.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2022/06",
-        "per": 12400.0,
-        "price": 339.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2023/06",
-        "per": 13000.0,
-        "price": 364.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2024/06",
-        "per": 13000.0,
-        "price": 379.0,
-        "is_per_red": false
-      },
-      {
-        "date": "2024/2025/06",
-        "per": 13100.0,
-        "price": 390.0,
-        "is_per_red": false
-      }
-    ],
+    "daily_data": [],
     "financial_data": [
       {
         "fiscal_year": "2018/06",
@@ -10292,6 +8244,32 @@
         "roa": 3.7,
         "operating_margin": 2.29,
         "cost_ratio": 2.98
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2018/03",
+        "total_dividend": 5.0
+      },
+      {
+        "fiscal_year": "2019/03",
+        "total_dividend": 5.0
+      },
+      {
+        "fiscal_year": "2020/03",
+        "total_dividend": 5.0
+      },
+      {
+        "fiscal_year": "2021/03",
+        "total_dividend": 5.0
+      },
+      {
+        "fiscal_year": "2022/03",
+        "total_dividend": 5.0
+      },
+      {
+        "fiscal_year": "2023/03",
+        "total_dividend": 5.0
       }
     ]
   }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>パルプ・紙 - シンプル投資判断</title>
+    <title>電気・ガス業 - シンプル投資判断</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
@@ -74,14 +74,14 @@
 </head>
 <body>
     <div class="stock-card">
-        <h1>パルプ・紙</h1>
+        <h1>電気・ガス業</h1>
         <div class="companies-grid" id="companiesGrid">
         </div>
     </div>
     <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
 
     <script>
-    const companiesData = [{"code": "204A", "name": "タイヨーパッケージ", "per": 0, "pbr": 0, "eps": null}, {"code": "3708", "name": "特種東海製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3861", "name": "王子ホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "3863", "name": "日本製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3864", "name": "三菱製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3865", "name": "北越コーポレーション", "per": 0, "pbr": 0, "eps": null}, {"code": "3877", "name": "中越パルプ工業", "per": 0, "pbr": 0, "eps": null}, {"code": "3880", "name": "大王製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3891", "name": "ニッポン高度紙工業", "per": 0, "pbr": 0, "eps": null}, {"code": "3892", "name": "岡山製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3895", "name": "ハビックス", "per": 0, "pbr": 0, "eps": null}, {"code": "3896", "name": "阿波製紙", "per": 0, "pbr": 0, "eps": null}, {"code": "3941", "name": "レンゴー", "per": 0, "pbr": 0, "eps": null}, {"code": "3943", "name": "大石産業", "per": 0, "pbr": 0, "eps": null}, {"code": "3944", "name": "古林紙工", "per": 0, "pbr": 0, "eps": null}, {"code": "3945", "name": "スーパーバッグ", "per": 0, "pbr": 0, "eps": null}, {"code": "3946", "name": "トーモク", "per": 0, "pbr": 0, "eps": null}, {"code": "3947", "name": "ダイナパック", "per": 0, "pbr": 0, "eps": null}, {"code": "3948", "name": "光ビジネスフォーム", "per": 0, "pbr": 0, "eps": null}, {"code": "3950", "name": "ザ・パック", "per": 0, "pbr": 0, "eps": null}, {"code": "3951", "name": "朝日印刷", "per": 0, "pbr": 0, "eps": null}, {"code": "3953", "name": "大村紙業", "per": 0, "pbr": 0, "eps": null}, {"code": "3954", "name": "昭和パックス", "per": 0, "pbr": 0, "eps": null}, {"code": "3955", "name": "イムラ", "per": 0, "pbr": 0, "eps": null}, {"code": "3958", "name": "笹徳印刷", "per": 0, "pbr": 0, "eps": null}];
+    const companiesData = [{"code": "176A", "name": "レジル", "per": 0, "pbr": 0, "eps": null}, {"code": "3150", "name": "グリムス", "per": 0, "pbr": 0, "eps": null}, {"code": "7692", "name": "アースインフィニティ", "per": 0, "pbr": 0, "eps": null}, {"code": "9501", "name": "東京電力ホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "9502", "name": "中部電力", "per": 0, "pbr": 0, "eps": null}, {"code": "9503", "name": "関西電力", "per": 0, "pbr": 0, "eps": null}, {"code": "9504", "name": "中国電力", "per": 0, "pbr": 0, "eps": null}, {"code": "9505", "name": "北陸電力", "per": 0, "pbr": 0, "eps": null}, {"code": "9506", "name": "東北電力", "per": 0, "pbr": 0, "eps": null}, {"code": "9507", "name": "四国電力", "per": 0, "pbr": 0, "eps": null}, {"code": "9508", "name": "九州電力", "per": 0, "pbr": 0, "eps": null}, {"code": "9509", "name": "北海道電力", "per": 0, "pbr": 0, "eps": null}, {"code": "9511", "name": "沖縄電力", "per": 0, "pbr": 0, "eps": null}, {"code": "9513", "name": "電源開発", "per": 0, "pbr": 0, "eps": null}, {"code": "9514", "name": "エフオン", "per": 0, "pbr": 0, "eps": null}, {"code": "9517", "name": "イーレックス", "per": 0, "pbr": 0, "eps": null}, {"code": "9519", "name": "レノバ", "per": 0, "pbr": 0, "eps": null}, {"code": "9522", "name": "リニューアブル・ジャパン", "per": 0, "pbr": 0, "eps": null}, {"code": "9531", "name": "東京瓦斯", "per": 0, "pbr": 0, "eps": null}, {"code": "9532", "name": "大阪瓦斯", "per": 0, "pbr": 0, "eps": null}, {"code": "9533", "name": "東邦瓦斯", "per": 0, "pbr": 0, "eps": null}, {"code": "9534", "name": "北海道瓦斯", "per": 0, "pbr": 0, "eps": null}, {"code": "9535", "name": "広島ガス", "per": 0, "pbr": 0, "eps": null}, {"code": "9536", "name": "西部ガスホールディングス", "per": 0, "pbr": 0, "eps": null}, {"code": "9537", "name": "北陸瓦斯", "per": 0, "pbr": 0, "eps": null}, {"code": "9539", "name": "京葉瓦斯", "per": 0, "pbr": 0, "eps": null}, {"code": "9543", "name": "静岡ガス", "per": 0, "pbr": 0, "eps": null}, {"code": "9551", "name": "メタウォーター", "per": 0, "pbr": 0, "eps": null}];
 
     function formatNumber(value) {
         if (value === null || value === undefined || isNaN(value)) {
