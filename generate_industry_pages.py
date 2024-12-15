@@ -9,12 +9,8 @@ def safe_number(value):
     except (ValueError, TypeError):
         return 0
 
-def generate_industry_pages(csv_path):
-    # CSVファイルを読み込む
-    df = pd.read_csv(csv_path)
-    
-    # HTMLテンプレートを文字列として定義
-    html_template = '''<!DOCTYPE html>
+# HTMLテンプレートを追加
+html_template = '''<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -146,6 +142,10 @@ def generate_industry_pages(csv_path):
                         <div class="metric-value">${{formatNumber(company.eps)}}円</div>
                     </div>
                     <div class="metric">
+                        <div class="metric-label">ROE</div>
+                        <div class="metric-value">${{formatRatio(company.roe)}}%</div>
+                    </div>
+                    <div class="metric">
                         <div class="metric-label">ミックス係数</div>
                         <div class="metric-value">${{calculateMixFactor(per, pbr)}}</div>
                     </div>
@@ -161,64 +161,63 @@ def generate_industry_pages(csv_path):
 </html>
 '''
 
+def generate_industry_pages(json_path, csv_path):
+    # JSONファイルを読み込む
+    with open(json_path, 'r', encoding='utf-8') as f:
+        stock_data = json.load(f)
+    
+    # 業種情報を追加
+    stock_data = add_industry_info(stock_data, csv_path)
+    
+    # 業種ごとの企業データを整理
+    industry_data = {}
+    for company in stock_data:
+        industry = company.get('industry', 'その他')
+        if industry not in industry_data:
+            industry_data[industry] = []
+        
+        # 最新の財務データを取得
+        annual_data = company.get('annual_data', [])
+        latest_annual = annual_data[-1] if annual_data else {}
+        
+        financial_data = company.get('financial_data', [])
+        latest_financial = financial_data[-1] if financial_data else {}
+        
+        company_info = {
+            'code': company['code'],
+            'name': company['name'],
+            'per': latest_annual.get('per', 0),
+            'pbr': latest_annual.get('pbr', 0),
+            'eps': latest_financial.get('eps', None),
+            'roe': latest_financial.get('roe', None)
+        }
+        
+        industry_data[industry].append(company_info)
+
     # 業種ごとにページを生成
-    industry_counts = {}
-    
-    # industryディレクトリがなければ作成
-    os.makedirs('industry', exist_ok=True)
-    
-    # 業種ごとにデータを処理
-    for industry in df['33業種区分'].unique():
-        # その業種の企業を抽出
-        industry_df = df[df['33業種区分'] == industry]
-        industry_counts[industry] = len(industry_df)
-        
-        # 企業データを準備
-        companies = []
-        for _, row in industry_df.iterrows():
-            annual_data = row.get('annual_data', [])
-            if annual_data and len(annual_data) > 0:
-                latest = annual_data[-1]  # 最新のデータを使用
-                companies.append({
-                    'code': row['コード'],
-                    'name': row['銘柄名'],
-                    'per': safe_number(latest.get('per', 0)),
-                    'pbr': safe_number(latest.get('pbr', 0)),
-                    'eps': safe_number(latest.get('eps', None))
-                })
-            else:
-                # データがない場合のフォールバック
-                companies.append({
-                    'code': row['コード'],
-                    'name': row['銘柄名'],
-                    'per': 0,
-                    'pbr': 0,
-                    'eps': None
-                })
-        
-        # ファイル名用に業種名を処理
+    for industry, companies in industry_data.items():
         file_name = industry.replace('/', '_')
-        
-        # HTMLを生成
         html_content = html_template.format(
             industry,
             json.dumps(companies, ensure_ascii=False)
         )
         
-        # HTMLファイルを保存
+        os.makedirs('industry', exist_ok=True)
         output_path = f"industry/{file_name}.html"
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(html_content)
             
-    return industry_counts
+    return {industry: len(companies) for industry, companies in industry_data.items()}
 
 # メインの実行部分
 if __name__ == "__main__":
+    json_path = "stock_data.json"
     csv_path = "mof_sheets/Sheet1.csv"
-    if os.path.exists(csv_path):
-        industry_counts = generate_industry_pages(csv_path)
+    
+    if os.path.exists(json_path) and os.path.exists(csv_path):
+        industry_counts = generate_industry_pages(json_path, csv_path)
         print(f"\n生成された業種別ページ:")
         for industry, count in industry_counts.items():
             print(f"{industry}: {count}社")
     else:
-        print(f"Error: File {csv_path} not found")
+        print(f"Error: Required files not found")
