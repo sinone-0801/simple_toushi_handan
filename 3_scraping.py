@@ -396,7 +396,7 @@ def scrape_stock_data(csv_file):
                 all_data.append(company_data)
                 print(f"Scraped data for company {code}")
             
-            time.sleep(4)
+            time.sleep(3)
             
         except Exception as e:
             print(f"Error scraping company {code}: {e}")
