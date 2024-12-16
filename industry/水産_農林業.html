@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水産_農林業 - シンプル投資判断</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .stock-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .companies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .company-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .company-name {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .metric {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+        }
+        .metric-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 2px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="stock-card">
+        <h1>水産_農林業</h1>
+        <div class="companies-grid" id="companiesGrid">
+        </div>
+    </div>
+    <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
+
+    <script>
+    const companiesData = [{"code": 1301, "name": "極洋", "per": 6.82, "pbr": 0.75, "eps": null, "roe": 589.35}, {"code": 1332, "name": "ニッスイ", "per": 12.52, "pbr": 1.2, "eps": null, "roe": 77.21}, {"code": 1333, "name": "マルハニチロ", "per": 7.19, "pbr": 0.72, "eps": null, "roe": 436.78}, {"code": 1375, "name": "雪国まいたけ", "per": 30.75, "pbr": 3.65, "eps": 38.84, "roe": 13.15}, {"code": 1376, "name": "カネコ種苗", "per": 13.69, "pbr": 0.65, "eps": null, "roe": 107.1}, {"code": 1377, "name": "サカタのタネ", "per": 9.24, "pbr": 0.92, "eps": null, "roe": 182.44}, {"code": 1379, "name": "ホクト", "per": 16.78, "pbr": 1.08, "eps": null, "roe": 78.8}, {"code": 1380, "name": "秋川牧園", "per": 44.23, "pbr": 1.99, "eps": null, "roe": 0.72}, {"code": 1381, "name": "アクシーズ", "per": 13.51, "pbr": 0.81, "eps": null, "roe": 178.07}, {"code": 1382, "name": "ホーブ", "per": 85.73, "pbr": 2.23, "eps": null, "roe": 93.21}, {"code": 1383, "name": "ベルグアース", "per": 122.4, "pbr": 2.36, "eps": null, "roe": 93.91}, {"code": 1384, "name": "ホクリヨウ", "per": 5.4, "pbr": 0.73, "eps": null, "roe": 179.93}];
+
+    function formatNumber(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toLocaleString();
+    }
+
+    function formatRatio(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toFixed(2);
+    }
+
+    function calculateMixFactor(per, pbr) {
+        if (per === null || per === undefined || isNaN(per) || 
+            pbr === null || pbr === undefined || isNaN(pbr)) {
+            return 'N/A';
+        }
+        return (per * pbr).toFixed(2);
+    }
+
+    function renderCompanies() {
+        const grid = document.getElementById('companiesGrid');
+        companiesData.forEach(company => {
+            const card = document.createElement('div');
+            card.className = 'company-card';
+            
+            const per = Number(company.per) || 0;
+            const pbr = Number(company.pbr) || 0;
+            
+            card.innerHTML = `
+                <div class="company-name">${company.code} - ${company.name}</div>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-label">PER</div>
+                        <div class="metric-value">${formatRatio(per)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">PBR</div>
+                        <div class="metric-value">${formatRatio(pbr)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">EPS</div>
+                        <div class="metric-value">${formatNumber(company.eps)}円</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ROE</div>
+                        <div class="metric-value">${formatRatio(company.roe)}%</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ミックス係数</div>
+                        <div class="metric-value">${calculateMixFactor(per, pbr)}</div>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    renderCompanies();
+    </script>
+</body>
+</html>

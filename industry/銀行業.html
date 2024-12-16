@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>銀行業 - シンプル投資判断</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .stock-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .companies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .company-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .company-name {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .metric {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+        }
+        .metric-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 2px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="stock-card">
+        <h1>銀行業</h1>
+        <div class="companies-grid" id="companiesGrid">
+        </div>
+    </div>
+    <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
+
+    <script>
+    const companiesData = [{"code": 5830, "name": "いよぎんホールディングス", "per": 9.1, "pbr": 0.42, "eps": null, "roe": null}, {"code": 5831, "name": "しずおかフィナンシャルグループ", "per": 13.89, "pbr": 0.66, "eps": null, "roe": null}, {"code": 5832, "name": "ちゅうぎんフィナンシャルグループ", "per": 11.23, "pbr": 0.41, "eps": null, "roe": null}, {"code": 5838, "name": "楽天銀行", "per": 15.57, "pbr": 2.07, "eps": null, "roe": null}, {"code": 5844, "name": "京都フィナンシャルグループ", "per": 25.91, "pbr": 0.71, "eps": null, "roe": null}, {"code": 7150, "name": "島根銀行", "per": 11.25, "pbr": 0.25, "eps": null, "roe": null}, {"code": 7161, "name": "じもとホールディングス", "per": -1, "pbr": 0.19, "eps": null, "roe": null}, {"code": 7163, "name": "住信ＳＢＩネット銀行", "per": 14.15, "pbr": 2.32, "eps": null, "roe": null}, {"code": 7167, "name": "めぶきフィナンシャルグループ", "per": 12.29, "pbr": 0.53, "eps": null, "roe": null}, {"code": 7173, "name": "東京きらぼしフィナンシャルグループ", "per": 5.74, "pbr": 0.4, "eps": null, "roe": null}, {"code": 7180, "name": "九州フィナンシャルグループ", "per": 18.72, "pbr": 0.69, "eps": null, "roe": null}, {"code": 7182, "name": "ゆうちょ銀行", "per": 16.52, "pbr": 0.61, "eps": null, "roe": null}, {"code": 7184, "name": "富山第一銀行", "per": 11.49, "pbr": 0.41, "eps": null, "roe": null}, {"code": 7186, "name": "コンコルディア・フィナンシャルグループ", "per": 13.47, "pbr": 0.7, "eps": null, "roe": null}, {"code": 7189, "name": "西日本フィナンシャルホールディングス", "per": 11.47, "pbr": 0.47, "eps": null, "roe": null}, {"code": 7322, "name": "三十三フィナンシャルグループ", "per": 7.85, "pbr": 0.25, "eps": null, "roe": null}, {"code": 7327, "name": "第四北越フィナンシャルグループ", "per": 9.4, "pbr": 0.39, "eps": null, "roe": null}, {"code": 7337, "name": "ひろぎんホールディングス", "per": 12.08, "pbr": 0.62, "eps": null, "roe": null}, {"code": 7350, "name": "おきなわフィナンシャルグループ", "per": 9.05, "pbr": 0.36, "eps": null, "roe": null}, {"code": 7380, "name": "十六フィナンシャルグループ", "per": 9.03, "pbr": 0.39, "eps": null, "roe": null}, {"code": 7381, "name": "北國フィナンシャルホールディングス", "per": 13.4, "pbr": 0.48, "eps": null, "roe": null}, {"code": 7384, "name": "プロクレアホールディングス", "per": 18.74, "pbr": 0.32, "eps": null, "roe": null}, {"code": 7389, "name": "あいちフィナンシャルグループ", "per": 15.66, "pbr": 0.34, "eps": null, "roe": null}, {"code": 8304, "name": "あおぞら銀行", "per": -1, "pbr": 0.75, "eps": null, "roe": null}, {"code": 8306, "name": "三菱ＵＦＪフィナンシャル・グループ", "per": 12.49, "pbr": 0.93, "eps": null, "roe": null}, {"code": 8308, "name": "りそなホールディングス", "per": 14.01, "pbr": 0.8, "eps": null, "roe": null}, {"code": 8309, "name": "三井住友トラストグループ", "per": 30.3, "pbr": 0.77, "eps": null, "roe": null}, {"code": 8316, "name": "三井住友フィナンシャルグループ", "per": 12.3, "pbr": 0.8, "eps": null, "roe": null}, {"code": 8331, "name": "千葉銀行", "per": 14.58, "pbr": 0.76, "eps": null, "roe": null}, {"code": 8334, "name": "群馬銀行", "per": 11.19, "pbr": 0.6, "eps": null, "roe": null}, {"code": 8336, "name": "武蔵野銀行", "per": 8.69, "pbr": 0.36, "eps": null, "roe": null}, {"code": 8337, "name": "千葉興業銀行", "per": 8.38, "pbr": 0.34, "eps": null, "roe": null}, {"code": 8338, "name": "筑波銀行", "per": 11.33, "pbr": 0.26, "eps": null, "roe": null}, {"code": 8341, "name": "七十七銀行", "per": 10.3, "pbr": 0.51, "eps": null, "roe": null}, {"code": 8343, "name": "秋田銀行", "per": 8.18, "pbr": 0.22, "eps": null, "roe": null}, {"code": 8344, "name": "山形銀行", "per": 18.14, "pbr": 0.26, "eps": null, "roe": null}, {"code": 8345, "name": "岩手銀行", "per": 10.47, "pbr": 0.22, "eps": null, "roe": null}, {"code": 8346, "name": "東邦銀行", "per": 17.29, "pbr": 0.44, "eps": null, "roe": null}, {"code": 8349, "name": "東北銀行", "per": 8.75, "pbr": 0.31, "eps": null, "roe": null}, {"code": 8354, "name": "ふくおかフィナンシャルグループ", "per": 12.46, "pbr": 0.75, "eps": null, "roe": null}, {"code": 8358, "name": "スルガ銀行", "per": 11.84, "pbr": 0.58, "eps": null, "roe": null}, {"code": 8359, "name": "八十二銀行", "per": 13.62, "pbr": 0.45, "eps": null, "roe": null}, {"code": 8360, "name": "山梨中央銀行", "per": 10.14, "pbr": 0.26, "eps": null, "roe": null}, {"code": 8361, "name": "大垣共立銀行", "per": 9.59, "pbr": 0.27, "eps": null, "roe": null}, {"code": 8362, "name": "福井銀行", "per": 12.1, "pbr": 0.33, "eps": null, "roe": null}, {"code": 8364, "name": "清水銀行", "per": -1, "pbr": 0.24, "eps": null, "roe": null}, {"code": 8365, "name": "富山銀行", "per": 17.64, "pbr": 0.37, "eps": null, "roe": null}, {"code": 8366, "name": "滋賀銀行", "per": 12.47, "pbr": 0.4, "eps": null, "roe": null}, {"code": 8367, "name": "南都銀行", "per": 8.09, "pbr": 0.33, "eps": null, "roe": null}, {"code": 8368, "name": "百五銀行", "per": 11.5, "pbr": 0.33, "eps": null, "roe": null}, {"code": 8370, "name": "紀陽銀行", "per": 8.06, "pbr": 0.51, "eps": null, "roe": null}, {"code": 8377, "name": "ほくほくフィナンシャルグループ", "per": 10.53, "pbr": 0.37, "eps": null, "roe": null}, {"code": 8381, "name": "山陰合同銀行", "per": 11.05, "pbr": 0.57, "eps": null, "roe": null}, {"code": 8383, "name": "鳥取銀行", "per": 13.19, "pbr": 0.28, "eps": null, "roe": null}, {"code": 8386, "name": "百十四銀行", "per": 8.85, "pbr": 0.26, "eps": null, "roe": null}, {"code": 8387, "name": "四国銀行", "per": 7.0, "pbr": 0.3, "eps": null, "roe": null}, {"code": 8388, "name": "阿波銀行", "per": 9.93, "pbr": 0.33, "eps": null, "roe": null}, {"code": 8392, "name": "大分銀行", "per": 7.3, "pbr": 0.22, "eps": null, "roe": null}, {"code": 8393, "name": "宮崎銀行", "per": 6.99, "pbr": 0.26, "eps": null, "roe": null}, {"code": 8395, "name": "佐賀銀行", "per": 5.78, "pbr": 0.29, "eps": null, "roe": null}, {"code": 8399, "name": "琉球銀行", "per": 8.82, "pbr": 0.35, "eps": null, "roe": null}, {"code": 8410, "name": "セブン銀行", "per": 10.86, "pbr": 1.28, "eps": null, "roe": null}, {"code": 8411, "name": "みずほフィナンシャルグループ", "per": 11.37, "pbr": 0.75, "eps": null, "roe": null}, {"code": 8416, "name": "高知銀行", "per": 8.54, "pbr": 0.18, "eps": null, "roe": null}, {"code": 8418, "name": "山口フィナンシャルグループ", "per": 13.65, "pbr": 0.52, "eps": null, "roe": null}, {"code": 8522, "name": "名古屋銀行", "per": 11.21, "pbr": 0.37, "eps": null, "roe": null}, {"code": 8524, "name": "北洋銀行", "per": 13.35, "pbr": 0.39, "eps": null, "roe": null}, {"code": 8537, "name": "大光銀行", "per": 8.49, "pbr": 0.19, "eps": null, "roe": null}, {"code": 8541, "name": "愛媛銀行", "per": 8.78, "pbr": 0.32, "eps": null, "roe": null}, {"code": 8542, "name": "トマト銀行", "per": 9.53, "pbr": 0.26, "eps": null, "roe": null}, {"code": 8544, "name": "京葉銀行", "per": 8.75, "pbr": 0.29, "eps": null, "roe": null}, {"code": 8550, "name": "栃木銀行", "per": 17.94, "pbr": 0.25, "eps": null, "roe": null}, {"code": 8551, "name": "北日本銀行", "per": 6.75, "pbr": 0.24, "eps": null, "roe": null}, {"code": 8558, "name": "東和銀行", "per": 7.52, "pbr": 0.23, "eps": null, "roe": null}, {"code": 8562, "name": "福島銀行", "per": 9.88, "pbr": 0.34, "eps": null, "roe": null}, {"code": 8563, "name": "大東銀行", "per": 7.8, "pbr": 0.26, "eps": null, "roe": null}, {"code": 8600, "name": "トモニホールディングス", "per": 5.09, "pbr": 0.29, "eps": null, "roe": null}, {"code": 8713, "name": "フィデアホールディングス", "per": 24.53, "pbr": 0.34, "eps": null, "roe": null}, {"code": 8714, "name": "池田泉州ホールディングス", "per": 10.19, "pbr": 0.46, "eps": null, "roe": null}];
+
+    function formatNumber(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toLocaleString();
+    }
+
+    function formatRatio(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toFixed(2);
+    }
+
+    function calculateMixFactor(per, pbr) {
+        if (per === null || per === undefined || isNaN(per) || 
+            pbr === null || pbr === undefined || isNaN(pbr)) {
+            return 'N/A';
+        }
+        return (per * pbr).toFixed(2);
+    }
+
+    function renderCompanies() {
+        const grid = document.getElementById('companiesGrid');
+        companiesData.forEach(company => {
+            const card = document.createElement('div');
+            card.className = 'company-card';
+            
+            const per = Number(company.per) || 0;
+            const pbr = Number(company.pbr) || 0;
+            
+            card.innerHTML = `
+                <div class="company-name">${company.code} - ${company.name}</div>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-label">PER</div>
+                        <div class="metric-value">${formatRatio(per)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">PBR</div>
+                        <div class="metric-value">${formatRatio(pbr)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">EPS</div>
+                        <div class="metric-value">${formatNumber(company.eps)}円</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ROE</div>
+                        <div class="metric-value">${formatRatio(company.roe)}%</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ミックス係数</div>
+                        <div class="metric-value">${calculateMixFactor(per, pbr)}</div>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    renderCompanies();
+    </script>
+</body>
+</html>

@@ -1,0 +1,1920 @@
+[
+  {
+    "code": 7157,
+    "name": "ライフネット生命保険",
+    "annual_data": [
+      {
+        "date": "2012/03/30",
+        "per": -1,
+        "pbr": 3.26,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": -1,
+        "pbr": 2.16,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": -1,
+        "pbr": 1.29,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": -1,
+        "pbr": 1.24,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": -1,
+        "pbr": 1.52,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": -1,
+        "pbr": 1.43,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": -1,
+        "pbr": 1.71,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": -1,
+        "pbr": 2.62,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": -1,
+        "pbr": 3.27,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": -1,
+        "pbr": 4.85,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": -1,
+        "pbr": 0.54,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 22.74,
+        "pbr": 1.07,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 19.9,
+        "pbr": 1.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 0.0
+      }
+    ]
+  },
+  {
+    "code": 7181,
+    "name": "かんぽ生命保険",
+    "annual_data": [
+      {
+        "date": "2016/03/31",
+        "per": 18.38,
+        "pbr": 0.83,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 17.27,
+        "pbr": 0.83,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 14.32,
+        "pbr": 0.75,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 11.92,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 5.01,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 7.7,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 5.69,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 8.29,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 12.78,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 965.95,
+        "dividend_yield": 32.2
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 846.68,
+        "dividend_yield": 28.22
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 1137.51,
+        "dividend_yield": 37.92
+      },
+      {
+        "fiscal_year": "2014/03",
+        "total_dividend": 840.43,
+        "dividend_yield": 28.01
+      },
+      {
+        "fiscal_year": "2015/03",
+        "total_dividend": 1226.38,
+        "dividend_yield": 40.88
+      }
+    ]
+  },
+  {
+    "code": 7325,
+    "name": "アイリックコーポレーション",
+    "annual_data": [
+      {
+        "date": "2019/06/28",
+        "per": 38.82,
+        "pbr": 4.06,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/06/30",
+        "per": 26.7,
+        "pbr": 2.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/06/30",
+        "per": 35.89,
+        "pbr": 2.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/06/30",
+        "per": 27.79,
+        "pbr": 1.88,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/06/30",
+        "per": 408.11,
+        "pbr": 1.78,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/06/28",
+        "per": 17.25,
+        "pbr": 1.65,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2013/06",
+        "sales": 1630.0,
+        "ordinary_profit": -87.0,
+        "net_profit": -72.0,
+        "roe": -12.26,
+        "operating_margin": -1
+      },
+      {
+        "fiscal_year": "2014/06",
+        "sales": 1689.9999999999998,
+        "ordinary_profit": -127.0,
+        "net_profit": -193.0,
+        "roe": -32.82,
+        "operating_margin": -1
+      },
+      {
+        "fiscal_year": "2015/06",
+        "sales": 1950.0,
+        "ordinary_profit": 21.0,
+        "net_profit": -238.0,
+        "roe": -40.47
+      },
+      {
+        "fiscal_year": "2016/06",
+        "sales": 2430.0,
+        "operating_profit": 124.0,
+        "ordinary_profit": 111.0,
+        "net_profit": 126.0,
+        "eps": 126.0,
+        "roe": 21.45,
+        "roa": 14.4,
+        "operating_margin": 6.33,
+        "cost_ratio": 5.08,
+        "sga_ratio": 13.8
+      },
+      {
+        "fiscal_year": "2017/06",
+        "sales": 2850.0,
+        "operating_profit": 232.0,
+        "ordinary_profit": 213.0,
+        "net_profit": 186.0,
+        "eps": 186.0,
+        "roe": 31.58,
+        "roa": 17.49,
+        "operating_margin": 9.06,
+        "cost_ratio": 8.14,
+        "sga_ratio": 12.26
+      },
+      {
+        "fiscal_year": "2018/06",
+        "sales": 3090.0,
+        "operating_profit": 267.0,
+        "ordinary_profit": 251.0,
+        "net_profit": 175.0,
+        "eps": 175.0,
+        "roe": 25.33,
+        "roa": 10.04,
+        "operating_margin": 8.19,
+        "cost_ratio": 8.63,
+        "sga_ratio": 12.84
+      },
+      {
+        "fiscal_year": "2019/06",
+        "sales": 3870.0000000000005,
+        "operating_profit": 563.0,
+        "ordinary_profit": 546.0,
+        "net_profit": 327.0,
+        "eps": 327.0,
+        "roe": 41.01,
+        "roa": 9.77,
+        "operating_margin": 8.11,
+        "cost_ratio": 14.55,
+        "sga_ratio": 12.46
+      },
+      {
+        "fiscal_year": "2020/06",
+        "sales": 4170.0,
+        "operating_profit": 479.0,
+        "ordinary_profit": 489.0,
+        "net_profit": 323.0,
+        "eps": 323.0,
+        "roe": 37.86,
+        "roa": 9.24,
+        "operating_margin": 8.13,
+        "cost_ratio": 11.49,
+        "sga_ratio": 13.46
+      },
+      {
+        "fiscal_year": "2021/06",
+        "sales": 4640.0,
+        "operating_profit": 366.0,
+        "ordinary_profit": 374.0,
+        "net_profit": 233.0,
+        "eps": 233.0,
+        "roe": 27.33,
+        "roa": 6.43,
+        "operating_margin": 5.45,
+        "cost_ratio": 7.89,
+        "sga_ratio": 14.68
+      },
+      {
+        "fiscal_year": "2022/06",
+        "sales": 5200.0,
+        "operating_profit": 418.0,
+        "ordinary_profit": 432.0,
+        "net_profit": 256.0,
+        "eps": 256.0,
+        "roe": 29.94,
+        "roa": 6.74,
+        "operating_margin": 5.59,
+        "cost_ratio": 8.04,
+        "sga_ratio": 16.64
+      },
+      {
+        "fiscal_year": "2023/06",
+        "sales": 6000.0,
+        "operating_profit": 188.0,
+        "ordinary_profit": 195.0,
+        "net_profit": 16.0,
+        "eps": 16.0,
+        "roe": 1.85,
+        "roa": 0.45,
+        "operating_margin": 0.36,
+        "cost_ratio": 3.13,
+        "sga_ratio": 16.47
+      },
+      {
+        "fiscal_year": "2024/06",
+        "sales": 7920.0,
+        "operating_profit": 495.0,
+        "ordinary_profit": 539.0,
+        "net_profit": 352.0,
+        "eps": 363.0,
+        "roe": 42.43,
+        "roa": 9.68,
+        "operating_margin": 6.78,
+        "cost_ratio": 6.25,
+        "sga_ratio": 21.37
+      },
+      {
+        "fiscal_year": "2025/06",
+        "sales": 9640.0,
+        "operating_profit": 700.0,
+        "ordinary_profit": 705.0,
+        "net_profit": 422.0,
+        "roe": 51.42,
+        "roa": 11.79,
+        "operating_margin": 8.46,
+        "cost_ratio": 7.26
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 3.0
+      },
+      {
+        "fiscal_year": "2018/03",
+        "total_dividend": 0.0
+      }
+    ]
+  },
+  {
+    "code": 7326,
+    "name": "ＳＢＩインシュアランスグループ",
+    "annual_data": [
+      {
+        "date": "2019/03/29",
+        "per": 28.74,
+        "pbr": 0.7,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 53.58,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 42.81,
+        "pbr": 0.75,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 28.72,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 18.35,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 18.16,
+        "pbr": 0.66,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2018/03",
+        "total_dividend": 0.0
+      },
+      {
+        "fiscal_year": "2020/03",
+        "total_dividend": 0.0,
+        "dividend_yield": 0.0
+      },
+      {
+        "fiscal_year": "2021/03",
+        "total_dividend": 0.0,
+        "dividend_yield": 0.0
+      },
+      {
+        "fiscal_year": "2022/03",
+        "total_dividend": 0.0,
+        "dividend_yield": 0.0
+      }
+    ]
+  },
+  {
+    "code": 7343,
+    "name": "ブロードマインド",
+    "annual_data": [
+      {
+        "date": "2021/03/31",
+        "per": 22.63,
+        "pbr": 2.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 11.89,
+        "pbr": 1.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 10.54,
+        "pbr": 1.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 21.72,
+        "pbr": 2.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2016/03",
+        "sales": 2280.0,
+        "ordinary_profit": 222.0,
+        "net_profit": 140.0,
+        "roe": 30.69,
+        "operating_margin": 8.33
+      },
+      {
+        "fiscal_year": "2017/03",
+        "sales": 2430.0,
+        "ordinary_profit": 258.0,
+        "net_profit": 231.0,
+        "roe": 50.46,
+        "operating_margin": 12.4
+      },
+      {
+        "fiscal_year": "2018/03",
+        "sales": 2520.0,
+        "ordinary_profit": 281.0,
+        "net_profit": 168.0,
+        "roe": 36.67
+      },
+      {
+        "fiscal_year": "2019/03",
+        "sales": 3140.0,
+        "operating_profit": 526.0,
+        "ordinary_profit": 558.0,
+        "net_profit": 401.0,
+        "eps": 413.0,
+        "roe": 87.85,
+        "roa": 21.8,
+        "operating_margin": 14.32,
+        "cost_ratio": 16.75,
+        "sga_ratio": 1.22
+      },
+      {
+        "fiscal_year": "2020/03",
+        "sales": 3240.0,
+        "operating_profit": 301.0,
+        "ordinary_profit": 291.0,
+        "net_profit": 178.0,
+        "eps": 172.0,
+        "roe": 38.95,
+        "roa": 8.94,
+        "operating_margin": 5.97,
+        "cost_ratio": 9.28,
+        "sga_ratio": 8.48
+      },
+      {
+        "fiscal_year": "2021/03",
+        "sales": 3279.9999999999995,
+        "operating_profit": 385.0,
+        "ordinary_profit": 424.0,
+        "net_profit": 283.0,
+        "eps": 288.0,
+        "roe": 61.79,
+        "roa": 10.46,
+        "operating_margin": 7.69,
+        "cost_ratio": 11.73,
+        "sga_ratio": 4.31
+      },
+      {
+        "fiscal_year": "2022/03",
+        "sales": 3620.0000000000005,
+        "operating_profit": 491.0,
+        "ordinary_profit": 514.0,
+        "net_profit": 328.0,
+        "eps": 363.0,
+        "roe": 61.91,
+        "roa": 10.52,
+        "operating_margin": 8.06,
+        "cost_ratio": 13.57,
+        "sga_ratio": 7.6
+      },
+      {
+        "fiscal_year": "2023/03",
+        "sales": 4320.0,
+        "operating_profit": 619.0,
+        "ordinary_profit": 652.0,
+        "net_profit": 535.0,
+        "eps": 489.0,
+        "roe": 100.83,
+        "roa": 15.1,
+        "operating_margin": 11.57,
+        "cost_ratio": 14.31,
+        "sga_ratio": 13.32
+      },
+      {
+        "fiscal_year": "2024/03",
+        "sales": 5220.0,
+        "operating_profit": 722.0,
+        "ordinary_profit": 755.0,
+        "net_profit": 447.0,
+        "eps": 450.0,
+        "roe": 82.92,
+        "roa": 11.46,
+        "operating_margin": 8.9,
+        "cost_ratio": 13.83,
+        "sga_ratio": 16.93
+      },
+      {
+        "fiscal_year": "2025/03",
+        "sales": 6170.0,
+        "operating_profit": 820.0,
+        "ordinary_profit": 825.0,
+        "net_profit": 460.0,
+        "roe": 82.16,
+        "roa": 12.27,
+        "operating_margin": 8.96,
+        "cost_ratio": 13.29
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2016/03",
+        "total_dividend": 5.0
+      },
+      {
+        "fiscal_year": "2017/03",
+        "total_dividend": 5.0
+      },
+      {
+        "fiscal_year": "2018/03",
+        "total_dividend": 5.0
+      },
+      {
+        "fiscal_year": "2019/03",
+        "total_dividend": 5.0
+      },
+      {
+        "fiscal_year": "2020/03",
+        "total_dividend": 5.0
+      },
+      {
+        "fiscal_year": "2021/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 0.36
+      }
+    ]
+  },
+  {
+    "code": 7388,
+    "name": "ＦＰパートナー",
+    "annual_data": [
+      {
+        "date": "2022/11/30",
+        "per": 19.85,
+        "pbr": 6.07,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/11/30",
+        "per": 29.11,
+        "pbr": 9.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2017/11",
+        "sales": 10000.0,
+        "ordinary_profit": 252.0,
+        "net_profit": 268.0,
+        "eps": 134.13,
+        "roa": 6.05
+      },
+      {
+        "fiscal_year": "2018/11",
+        "sales": 13400.0,
+        "ordinary_profit": -8.0,
+        "net_profit": 239.0,
+        "eps": 11.93,
+        "roa": 4.7
+      },
+      {
+        "fiscal_year": "2019/11",
+        "sales": 16500.0,
+        "ordinary_profit": 1190.0,
+        "net_profit": 658.0,
+        "eps": 32.91,
+        "roa": 9.96
+      },
+      {
+        "fiscal_year": "2020/11",
+        "sales": 17300.0,
+        "operating_profit": 688.0,
+        "ordinary_profit": 719.0,
+        "net_profit": 425.0,
+        "eps": 21.23,
+        "roe": 28.87,
+        "roa": 6.84,
+        "operating_margin": 3.98,
+        "cost_ratio": 74.54,
+        "sga_ratio": 21.48
+      },
+      {
+        "fiscal_year": "2021/11",
+        "sales": 20900.0,
+        "operating_profit": 1739.9999999999998,
+        "ordinary_profit": 1810.0000000000002,
+        "net_profit": 1220.0,
+        "eps": 61.24,
+        "roe": 45.44,
+        "roa": 15.54,
+        "operating_margin": 8.29,
+        "cost_ratio": 70.54,
+        "sga_ratio": 21.16
+      },
+      {
+        "fiscal_year": "2022/11",
+        "sales": 25600.0,
+        "operating_profit": 3820.0000000000005,
+        "ordinary_profit": 3810.0,
+        "net_profit": 2370.0,
+        "eps": 115.03,
+        "roe": 27.36,
+        "roa": 16.59,
+        "operating_margin": 14.94,
+        "cost_ratio": 65.61,
+        "sga_ratio": 19.45
+      },
+      {
+        "fiscal_year": "2023/11",
+        "sales": 30600.0,
+        "operating_profit": 5550.0,
+        "ordinary_profit": 5610.0,
+        "net_profit": 3950.0,
+        "eps": 171.74,
+        "roe": 31.27,
+        "roa": 20.65,
+        "operating_margin": 18.18,
+        "cost_ratio": 61.86,
+        "sga_ratio": 19.96
+      },
+      {
+        "fiscal_year": "2024/11",
+        "sales": 35600.0,
+        "operating_profit": 6010.0,
+        "ordinary_profit": 6170.0,
+        "net_profit": 4140.0,
+        "eps": 180.74,
+        "roe": 38.76,
+        "roa": 23.1,
+        "operating_margin": 16.87
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2021/03",
+        "total_dividend": 0.0,
+        "dividend_yield": 0.0
+      }
+    ]
+  },
+  {
+    "code": 8630,
+    "name": "ＳＯＭＰＯホールディングス",
+    "annual_data": [
+      {
+        "date": "2011/03/31",
+        "per": -1,
+        "pbr": 0.84,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": -1,
+        "pbr": 0.77,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 18.71,
+        "pbr": 0.64,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 24.79,
+        "pbr": 0.79,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 28.12,
+        "pbr": 0.84,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 8.09,
+        "pbr": 0.78,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 9.73,
+        "pbr": 0.89,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 11.85,
+        "pbr": 0.86,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 10.45,
+        "pbr": 0.87,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 10.0,
+        "pbr": 0.76,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 10.67,
+        "pbr": 0.75,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 8.35,
+        "pbr": 0.91,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 19.41,
+        "pbr": 0.94,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 7.6,
+        "pbr": 1.1,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 20.0,
+        "dividend_yield": 6.67
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 80.0,
+        "dividend_yield": 26.67
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 20.0
+      }
+    ]
+  },
+  {
+    "code": 8715,
+    "name": "アニコム　ホールディングス",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 33.21,
+        "pbr": 1.87,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 29.06,
+        "pbr": 1.86,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 18.19,
+        "pbr": 1.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 28.0,
+        "pbr": 2.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 32.72,
+        "pbr": 1.78,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 44.77,
+        "pbr": 4.09,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 39.54,
+        "pbr": 5.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 27.08,
+        "pbr": 3.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 60.64,
+        "pbr": 5.99,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 35.43,
+        "pbr": 2.75,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 47.51,
+        "pbr": 3.12,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 51.46,
+        "pbr": 3.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 25.09,
+        "pbr": 1.94,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 18.14,
+        "pbr": 1.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 16.99,
+        "pbr": 1.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 0.0,
+        "dividend_yield": 0.0
+      },
+      {
+        "fiscal_year": "2017/03",
+        "total_dividend": 1.25,
+        "dividend_yield": 0.21
+      },
+      {
+        "fiscal_year": "2018/03",
+        "total_dividend": 1.25,
+        "dividend_yield": 0.11
+      },
+      {
+        "fiscal_year": "2019/03",
+        "total_dividend": 1.25,
+        "dividend_yield": 0.17
+      },
+      {
+        "fiscal_year": "2020/03",
+        "total_dividend": 1.25,
+        "dividend_yield": 0.14
+      },
+      {
+        "fiscal_year": "2021/03",
+        "total_dividend": 1.25,
+        "dividend_yield": 0.12
+      }
+    ]
+  },
+  {
+    "code": 8725,
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 29.05,
+        "pbr": 0.84,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 221.4,
+        "pbr": 0.74,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": -1,
+        "pbr": 0.72,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 15.65,
+        "pbr": 0.65,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 15.7,
+        "pbr": 0.65,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 15.22,
+        "pbr": 0.69,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 10.5,
+        "pbr": 0.7,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.09,
+        "pbr": 0.77,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 12.9,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 10.25,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 12.18,
+        "pbr": 0.7,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 12.7,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 8.38,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 10.49,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.69,
+        "pbr": 0.96,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 54.0,
+        "dividend_yield": 18.0
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 54.0,
+        "dividend_yield": 18.0
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 54.0,
+        "dividend_yield": 18.0
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 54.0,
+        "dividend_yield": 18.0
+      }
+    ]
+  },
+  {
+    "code": 8750,
+    "name": "第一生命ホールディングス",
+    "annual_data": [
+      {
+        "date": "2011/03/31",
+        "per": 65.57,
+        "pbr": 1.74,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 56.14,
+        "pbr": 1.16,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 39.01,
+        "pbr": 0.77,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 19.09,
+        "pbr": 0.76,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 13.97,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 9.05,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.16,
+        "pbr": 0.75,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 6.25,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 7.91,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 45.43,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 5.84,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.52,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 12.86,
+        "pbr": 0.9,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.69,
+        "pbr": 0.94,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 1600.0,
+        "dividend_yield": 16.0
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 1600.0,
+        "dividend_yield": 16.0
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 1600.0,
+        "dividend_yield": 16.0
+      }
+    ]
+  },
+  {
+    "code": 8766,
+    "name": "東京海上ホールディングス",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 16.5,
+        "pbr": 0.98,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 24.87,
+        "pbr": 0.95,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 304.02,
+        "pbr": 0.99,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 15.73,
+        "pbr": 0.87,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 12.91,
+        "pbr": 0.88,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 14.01,
+        "pbr": 0.96,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 11.27,
+        "pbr": 0.82,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 12.91,
+        "pbr": 0.99,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 12.37,
+        "pbr": 0.9,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 14.0,
+        "pbr": 1.06,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 13.39,
+        "pbr": 1.02,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 22.68,
+        "pbr": 1.0,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 11.62,
+        "pbr": 1.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 13.66,
+        "pbr": 1.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 13.38,
+        "pbr": 1.79,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 50.0,
+        "dividend_yield": 16.67
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 50.0,
+        "dividend_yield": 16.67
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 50.0,
+        "dividend_yield": 16.67
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 55.0,
+        "dividend_yield": 18.33
+      }
+    ]
+  },
+  {
+    "code": 8795,
+    "name": "Ｔ＆Ｄホールディングス",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 31.05,
+        "pbr": 1.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 29.25,
+        "pbr": 1.13,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 24.42,
+        "pbr": 0.96,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 12.15,
+        "pbr": 0.84,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 10.45,
+        "pbr": 0.81,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.71,
+        "pbr": 0.82,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 9.46,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 13.72,
+        "pbr": 0.94,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 13.6,
+        "pbr": 0.92,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.82,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 7.94,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 7.86,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 68.51,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": -1,
+        "pbr": 0.91,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 14.19,
+        "pbr": 0.98,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 45.0,
+        "dividend_yield": 2.03
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 45.0,
+        "dividend_yield": 2.2
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 22.5,
+        "dividend_yield": 2.35
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 22.5,
+        "dividend_yield": 1.98
+      }
+    ]
+  },
+  {
+    "code": 8798,
+    "name": "アドバンスクリエイト",
+    "annual_data": [
+      {
+        "date": "2010/09/30",
+        "per": 0.15,
+        "pbr": 0.02,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/09/30",
+        "per": 15.86,
+        "pbr": 2.83,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/09/28",
+        "per": 15.07,
+        "pbr": 2.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/09/30",
+        "per": 18.91,
+        "pbr": 3.01,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/09/30",
+        "per": 19.59,
+        "pbr": 2.95,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/09/30",
+        "per": 20.36,
+        "pbr": 2.75,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/09/30",
+        "per": 30.34,
+        "pbr": 3.86,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/09/29",
+        "per": 27.02,
+        "pbr": 4.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/09/28",
+        "per": 34.07,
+        "pbr": 5.87,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/09/30",
+        "per": 22.22,
+        "pbr": 4.08,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/09/30",
+        "per": 32.0,
+        "pbr": 4.09,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/09/30",
+        "per": 17.76,
+        "pbr": 3.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/09/30",
+        "per": 16.06,
+        "pbr": 2.95,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/09/29",
+        "per": -1,
+        "pbr": 5.1,
+        "is_per_red": true,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2008/09",
+        "sales": 6690.000000000001,
+        "operating_profit": 123.0,
+        "ordinary_profit": -132.0,
+        "net_profit": -624.0,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": 1.84,
+        "sga_ratio": 33.0
+      },
+      {
+        "fiscal_year": "2009/09",
+        "sales": 6490.000000000001,
+        "operating_profit": 778.0,
+        "ordinary_profit": 459.0,
+        "net_profit": 305.0,
+        "roa": 8.69,
+        "operating_margin": 4.03,
+        "cost_ratio": 11.98,
+        "sga_ratio": 28.11
+      },
+      {
+        "fiscal_year": "2010/09",
+        "sales": 6770.0,
+        "operating_profit": 767.0,
+        "ordinary_profit": 429.0,
+        "net_profit": 446.0,
+        "roe": 19.85,
+        "roa": 12.44,
+        "operating_margin": 5.69,
+        "cost_ratio": 11.32,
+        "sga_ratio": 31.66
+      },
+      {
+        "fiscal_year": "2011/09",
+        "sales": 7220.0,
+        "operating_profit": 1240.0,
+        "ordinary_profit": 997.0000000000001,
+        "net_profit": 666.0,
+        "eps": 583.0,
+        "roe": 30.27,
+        "roa": 17.82,
+        "operating_margin": 10.94,
+        "cost_ratio": 17.13,
+        "sga_ratio": 26.55
+      },
+      {
+        "fiscal_year": "2012/09",
+        "sales": 7050.0,
+        "operating_profit": 1090.0,
+        "ordinary_profit": 1050.0,
+        "net_profit": 569.0,
+        "eps": 622.0,
+        "roe": 25.88,
+        "roa": 14.41,
+        "operating_margin": 8.34,
+        "cost_ratio": 15.41,
+        "sga_ratio": 25.23
+      },
+      {
+        "fiscal_year": "2013/09",
+        "sales": 7630.0,
+        "operating_profit": 1300.0,
+        "ordinary_profit": 1260.0,
+        "net_profit": 649.0,
+        "eps": 631.0,
+        "roe": 30.83,
+        "roa": 15.98,
+        "operating_margin": 9.21,
+        "cost_ratio": 16.99,
+        "sga_ratio": 25.89
+      },
+      {
+        "fiscal_year": "2014/09",
+        "sales": 7459.999999999999,
+        "operating_profit": 1130.0,
+        "ordinary_profit": 1110.0,
+        "net_profit": 656.0,
+        "eps": 710.0,
+        "roe": 31.29,
+        "roa": 15.07,
+        "operating_margin": 9.35,
+        "cost_ratio": 15.17,
+        "sga_ratio": 23.33
+      },
+      {
+        "fiscal_year": "2015/09",
+        "sales": 7270.0,
+        "operating_profit": 1150.0,
+        "ordinary_profit": 1140.0,
+        "net_profit": 644.0,
+        "eps": 629.0,
+        "roe": 29.52,
+        "roa": 13.4,
+        "operating_margin": 8.75,
+        "cost_ratio": 15.86,
+        "sga_ratio": 19.59
+      },
+      {
+        "fiscal_year": "2016/09",
+        "sales": 7300.0,
+        "operating_profit": 955.0000000000001,
+        "ordinary_profit": 927.0,
+        "net_profit": 583.0,
+        "eps": 599.0,
+        "roe": 27.09,
+        "roa": 12.78,
+        "operating_margin": 8.37,
+        "cost_ratio": 13.09,
+        "sga_ratio": 20.47
+      },
+      {
+        "fiscal_year": "2017/09",
+        "sales": 8140.000000000001,
+        "operating_profit": 1040.0,
+        "ordinary_profit": 1019.9999999999999,
+        "net_profit": 742.0,
+        "eps": 790.0,
+        "roe": 34.98,
+        "roa": 16.22,
+        "operating_margin": 9.62,
+        "cost_ratio": 12.83,
+        "sga_ratio": 24.25
+      },
+      {
+        "fiscal_year": "2018/09",
+        "sales": 9470.0,
+        "operating_profit": 1170.0,
+        "ordinary_profit": 1140.0,
+        "net_profit": 785.0,
+        "eps": 850.0,
+        "roe": 37.36,
+        "roa": 17.4,
+        "operating_margin": 10.08,
+        "cost_ratio": 12.35,
+        "sga_ratio": 27.71
+      },
+      {
+        "fiscal_year": "2019/09",
+        "sales": 10400.0,
+        "operating_profit": 1350.0,
+        "ordinary_profit": 1300.0,
+        "net_profit": 844.0,
+        "eps": 676.0,
+        "roe": 40.81,
+        "roa": 18.39,
+        "operating_margin": 10.34,
+        "cost_ratio": 12.98,
+        "sga_ratio": 28.84
+      },
+      {
+        "fiscal_year": "2020/09",
+        "sales": 10500.0,
+        "operating_profit": 1180.0,
+        "ordinary_profit": 1100.0,
+        "net_profit": 700.0,
+        "eps": 790.0,
+        "roe": 33.37,
+        "roa": 12.49,
+        "operating_margin": 6.79,
+        "cost_ratio": 11.27,
+        "sga_ratio": 30.02
+      },
+      {
+        "fiscal_year": "2021/09",
+        "sales": 11000.0,
+        "operating_profit": 2039.9999999999998,
+        "ordinary_profit": 1930.0,
+        "net_profit": 1300.0,
+        "eps": 1280.0,
+        "roe": 59.67,
+        "roa": 19.27,
+        "operating_margin": 10.97,
+        "cost_ratio": 18.53,
+        "sga_ratio": 22.25
+      },
+      {
+        "fiscal_year": "2022/09",
+        "sales": 11900.0,
+        "operating_profit": 2060.0,
+        "ordinary_profit": 2020.0,
+        "net_profit": 1310.0,
+        "eps": 1250.0,
+        "roe": 59.97,
+        "roa": 18.36,
+        "operating_margin": 10.5,
+        "cost_ratio": 17.38,
+        "sga_ratio": 22.24
+      },
+      {
+        "fiscal_year": "2023/09",
+        "sales": 10200.0,
+        "operating_profit": -2020.0,
+        "ordinary_profit": -2190.0,
+        "net_profit": -1770.0,
+        "eps": -1760.0000000000002,
+        "roe": -80.82,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -19.88,
+        "sga_ratio": 39.01
+      },
+      {
+        "fiscal_year": "2024/09",
+        "sales": 9450.0,
+        "operating_profit": 200.0,
+        "ordinary_profit": 100.0,
+        "net_profit": 70.0,
+        "roe": 3.06,
+        "roa": 2.15,
+        "operating_margin": 0.66,
+        "cost_ratio": 2.12
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 3000.0,
+        "dividend_yield": 15.0
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 3000.0,
+        "dividend_yield": 15.0
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 35.0,
+        "dividend_yield": 17.5
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 40.0,
+        "dividend_yield": 20.0
+      }
+    ]
+  }
+]

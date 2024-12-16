@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鉄鋼 - シンプル投資判断</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .stock-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .companies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .company-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .company-name {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .metric {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+        }
+        .metric-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 2px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="stock-card">
+        <h1>鉄鋼</h1>
+        <div class="companies-grid" id="companiesGrid">
+        </div>
+    </div>
+    <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
+
+    <script>
+    const companiesData = [{"code": 5401, "name": "日本製鉄", "per": 6.15, "pbr": 0.71, "eps": null, "roe": 143.51}, {"code": 5406, "name": "神戸製鋼所", "per": 7.41, "pbr": 0.77, "eps": null, "roe": 304.06}, {"code": 5408, "name": "中山製鋼所", "per": 5.78, "pbr": 0.49, "eps": null, "roe": 101.52}, {"code": 5410, "name": "合同製鐵", "per": 5.51, "pbr": 0.65, "eps": null, "roe": 786.33}, {"code": 5411, "name": "ＪＦＥホールディングス", "per": 7.86, "pbr": 0.66, "eps": null, "roe": 204.37}, {"code": 5423, "name": "東京製鐵", "per": 6.56, "pbr": 0.89, "eps": 153.65, "roe": 8.0}, {"code": 5440, "name": "共英製鋼", "per": 7.58, "pbr": 0.54, "eps": null, "roe": 276.12}, {"code": 5444, "name": "大和工業", "per": 7.81, "pbr": 1.05, "eps": null, "roe": 824.02}, {"code": 5445, "name": "東京鐵鋼", "per": 5.92, "pbr": 0.87, "eps": null, "roe": 1117.19}, {"code": 5446, "name": "北越メタル", "per": 12.4, "pbr": 0.34, "eps": null, "roe": 103.89}, {"code": 5449, "name": "大阪製鐵", "per": 27.68, "pbr": 0.57, "eps": null, "roe": 71.94}, {"code": 5451, "name": "淀川製鋼所", "per": 29.59, "pbr": 0.7, "eps": null, "roe": 411.7}, {"code": 5458, "name": "高砂鐵工", "per": 11.41, "pbr": 0.61, "eps": null, "roe": 119.91}, {"code": 5461, "name": "中部鋼鈑", "per": 10.21, "pbr": 0.93, "eps": null, "roe": 162.47}, {"code": 5463, "name": "丸一鋼管", "per": 12.27, "pbr": 0.92, "eps": null, "roe": 219.28}, {"code": 5464, "name": "モリ工業", "per": 10.98, "pbr": 0.91, "eps": null, "roe": 453.49}, {"code": 5471, "name": "大同特殊鋼", "per": 12.67, "pbr": 0.81, "eps": null, "roe": 131.31}, {"code": 5476, "name": "日本高周波鋼業", "per": 1.19, "pbr": 0.36, "eps": null, "roe": 6.82}, {"code": 5480, "name": "日本冶金工業", "per": 5.14, "pbr": 0.78, "eps": null, "roe": 852.03}, {"code": 5481, "name": "山陽特殊製鋼", "per": 13.53, "pbr": 0.54, "eps": null, "roe": 174.37}, {"code": 5482, "name": "愛知製鋼", "per": 11.93, "pbr": 0.31, "eps": null, "roe": 324.03}, {"code": 5484, "name": "東北特殊鋼", "per": 14.8, "pbr": 0.52, "eps": null, "roe": 155.4}, {"code": 5491, "name": "日本金属", "per": 3.72, "pbr": 0.21, "eps": null, "roe": -74.69}, {"code": 5541, "name": "大平洋金属", "per": -1, "pbr": 0.39, "eps": null, "roe": -174.04}, {"code": 5542, "name": "新報国マテリアル", "per": 7.9, "pbr": 0.72, "eps": 151.0, "roe": 9.74}, {"code": 5563, "name": "新日本電工", "per": 8.76, "pbr": 0.53, "eps": null, "roe": 24.76}, {"code": 5602, "name": "栗本鐵工所", "per": 8.99, "pbr": 0.6, "eps": null, "roe": 453.52}, {"code": 5603, "name": "虹技", "per": 8.89, "pbr": 0.35, "eps": null, "roe": 146.8}, {"code": 5609, "name": "日本鋳造", "per": 7.46, "pbr": 0.41, "eps": null, "roe": 56.0}, {"code": 5610, "name": "大和重工", "per": 19.4, "pbr": 0.46, "eps": 0.74, "roe": 0.03}, {"code": 5612, "name": "日本鋳鉄管", "per": 8.11, "pbr": 0.41, "eps": null, "roe": 87.15}, {"code": 5632, "name": "三菱製鋼", "per": -1, "pbr": 0.55, "eps": null, "roe": 218.25}, {"code": 5644, "name": "メタルアート", "per": 5.31, "pbr": 0.5, "eps": null, "roe": 515.72}, {"code": 5658, "name": "日亜鋼業", "per": 12.71, "pbr": 0.31, "eps": null, "roe": 24.27}, {"code": 5659, "name": "日本精線", "per": 16.71, "pbr": 1.11, "eps": null, "roe": 111.83}, {"code": 5660, "name": "神鋼鋼線工業", "per": 8.47, "pbr": 0.34, "eps": null, "roe": 113.37}, {"code": 5695, "name": "パウダーテック", "per": 24.31, "pbr": 0.54, "eps": null, "roe": 127.46}, {"code": 5697, "name": "サンユウ", "per": 8.86, "pbr": 0.36, "eps": null, "roe": 59.56}, {"code": 5698, "name": "エンビプロ・ホールディングス", "per": 26.8, "pbr": 0.87, "eps": null, "roe": 48.84}, {"code": 5699, "name": "イボキン", "per": 9.37, "pbr": 0.92, "eps": null, "roe": 116.71}, {"code": 6319, "name": "シンニッタン", "per": 11.0, "pbr": 0.4, "eps": null, "roe": 5.72}, {"code": 7305, "name": "新家工業", "per": 12.65, "pbr": 0.52, "eps": null, "roe": 305.35}];
+
+    function formatNumber(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toLocaleString();
+    }
+
+    function formatRatio(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toFixed(2);
+    }
+
+    function calculateMixFactor(per, pbr) {
+        if (per === null || per === undefined || isNaN(per) || 
+            pbr === null || pbr === undefined || isNaN(pbr)) {
+            return 'N/A';
+        }
+        return (per * pbr).toFixed(2);
+    }
+
+    function renderCompanies() {
+        const grid = document.getElementById('companiesGrid');
+        companiesData.forEach(company => {
+            const card = document.createElement('div');
+            card.className = 'company-card';
+            
+            const per = Number(company.per) || 0;
+            const pbr = Number(company.pbr) || 0;
+            
+            card.innerHTML = `
+                <div class="company-name">${company.code} - ${company.name}</div>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-label">PER</div>
+                        <div class="metric-value">${formatRatio(per)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">PBR</div>
+                        <div class="metric-value">${formatRatio(pbr)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">EPS</div>
+                        <div class="metric-value">${formatNumber(company.eps)}円</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ROE</div>
+                        <div class="metric-value">${formatRatio(company.roe)}%</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ミックス係数</div>
+                        <div class="metric-value">${calculateMixFactor(per, pbr)}</div>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    renderCompanies();
+    </script>
+</body>
+</html>

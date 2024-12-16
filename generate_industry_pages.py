@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import json
+import glob
 
 def safe_number(value):
     """数値を安全に変換する関数"""
@@ -161,63 +162,68 @@ html_template = '''<!DOCTYPE html>
 </html>
 '''
 
-def generate_industry_pages(json_path, csv_path):
-    # JSONファイルを読み込む
-    with open(json_path, 'r', encoding='utf-8') as f:
-        stock_data = json.load(f)
+def generate_industry_pages():
+    """業種ごとのJSONファイルからHTMLページを生成する"""
+    industry_counts = {}
     
-    # 業種情報を追加
-    stock_data = add_industry_info(stock_data, csv_path)
+    # industry ディレクトリ内のすべてのJSONファイルを処理
+    json_files = glob.glob('industry/*.json')
     
-    # 業種ごとの企業データを整理
-    industry_data = {}
-    for company in stock_data:
-        industry = company.get('industry', 'その他')
-        if industry not in industry_data:
-            industry_data[industry] = []
-        
-        # 最新の財務データを取得
-        annual_data = company.get('annual_data', [])
-        latest_annual = annual_data[-1] if annual_data else {}
-        
-        financial_data = company.get('financial_data', [])
-        latest_financial = financial_data[-1] if financial_data else {}
-        
-        company_info = {
-            'code': company['code'],
-            'name': company['name'],
-            'per': latest_annual.get('per', 0),
-            'pbr': latest_annual.get('pbr', 0),
-            'eps': latest_financial.get('eps', None),
-            'roe': latest_financial.get('roe', None)
-        }
-        
-        industry_data[industry].append(company_info)
-
-    # 業種ごとにページを生成
-    for industry, companies in industry_data.items():
-        file_name = industry.replace('/', '_')
-        html_content = html_template.format(
-            industry,
-            json.dumps(companies, ensure_ascii=False)
-        )
-        
-        os.makedirs('industry', exist_ok=True)
-        output_path = f"industry/{file_name}.html"
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(html_content)
+    for json_path in json_files:
+        try:
+            # JSONファイルを読み込む
+            with open(json_path, 'r', encoding='utf-8') as f:
+                stock_data = json.load(f)
             
-    return {industry: len(companies) for industry, companies in industry_data.items()}
+            # 業種名を取得（ファイル名から拡張子を除いた部分）
+            industry = os.path.splitext(os.path.basename(json_path))[0]
+            
+            # 企業データを整理
+            companies = []
+            for company in stock_data:
+                # 最新の財務データを取得
+                annual_data = company.get('annual_data', [])
+                latest_annual = annual_data[-1] if annual_data else {}
+                
+                financial_data = company.get('financial_data', [])
+                latest_financial = financial_data[-1] if financial_data else {}
+                
+                company_info = {
+                    'code': company['code'],
+                    'name': company['name'],
+                    'per': latest_annual.get('per', 0),
+                    'pbr': latest_annual.get('pbr', 0),
+                    'eps': latest_financial.get('eps', None),
+                    'roe': latest_financial.get('roe', None)
+                }
+                
+                companies.append(company_info)
+            
+            # HTMLファイルを生成
+            html_content = html_template.format(
+                industry,
+                json.dumps(companies, ensure_ascii=False)
+            )
+            
+            # 同じファイル名でHTMLを出力
+            output_path = f"{os.path.splitext(json_path)[0]}.html"
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(html_content)
+            
+            industry_counts[industry] = len(companies)
+            
+        except Exception as e:
+            print(f"Error processing {json_path}: {e}")
+            continue
+            
+    return industry_counts
 
 # メインの実行部分
 if __name__ == "__main__":
-    json_path = "stock_data.json"
-    csv_path = "mof_sheets/Sheet1.csv"
-    
-    if os.path.exists(json_path) and os.path.exists(csv_path):
-        industry_counts = generate_industry_pages(json_path, csv_path)
+    if os.path.exists('industry'):
+        industry_counts = generate_industry_pages()
         print(f"\n生成された業種別ページ:")
         for industry, count in industry_counts.items():
             print(f"{industry}: {count}社")
     else:
-        print(f"Error: Required files not found")
+        print(f"Error: 'industry' directory not found")

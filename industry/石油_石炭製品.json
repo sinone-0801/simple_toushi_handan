@@ -1,0 +1,3385 @@
+[
+  {
+    "code": 3315,
+    "name": "日本コークス工業",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 9.6,
+        "pbr": 1.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 4.35,
+        "pbr": 1.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 8.04,
+        "pbr": 0.99,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 12.08,
+        "pbr": 0.91,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 12.35,
+        "pbr": 0.89,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 13.82,
+        "pbr": 0.78,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": -1,
+        "pbr": 0.59,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 15.03,
+        "pbr": 0.65,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 6.76,
+        "pbr": 0.69,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.24,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 610.0,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.36,
+        "pbr": 0.65,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 5.68,
+        "pbr": 0.73,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": -1,
+        "pbr": 0.47,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 20.55,
+        "pbr": 0.69,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2008/03",
+        "sales": 187400.0,
+        "operating_profit": 11200.0,
+        "ordinary_profit": 9240.0,
+        "net_profit": 8250.0,
+        "roa": 20.95,
+        "operating_margin": 5.87,
+        "cost_ratio": 6.0,
+        "sga_ratio": 87.41
+      },
+      {
+        "fiscal_year": "2009/03",
+        "sales": 191300.0,
+        "operating_profit": 12200.0,
+        "ordinary_profit": 8720.0,
+        "net_profit": 2010.0000000000002,
+        "roa": 6.29,
+        "operating_margin": 1.45,
+        "cost_ratio": 6.35,
+        "sga_ratio": 89.14
+      },
+      {
+        "fiscal_year": "2010/03",
+        "sales": 94900.0,
+        "operating_profit": 5940.0,
+        "ordinary_profit": 4180.0,
+        "net_profit": 4820.0,
+        "roe": 14.58,
+        "roa": 15.11,
+        "operating_margin": 4.07,
+        "cost_ratio": 6.26,
+        "sga_ratio": 87.61
+      },
+      {
+        "fiscal_year": "2011/03",
+        "sales": 125300.0,
+        "operating_profit": 12600.0,
+        "ordinary_profit": 10700.0,
+        "net_profit": 12100.0,
+        "eps": 12100.0,
+        "roe": 38.19,
+        "roa": 31.21,
+        "operating_margin": 8.82,
+        "cost_ratio": 10.08,
+        "sga_ratio": 84.67
+      },
+      {
+        "fiscal_year": "2012/03",
+        "sales": 126000.0,
+        "operating_profit": 8520.0,
+        "ordinary_profit": 7180.0,
+        "net_profit": 4700.0,
+        "eps": 4550.0,
+        "roe": 15.55,
+        "roa": 12.34,
+        "operating_margin": 3.71,
+        "cost_ratio": 6.76,
+        "sga_ratio": 88.09
+      },
+      {
+        "fiscal_year": "2013/03",
+        "sales": 112600.0,
+        "operating_profit": 6440.000000000001,
+        "ordinary_profit": 5230.0,
+        "net_profit": 3030.0,
+        "eps": 3070.0,
+        "roe": 10.02,
+        "roa": 7.51,
+        "operating_margin": 2.57,
+        "cost_ratio": 5.72,
+        "sga_ratio": 88.87
+      },
+      {
+        "fiscal_year": "2014/03",
+        "sales": 109000.0,
+        "operating_profit": 7240.000000000001,
+        "ordinary_profit": 6170.0,
+        "net_profit": 3030.0,
+        "eps": 3060.0,
+        "roe": 10.04,
+        "roa": 7.19,
+        "operating_margin": 2.63,
+        "cost_ratio": 6.64,
+        "sga_ratio": 87.93
+      },
+      {
+        "fiscal_year": "2015/03",
+        "sales": 101800.0,
+        "operating_profit": 6640.000000000001,
+        "ordinary_profit": 6160.0,
+        "net_profit": 2490.0,
+        "eps": 2460.0,
+        "roe": 8.25,
+        "roa": 5.67,
+        "operating_margin": 2.08,
+        "cost_ratio": 6.52,
+        "sga_ratio": 87.6
+      },
+      {
+        "fiscal_year": "2016/03",
+        "sales": 92500.0,
+        "operating_profit": 2300.0,
+        "ordinary_profit": 1180.0,
+        "net_profit": -1680.0,
+        "eps": -1700.0,
+        "roe": -5.57,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": 2.48,
+        "sga_ratio": 91.31
+      },
+      {
+        "fiscal_year": "2017/03",
+        "sales": 89100.0,
+        "operating_profit": 2650.0,
+        "ordinary_profit": 1240.0,
+        "net_profit": 1910.0000000000002,
+        "eps": 3010.0,
+        "roe": 6.32,
+        "roa": 4.36,
+        "operating_margin": 1.65,
+        "cost_ratio": 2.97,
+        "sga_ratio": 90.87
+      },
+      {
+        "fiscal_year": "2018/03",
+        "sales": 110200.0,
+        "operating_profit": 3500.0,
+        "ordinary_profit": 3229.9999999999995,
+        "net_profit": 4820.0,
+        "eps": 3890.0,
+        "roe": 15.98,
+        "roa": 10.38,
+        "operating_margin": 4.16,
+        "cost_ratio": 3.17,
+        "sga_ratio": 91.77
+      },
+      {
+        "fiscal_year": "2019/03",
+        "sales": 121200.0,
+        "operating_profit": 6659.999999999999,
+        "ordinary_profit": 5890.0,
+        "net_profit": 3200.0,
+        "eps": 3160.0,
+        "roe": 10.82,
+        "roa": 6.63,
+        "operating_margin": 2.62,
+        "cost_ratio": 5.49,
+        "sga_ratio": 89.78
+      },
+      {
+        "fiscal_year": "2020/03",
+        "sales": 107400.0,
+        "operating_profit": 1610.0000000000002,
+        "ordinary_profit": 989.0,
+        "net_profit": 28.000000000000004,
+        "eps": -162.0,
+        "roe": 0.1,
+        "roa": 0.06,
+        "operating_margin": 0.03,
+        "cost_ratio": 1.5,
+        "sga_ratio": 93.11
+      },
+      {
+        "fiscal_year": "2021/03",
+        "sales": 87900.0,
+        "operating_profit": 7000.0,
+        "ordinary_profit": 6450.0,
+        "net_profit": 3970.0000000000005,
+        "eps": 4210.0,
+        "roe": 13.63,
+        "roa": 7.76,
+        "operating_margin": 3.88,
+        "cost_ratio": 7.96,
+        "sga_ratio": 85.48
+      },
+      {
+        "fiscal_year": "2022/03",
+        "sales": 124700.0,
+        "operating_profit": 12300.0,
+        "ordinary_profit": 11500.0,
+        "net_profit": 7380.0,
+        "eps": 7400.0,
+        "roe": 25.36,
+        "roa": 12.87,
+        "operating_margin": 5.73,
+        "cost_ratio": 9.83,
+        "sga_ratio": 83.9
+      },
+      {
+        "fiscal_year": "2023/03",
+        "sales": 174100.0,
+        "operating_profit": -397.0,
+        "ordinary_profit": -752.0,
+        "net_profit": -1080.0,
+        "eps": -1030.0,
+        "roe": -3.69,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -0.23,
+        "sga_ratio": 96.44
+      },
+      {
+        "fiscal_year": "2024/03",
+        "sales": 135200.0,
+        "operating_profit": 4390.0,
+        "ordinary_profit": 3640.0,
+        "net_profit": 1900.0,
+        "eps": 2080.0,
+        "roe": 6.52,
+        "roa": 3.37,
+        "operating_margin": 1.35,
+        "cost_ratio": 3.25,
+        "sga_ratio": 92.18
+      },
+      {
+        "fiscal_year": "2025/03",
+        "sales": 118700.0,
+        "operating_profit": 3400.0,
+        "ordinary_profit": 2400.0,
+        "net_profit": 900.0,
+        "roe": 3.09,
+        "roa": 1.69,
+        "operating_margin": 0.63,
+        "cost_ratio": 2.86
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 1.43
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 1.2
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 2.4
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 2.48
+      },
+      {
+        "fiscal_year": "2025/03"
+      }
+    ]
+  },
+  {
+    "code": 5010,
+    "name": "日本精蝋",
+    "annual_data": [
+      {
+        "date": "2009/12/29",
+        "per": -1,
+        "pbr": 0.36,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2010/12/30",
+        "per": 3.95,
+        "pbr": 0.66,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/12/30",
+        "per": 3.61,
+        "pbr": 0.57,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/12/28",
+        "per": 8.14,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/12/30",
+        "per": 12.26,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/12/30",
+        "per": -1,
+        "pbr": 0.43,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/12/30",
+        "per": -1,
+        "pbr": 0.43,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/12/30",
+        "per": 18.29,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/12/29",
+        "per": 10.49,
+        "pbr": 0.64,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/12/28",
+        "per": 52.42,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/12/30",
+        "per": -1,
+        "pbr": 0.45,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/12/30",
+        "per": -1,
+        "pbr": 0.49,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/12/30",
+        "per": 8.5,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/12/30",
+        "per": -1,
+        "pbr": 0.46,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/12/29",
+        "per": -1,
+        "pbr": 0.68,
+        "is_per_red": true,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2008/12",
+        "sales": 48100.0,
+        "operating_profit": 1590.0,
+        "ordinary_profit": 1430.0,
+        "net_profit": -777.0,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": 3.3,
+        "sga_ratio": 89.84
+      },
+      {
+        "fiscal_year": "2009/12",
+        "sales": 26200.0,
+        "operating_profit": -382.0,
+        "ordinary_profit": -534.0,
+        "net_profit": -441.0,
+        "roe": -19.69,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -1.46,
+        "sga_ratio": 91.67
+      },
+      {
+        "fiscal_year": "2010/12",
+        "sales": 32600.0,
+        "operating_profit": 2620.0,
+        "ordinary_profit": 2520.0,
+        "net_profit": 1520.0,
+        "roe": 67.68,
+        "roa": 16.63,
+        "operating_margin": 5.54,
+        "cost_ratio": 8.01,
+        "sga_ratio": 83.63
+      },
+      {
+        "fiscal_year": "2011/12",
+        "sales": 37000.0,
+        "operating_profit": 3090.0,
+        "ordinary_profit": 2950.0,
+        "net_profit": 1739.9999999999998,
+        "roe": 77.59,
+        "roa": 15.76,
+        "operating_margin": 5.53,
+        "cost_ratio": 8.36,
+        "sga_ratio": 84.25
+      },
+      {
+        "fiscal_year": "2012/12",
+        "sales": 40100.0,
+        "operating_profit": 290.0,
+        "ordinary_profit": 212.0,
+        "net_profit": 641.0,
+        "roe": 28.62,
+        "roa": 5.66,
+        "operating_margin": 2.09,
+        "cost_ratio": 0.72
+      },
+      {
+        "fiscal_year": "2013/12",
+        "sales": 39500.0,
+        "operating_profit": 299.0,
+        "ordinary_profit": 275.0,
+        "net_profit": 389.0,
+        "roe": 20.88,
+        "roa": 3.56,
+        "operating_margin": 1.27,
+        "cost_ratio": 0.76,
+        "sga_ratio": 92.29
+      },
+      {
+        "fiscal_year": "2014/12",
+        "sales": 36000.0,
+        "operating_profit": -237.0,
+        "ordinary_profit": -217.0,
+        "net_profit": -121.0,
+        "roe": -6.51,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -0.66,
+        "sga_ratio": 94.69
+      },
+      {
+        "fiscal_year": "2015/12",
+        "sales": 29300.0,
+        "operating_profit": -653.0,
+        "ordinary_profit": -729.0,
+        "net_profit": -559.0,
+        "eps": -283.0,
+        "roe": -31.2,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -2.23,
+        "sga_ratio": 94.23
+      },
+      {
+        "fiscal_year": "2016/12",
+        "sales": 23300.0,
+        "operating_profit": 846.0000000000001,
+        "ordinary_profit": 580.0,
+        "net_profit": 243.00000000000003,
+        "eps": 317.0,
+        "roe": 13.56,
+        "roa": 2.33,
+        "operating_margin": 0.84,
+        "cost_ratio": 3.63,
+        "sga_ratio": 86.38
+      },
+      {
+        "fiscal_year": "2017/12",
+        "sales": 26600.0,
+        "operating_profit": 1370.0,
+        "ordinary_profit": 1150.0,
+        "net_profit": 673.0,
+        "eps": 744.0,
+        "roe": 37.65,
+        "roa": 6.13,
+        "operating_margin": 2.19,
+        "cost_ratio": 5.13,
+        "sga_ratio": 85.35
+      },
+      {
+        "fiscal_year": "2018/12",
+        "sales": 29600.0,
+        "operating_profit": 194.0,
+        "ordinary_profit": 76.0,
+        "net_profit": 83.0,
+        "eps": 7.000000000000001,
+        "roe": 4.54,
+        "roa": 0.73,
+        "operating_margin": 0.25,
+        "cost_ratio": 0.66,
+        "sga_ratio": 90.67
+      },
+      {
+        "fiscal_year": "2019/12",
+        "sales": 27300.0,
+        "operating_profit": -655.0,
+        "ordinary_profit": -767.0,
+        "net_profit": -848.0,
+        "eps": -1010.0,
+        "roe": -42.94,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -2.4,
+        "sga_ratio": 93.38
+      },
+      {
+        "fiscal_year": "2020/12",
+        "sales": 22200.0,
+        "operating_profit": -2080.0,
+        "ordinary_profit": -2850.0,
+        "net_profit": -2880.0,
+        "eps": -2770.0,
+        "roe": -145.73,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -9.35,
+        "sga_ratio": 98.39
+      },
+      {
+        "fiscal_year": "2021/12",
+        "sales": 27900.0,
+        "operating_profit": 587.0,
+        "ordinary_profit": 467.0,
+        "net_profit": 444.00000000000006,
+        "eps": 463.99999999999994,
+        "roe": 22.48,
+        "roa": 5.73,
+        "operating_margin": 1.32,
+        "cost_ratio": 2.1,
+        "sga_ratio": 87.23
+      },
+      {
+        "fiscal_year": "2022/12",
+        "sales": 38500.0,
+        "operating_profit": -2039.9999999999998,
+        "ordinary_profit": -2260.0,
+        "net_profit": -2370.0,
+        "eps": -2250.0,
+        "roe": -119.9,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -5.31,
+        "sga_ratio": 96.38
+      },
+      {
+        "fiscal_year": "2023/12",
+        "sales": 21700.0,
+        "operating_profit": -552.0,
+        "ordinary_profit": -785.0,
+        "net_profit": -1220.0,
+        "eps": -1610.0000000000002,
+        "roe": -61.83,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -2.54,
+        "sga_ratio": 90.96
+      },
+      {
+        "fiscal_year": "2024/12",
+        "sales": 21500.0,
+        "operating_profit": 1900.0,
+        "ordinary_profit": 1400.0,
+        "net_profit": 1300.0,
+        "roe": 58.04,
+        "roa": 25.45,
+        "operating_margin": 4.45,
+        "cost_ratio": 8.84
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2009/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.76
+      },
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 3.75
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 15.0,
+        "dividend_yield": 5.36
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 4.29
+      }
+    ]
+  },
+  {
+    "code": 5011,
+    "name": "ニチレキグループ",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 5.96,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 12.39,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 10.94,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 12.41,
+        "pbr": 0.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 8.8,
+        "pbr": 0.96,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 2.85,
+        "pbr": 0.73,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 8.8,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 6.93,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 9.08,
+        "pbr": 0.69,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 8.75,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 20.47,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 7.19,
+        "pbr": 0.77,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 5.54,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 7.23,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 16.18,
+        "pbr": 0.97,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2008/03",
+        "sales": 45900.0,
+        "operating_profit": 1570.0,
+        "ordinary_profit": 1739.9999999999998,
+        "net_profit": 659.0,
+        "roa": 2.95,
+        "operating_margin": 1.47,
+        "cost_ratio": 3.42,
+        "sga_ratio": 82.52
+      },
+      {
+        "fiscal_year": "2009/03",
+        "sales": 44700.0,
+        "operating_profit": 1220.0,
+        "ordinary_profit": 1420.0,
+        "net_profit": 635.0,
+        "roa": 2.95,
+        "operating_margin": 1.45,
+        "cost_ratio": 2.73,
+        "sga_ratio": 82.94
+      },
+      {
+        "fiscal_year": "2010/03",
+        "sales": 49500.0,
+        "operating_profit": 4530.0,
+        "ordinary_profit": 4730.0,
+        "net_profit": 2340.0,
+        "roe": 73.69,
+        "roa": 9.74,
+        "operating_margin": 4.67,
+        "cost_ratio": 9.15,
+        "sga_ratio": 76.95
+      },
+      {
+        "fiscal_year": "2011/03",
+        "sales": 45700.0,
+        "operating_profit": 2380.0,
+        "ordinary_profit": 2560.0,
+        "net_profit": 1050.0,
+        "eps": 1130.0,
+        "roe": 33.17,
+        "roa": 4.29,
+        "operating_margin": 2.22,
+        "cost_ratio": 5.22,
+        "sga_ratio": 80.43
+      },
+      {
+        "fiscal_year": "2012/03",
+        "sales": 50600.0,
+        "operating_profit": 2740.0,
+        "ordinary_profit": 2930.0,
+        "net_profit": 1300.0,
+        "eps": 1980.0,
+        "roe": 41.12,
+        "roa": 5.07,
+        "operating_margin": 2.54,
+        "cost_ratio": 5.42,
+        "sga_ratio": 81.8
+      },
+      {
+        "fiscal_year": "2013/03",
+        "sales": 56100.0,
+        "operating_profit": 3260.0,
+        "ordinary_profit": 3400.0,
+        "net_profit": 1600.0,
+        "eps": 2600.0,
+        "roe": 50.43,
+        "roa": 5.82,
+        "operating_margin": 2.96,
+        "cost_ratio": 5.8,
+        "sga_ratio": 82.29
+      },
+      {
+        "fiscal_year": "2014/03",
+        "sales": 69500.0,
+        "operating_profit": 7709.999999999999,
+        "ordinary_profit": 7850.0,
+        "net_profit": 3400.0,
+        "eps": 5150.0,
+        "roe": 116.82,
+        "roa": 10.95,
+        "operating_margin": 5.46,
+        "cost_ratio": 11.08,
+        "sga_ratio": 78.43
+      },
+      {
+        "fiscal_year": "2015/03",
+        "sales": 57900.0,
+        "operating_profit": 5020.0,
+        "ordinary_profit": 5160.0,
+        "net_profit": 10700.0,
+        "eps": 11300.0,
+        "roe": 367.89,
+        "roa": 25.45,
+        "operating_margin": 17.87,
+        "cost_ratio": 8.67,
+        "sga_ratio": 79.44
+      },
+      {
+        "fiscal_year": "2016/03",
+        "sales": 48700.0,
+        "operating_profit": 4380.0,
+        "ordinary_profit": 4470.0,
+        "net_profit": 2670.0,
+        "eps": 1920.0,
+        "roe": 92.31,
+        "roa": 6.21,
+        "operating_margin": 4.53,
+        "cost_ratio": 9.0,
+        "sga_ratio": 76.97
+      },
+      {
+        "fiscal_year": "2017/03",
+        "sales": 54400.0,
+        "operating_profit": 5740.0,
+        "ordinary_profit": 5870.0,
+        "net_profit": 3760.0,
+        "eps": 4370.0,
+        "roe": 131.21,
+        "roa": 8.04,
+        "operating_margin": 5.77,
+        "cost_ratio": 10.55,
+        "sga_ratio": 75.52
+      },
+      {
+        "fiscal_year": "2018/03",
+        "sales": 60600.0,
+        "operating_profit": 5450.0,
+        "ordinary_profit": 5630.0,
+        "net_profit": 3879.9999999999995,
+        "eps": 4700.0,
+        "roe": 135.39,
+        "roa": 7.64,
+        "operating_margin": 5.56,
+        "cost_ratio": 8.99,
+        "sga_ratio": 77.77
+      },
+      {
+        "fiscal_year": "2019/03",
+        "sales": 62900.0,
+        "operating_profit": 5590.0,
+        "ordinary_profit": 5730.0,
+        "net_profit": 3590.0,
+        "eps": 2840.0,
+        "roe": 125.17,
+        "roa": 6.79,
+        "operating_margin": 5.11,
+        "cost_ratio": 8.89,
+        "sga_ratio": 77.89
+      },
+      {
+        "fiscal_year": "2020/03",
+        "sales": 66700.0,
+        "operating_profit": 6010.0,
+        "ordinary_profit": 6230.0,
+        "net_profit": 1820.0,
+        "eps": 856.0,
+        "roe": 63.51,
+        "roa": 3.45,
+        "operating_margin": 2.55,
+        "cost_ratio": 9.01,
+        "sga_ratio": 77.52
+      },
+      {
+        "fiscal_year": "2021/03",
+        "sales": 71500.0,
+        "operating_profit": 9140.0,
+        "ordinary_profit": 9570.0,
+        "net_profit": 6360.0,
+        "eps": 7790.000000000001,
+        "roe": 219.7,
+        "roa": 10.25,
+        "operating_margin": 7.68,
+        "cost_ratio": 12.79,
+        "sga_ratio": 74.2
+      },
+      {
+        "fiscal_year": "2022/03",
+        "sales": 78000.0,
+        "operating_profit": 8570.0,
+        "ordinary_profit": 9310.0,
+        "net_profit": 6809.999999999999,
+        "eps": 6800.0,
+        "roe": 222.88,
+        "roa": 10.01,
+        "operating_margin": 7.7,
+        "cost_ratio": 10.98,
+        "sga_ratio": 76.51
+      },
+      {
+        "fiscal_year": "2023/03",
+        "sales": 78400.0,
+        "operating_profit": 7570.0,
+        "ordinary_profit": 8100.0,
+        "net_profit": 6280.0,
+        "eps": 6140.0,
+        "roe": 205.7,
+        "roa": 8.67,
+        "operating_margin": 6.87,
+        "cost_ratio": 9.65,
+        "sga_ratio": 77.73
+      },
+      {
+        "fiscal_year": "2024/03",
+        "sales": 73800.0,
+        "operating_profit": 6020.0,
+        "ordinary_profit": 6390.0,
+        "net_profit": 4490.0,
+        "eps": 6430.0,
+        "roe": 152.72,
+        "roa": 6.0,
+        "operating_margin": 4.72,
+        "cost_ratio": 8.15,
+        "sga_ratio": 77.7
+      },
+      {
+        "fiscal_year": "2025/03",
+        "sales": 80000.0,
+        "operating_profit": 7000.0,
+        "ordinary_profit": 7200.0,
+        "net_profit": 4600.0,
+        "roe": 156.39,
+        "roa": 6.2,
+        "operating_margin": 5.09,
+        "cost_ratio": 8.75
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 15.0,
+        "dividend_yield": 3.42
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 2.43
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 2.22
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 1.92
+      }
+    ]
+  },
+  {
+    "code": 5013,
+    "name": "ユシロ化学工業",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 39.61,
+        "pbr": 1.01,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 11.86,
+        "pbr": 0.87,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 19.96,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 13.32,
+        "pbr": 0.66,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 9.39,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 12.32,
+        "pbr": 0.77,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 9.15,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 11.06,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.57,
+        "pbr": 0.78,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 10.09,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.38,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 16.0,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 51.42,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 12.97,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 10.05,
+        "pbr": 0.75,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2008/03",
+        "sales": 27200.0,
+        "operating_profit": 2380.0,
+        "ordinary_profit": 2880.0,
+        "net_profit": 1880.0,
+        "roa": 8.65,
+        "operating_margin": 5.63,
+        "cost_ratio": 8.75,
+        "sga_ratio": 67.81
+      },
+      {
+        "fiscal_year": "2009/03",
+        "sales": 23500.0,
+        "operating_profit": 516.0,
+        "ordinary_profit": 882.0,
+        "net_profit": 319.0,
+        "roa": 1.96,
+        "operating_margin": 1.2,
+        "cost_ratio": 2.2,
+        "sga_ratio": 74.09
+      },
+      {
+        "fiscal_year": "2010/03",
+        "sales": 19900.0,
+        "operating_profit": 986.9999999999999,
+        "ordinary_profit": 1490.0,
+        "net_profit": 451.99999999999994,
+        "roe": 29.74,
+        "roa": 2.55,
+        "operating_margin": 1.58,
+        "cost_ratio": 4.96,
+        "sga_ratio": 68.97
+      },
+      {
+        "fiscal_year": "2011/03",
+        "sales": 23100.0,
+        "operating_profit": 2080.0,
+        "ordinary_profit": 2460.0,
+        "net_profit": 1440.0,
+        "eps": 1260.0,
+        "roe": 94.41,
+        "roa": 7.32,
+        "operating_margin": 4.99,
+        "cost_ratio": 8.98,
+        "sga_ratio": 67.82
+      },
+      {
+        "fiscal_year": "2012/03",
+        "sales": 23500.0,
+        "operating_profit": 877.9999999999999,
+        "ordinary_profit": 1300.0,
+        "net_profit": 693.0,
+        "eps": 287.0,
+        "roe": 45.59,
+        "roa": 3.57,
+        "operating_margin": 2.39,
+        "cost_ratio": 3.74,
+        "sga_ratio": 71.89
+      },
+      {
+        "fiscal_year": "2013/03",
+        "sales": 24200.0,
+        "operating_profit": 881.0,
+        "ordinary_profit": 1620.0,
+        "net_profit": 1050.0,
+        "eps": 2410.0,
+        "roe": 69.21,
+        "roa": 4.98,
+        "operating_margin": 3.37,
+        "cost_ratio": 3.64,
+        "sga_ratio": 72.02
+      },
+      {
+        "fiscal_year": "2014/03",
+        "sales": 26800.0,
+        "operating_profit": 1410.0,
+        "ordinary_profit": 2290.0,
+        "net_profit": 1500.0,
+        "eps": 4050.0,
+        "roe": 107.91,
+        "roa": 6.19,
+        "operating_margin": 4.29,
+        "cost_ratio": 5.25,
+        "sga_ratio": 72.36
+      },
+      {
+        "fiscal_year": "2015/03",
+        "sales": 29100.0,
+        "operating_profit": 1570.0,
+        "ordinary_profit": 2520.0,
+        "net_profit": 1700.0,
+        "eps": 4070.0000000000005,
+        "roe": 122.93,
+        "roa": 6.25,
+        "operating_margin": 4.44,
+        "cost_ratio": 5.4,
+        "sga_ratio": 72.03
+      },
+      {
+        "fiscal_year": "2016/03",
+        "sales": 30700.0,
+        "operating_profit": 2170.0,
+        "ordinary_profit": 2950.0,
+        "net_profit": 1989.9999999999998,
+        "eps": 245.00000000000003,
+        "roe": 143.86,
+        "roa": 7.43,
+        "operating_margin": 5.11,
+        "cost_ratio": 7.07,
+        "sga_ratio": 69.72
+      },
+      {
+        "fiscal_year": "2017/03",
+        "sales": 29600.0,
+        "operating_profit": 2440.0,
+        "ordinary_profit": 3020.0,
+        "net_profit": 1700.0,
+        "eps": 2180.0,
+        "roe": 124.33,
+        "roa": 6.16,
+        "operating_margin": 4.2,
+        "cost_ratio": 8.23,
+        "sga_ratio": 67.35
+      },
+      {
+        "fiscal_year": "2018/03",
+        "sales": 31600.0,
+        "operating_profit": 2500.0,
+        "ordinary_profit": 3240.0,
+        "net_profit": 2230.0,
+        "eps": 3640.0,
+        "roe": 164.09,
+        "roa": 7.35,
+        "operating_margin": 5.1,
+        "cost_ratio": 7.93,
+        "sga_ratio": 68.03
+      },
+      {
+        "fiscal_year": "2019/03",
+        "sales": 35200.0,
+        "operating_profit": 2080.0,
+        "ordinary_profit": 2630.0,
+        "net_profit": 1720.0,
+        "eps": 411.00000000000006,
+        "roe": 126.98,
+        "roa": 5.77,
+        "operating_margin": 3.52,
+        "cost_ratio": 5.9,
+        "sga_ratio": 69.88
+      },
+      {
+        "fiscal_year": "2020/03",
+        "sales": 37300.0,
+        "operating_profit": 2210.0,
+        "ordinary_profit": 2720.0,
+        "net_profit": 1910.0000000000002,
+        "eps": 722.0,
+        "roe": 140.9,
+        "roa": 6.42,
+        "operating_margin": 4.04,
+        "cost_ratio": 5.94,
+        "sga_ratio": 68.42
+      },
+      {
+        "fiscal_year": "2021/03",
+        "sales": 31700.0,
+        "operating_profit": 1100.0,
+        "ordinary_profit": 1520.0,
+        "net_profit": 977.9999999999999,
+        "eps": 1290.0,
+        "roe": 72.0,
+        "roa": 3.25,
+        "operating_margin": 2.02,
+        "cost_ratio": 3.46,
+        "sga_ratio": 68.88
+      },
+      {
+        "fiscal_year": "2022/03",
+        "sales": 37700.0,
+        "operating_profit": 894.0,
+        "ordinary_profit": 1540.0,
+        "net_profit": 273.0,
+        "eps": 2410.0,
+        "roe": 20.07,
+        "roa": 0.87,
+        "operating_margin": 0.53,
+        "cost_ratio": 2.37,
+        "sga_ratio": 72.29
+      },
+      {
+        "fiscal_year": "2023/03",
+        "sales": 46800.0,
+        "operating_profit": 1050.0,
+        "ordinary_profit": 1440.0,
+        "net_profit": 898.0,
+        "eps": 4280.0,
+        "roe": 65.98,
+        "roa": 2.59,
+        "operating_margin": 1.6,
+        "cost_ratio": 2.24,
+        "sga_ratio": 75.38
+      },
+      {
+        "fiscal_year": "2024/03",
+        "sales": 53000.0,
+        "operating_profit": 3620.0000000000005,
+        "ordinary_profit": 4630.0,
+        "net_profit": 3010.0,
+        "eps": 6270.0,
+        "roe": 221.17,
+        "roa": 7.49,
+        "operating_margin": 4.84,
+        "cost_ratio": 6.83,
+        "sga_ratio": 71.7
+      },
+      {
+        "fiscal_year": "2025/03",
+        "sales": 55500.0,
+        "operating_profit": 4740.0,
+        "ordinary_profit": 5640.0,
+        "net_profit": 4100.0,
+        "roe": 301.26,
+        "roa": 9.54,
+        "operating_margin": 6.28,
+        "cost_ratio": 8.54
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 1.02
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 25.0,
+        "dividend_yield": 2.23
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 27.0,
+        "dividend_yield": 2.97
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 27.0,
+        "dividend_yield": 2.93
+      }
+    ]
+  },
+  {
+    "code": 5015,
+    "name": "ビーピー・カストロール",
+    "annual_data": [
+      {
+        "date": "2009/12/30",
+        "per": 6.16,
+        "pbr": 1.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2010/12/30",
+        "per": 4.66,
+        "pbr": 1.07,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/12/30",
+        "per": 4.87,
+        "pbr": 0.93,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/12/28",
+        "per": 5.3,
+        "pbr": 0.87,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/12/30",
+        "per": 7.36,
+        "pbr": 1.01,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/12/30",
+        "per": 14.12,
+        "pbr": 2.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/12/30",
+        "per": 17.83,
+        "pbr": 2.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/12/30",
+        "per": 15.29,
+        "pbr": 2.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/12/29",
+        "per": 23.31,
+        "pbr": 4.13,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/12/28",
+        "per": 17.02,
+        "pbr": 2.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/12/30",
+        "per": 20.5,
+        "pbr": 3.16,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/12/30",
+        "per": 18.14,
+        "pbr": 2.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/12/30",
+        "per": 20.23,
+        "pbr": 2.86,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/12/30",
+        "per": 36.09,
+        "pbr": 2.05,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/12/29",
+        "per": 25.53,
+        "pbr": 2.0,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2008/12",
+        "sales": 12400.0,
+        "operating_profit": 1070.0,
+        "ordinary_profit": 1130.0,
+        "net_profit": 621.0,
+        "roe": 12.89,
+        "roa": 7.74,
+        "operating_margin": 8.6,
+        "cost_ratio": 60.61,
+        "sga_ratio": 30.8
+      },
+      {
+        "fiscal_year": "2009/12",
+        "sales": 12200.0,
+        "operating_profit": 2340.0,
+        "ordinary_profit": 2330.0,
+        "net_profit": 1270.0,
+        "eps": 55.22,
+        "roe": 21.74,
+        "roa": 13.4,
+        "operating_margin": 19.21,
+        "cost_ratio": 47.28,
+        "sga_ratio": 33.51
+      },
+      {
+        "fiscal_year": "2010/12",
+        "sales": 13200.0,
+        "operating_profit": 2880.0,
+        "ordinary_profit": 2880.0,
+        "net_profit": 1630.0,
+        "eps": 70.99,
+        "roe": 22.97,
+        "roa": 15.31,
+        "operating_margin": 21.88,
+        "cost_ratio": 46.54,
+        "sga_ratio": 31.58
+      },
+      {
+        "fiscal_year": "2011/12",
+        "sales": 13500.0,
+        "operating_profit": 2880.0,
+        "ordinary_profit": 2870.0,
+        "net_profit": 1600.0,
+        "eps": 69.66,
+        "roe": 19.2,
+        "roa": 13.34,
+        "operating_margin": 21.37,
+        "cost_ratio": 48.66,
+        "sga_ratio": 29.97
+      },
+      {
+        "fiscal_year": "2012/12",
+        "sales": 13000.0,
+        "operating_profit": 2810.0,
+        "ordinary_profit": 2800.0,
+        "net_profit": 1570.0,
+        "eps": 68.54,
+        "roe": 16.5,
+        "roa": 12.05,
+        "operating_margin": 21.61,
+        "cost_ratio": 48.93,
+        "sga_ratio": 29.46
+      },
+      {
+        "fiscal_year": "2013/12",
+        "sales": 13400.0,
+        "operating_profit": 2570.0,
+        "ordinary_profit": 2560.0,
+        "net_profit": 1460.0,
+        "eps": 63.63,
+        "roe": 13.73,
+        "roa": 10.66,
+        "operating_margin": 19.19,
+        "cost_ratio": 51.68,
+        "sga_ratio": 29.14
+      },
+      {
+        "fiscal_year": "2014/12",
+        "sales": 13900.0,
+        "operating_profit": 2460.0,
+        "ordinary_profit": 2440.0,
+        "net_profit": 1900.0,
+        "eps": 82.58,
+        "roe": 17.18,
+        "roa": 12.79,
+        "operating_margin": 17.66,
+        "cost_ratio": 54.3,
+        "sga_ratio": 28.04
+      },
+      {
+        "fiscal_year": "2015/12",
+        "sales": 13000.0,
+        "operating_profit": 2530.0,
+        "ordinary_profit": 2550.0,
+        "net_profit": 1570.0,
+        "eps": 68.43,
+        "roe": 13.95,
+        "roa": 11.03,
+        "operating_margin": 19.4,
+        "cost_ratio": 51.15,
+        "sga_ratio": 29.46
+      },
+      {
+        "fiscal_year": "2016/12",
+        "sales": 12800.0,
+        "operating_profit": 3200.0,
+        "ordinary_profit": 3200.0,
+        "net_profit": 2080.0,
+        "eps": 90.71,
+        "roe": 17.72,
+        "roa": 13.82,
+        "operating_margin": 24.96,
+        "cost_ratio": 46.66,
+        "sga_ratio": 28.38
+      },
+      {
+        "fiscal_year": "2017/12",
+        "sales": 12600.0,
+        "operating_profit": 2990.0,
+        "ordinary_profit": 2990.0,
+        "net_profit": 2039.9999999999998,
+        "eps": 88.66,
+        "roe": 17.7,
+        "roa": 14.09,
+        "operating_margin": 23.64,
+        "cost_ratio": 46.62,
+        "sga_ratio": 29.74
+      },
+      {
+        "fiscal_year": "2018/12",
+        "sales": 12700.0,
+        "operating_profit": 2430.0,
+        "ordinary_profit": 2460.0,
+        "net_profit": 1650.0,
+        "eps": 71.86,
+        "roe": 14.83,
+        "roa": 11.66,
+        "operating_margin": 19.19,
+        "cost_ratio": 50.04,
+        "sga_ratio": 30.77
+      },
+      {
+        "fiscal_year": "2019/12",
+        "sales": 12500.0,
+        "operating_profit": 2520.0,
+        "ordinary_profit": 2550.0,
+        "net_profit": 1700.0,
+        "eps": 73.94,
+        "roe": 15.4,
+        "roa": 12.23,
+        "operating_margin": 20.07,
+        "cost_ratio": 50.19,
+        "sga_ratio": 29.74
+      },
+      {
+        "fiscal_year": "2020/12",
+        "sales": 10800.0,
+        "operating_profit": 2400.0,
+        "ordinary_profit": 2450.0,
+        "net_profit": 1560.0,
+        "eps": 67.87,
+        "roe": 14.2,
+        "roa": 11.24,
+        "operating_margin": 22.15,
+        "cost_ratio": 44.77,
+        "sga_ratio": 33.08
+      },
+      {
+        "fiscal_year": "2021/12",
+        "sales": 11100.0,
+        "operating_profit": 2230.0,
+        "ordinary_profit": 2270.0,
+        "net_profit": 1550.0,
+        "eps": 67.42,
+        "roe": 14.16,
+        "roa": 11.41,
+        "operating_margin": 20.12,
+        "cost_ratio": 47.75,
+        "sga_ratio": 32.13
+      },
+      {
+        "fiscal_year": "2022/12",
+        "sales": 11200.0,
+        "operating_profit": 869.0,
+        "ordinary_profit": 942.0,
+        "net_profit": 573.0,
+        "eps": 24.94,
+        "roe": 5.68,
+        "roa": 4.49,
+        "operating_margin": 7.77,
+        "cost_ratio": 58.73,
+        "sga_ratio": 33.5
+      },
+      {
+        "fiscal_year": "2023/12",
+        "sales": 12000.0,
+        "operating_profit": 1110.0,
+        "ordinary_profit": 1170.0,
+        "net_profit": 782.0,
+        "eps": 34.04,
+        "roe": 7.84,
+        "roa": 6.1,
+        "operating_margin": 9.21,
+        "cost_ratio": 60.6,
+        "sga_ratio": 30.2
+      },
+      {
+        "fiscal_year": "2024/12",
+        "sales": 13400.0,
+        "operating_profit": 1350.0,
+        "ordinary_profit": 1420.0,
+        "net_profit": 950.0,
+        "eps": 41.35,
+        "roe": 9.73,
+        "roa": 7.33,
+        "operating_margin": 10.12
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2009/03",
+        "total_dividend": 16.0,
+        "dividend_yield": 4.71
+      },
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 16.0,
+        "dividend_yield": 4.83
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 16.0,
+        "dividend_yield": 4.72
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 16.0,
+        "dividend_yield": 4.41
+      }
+    ]
+  },
+  {
+    "code": 5017,
+    "name": "富士石油",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": -1,
+        "pbr": 0.5,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 10.85,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 11.36,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": -1,
+        "pbr": 0.34,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": -1,
+        "pbr": 0.28,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": -1,
+        "pbr": 0.51,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": -1,
+        "pbr": 0.51,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 1.87,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 4.07,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.71,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": -1,
+        "pbr": 0.35,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 2.72,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 1.34,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 5.72,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 2.36,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2008/03",
+        "sales": 930700.0,
+        "operating_profit": 14000.0,
+        "ordinary_profit": 11500.0,
+        "net_profit": 4670.0,
+        "roa": 3.24,
+        "operating_margin": 1.03,
+        "cost_ratio": 1.5,
+        "sga_ratio": 97.64
+      },
+      {
+        "fiscal_year": "2009/03",
+        "sales": 927200.0,
+        "operating_profit": -35000.0,
+        "ordinary_profit": -36500.0,
+        "net_profit": -31800.0,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -3.78,
+        "sga_ratio": 103.15
+      },
+      {
+        "fiscal_year": "2010/03",
+        "sales": 594800.0,
+        "operating_profit": -4990.0,
+        "ordinary_profit": -7290.000000000001,
+        "net_profit": -16200.0,
+        "roe": -206.69,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -0.84,
+        "sga_ratio": 99.76
+      },
+      {
+        "fiscal_year": "2011/03",
+        "sales": 571100.0,
+        "operating_profit": 4360.0,
+        "ordinary_profit": 1520.0,
+        "net_profit": 4020.0000000000005,
+        "eps": 1910.0000000000002,
+        "roe": 51.41,
+        "roa": 4.32,
+        "operating_margin": 1.08,
+        "cost_ratio": 0.76,
+        "sga_ratio": 98.16
+      },
+      {
+        "fiscal_year": "2012/03",
+        "sales": 701700.0,
+        "operating_profit": 5280.0,
+        "ordinary_profit": 1310.0,
+        "net_profit": 3370.0000000000005,
+        "eps": 2160.0,
+        "roe": 43.12,
+        "roa": 3.56,
+        "operating_margin": 0.82,
+        "cost_ratio": 0.75,
+        "sga_ratio": 98.45
+      },
+      {
+        "fiscal_year": "2013/03",
+        "sales": 780000.0,
+        "operating_profit": 1550.0,
+        "ordinary_profit": 3279.9999999999995,
+        "net_profit": -13000.0,
+        "eps": -13200.0,
+        "roe": -166.6,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": 0.2,
+        "sga_ratio": 99.08
+      },
+      {
+        "fiscal_year": "2014/03",
+        "sales": 702900.0,
+        "operating_profit": -7820.0,
+        "ordinary_profit": -10100.0,
+        "net_profit": -11900.0,
+        "eps": -7709.999999999999,
+        "roe": -154.38,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -1.11,
+        "sga_ratio": 100.54
+      },
+      {
+        "fiscal_year": "2015/03",
+        "sales": 666200.0,
+        "operating_profit": -20300.0,
+        "ordinary_profit": -18600.0,
+        "net_profit": -18100.0,
+        "eps": -16000.0,
+        "roe": -234.99,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -3.05,
+        "sga_ratio": 102.54
+      },
+      {
+        "fiscal_year": "2016/03",
+        "sales": 425500.0,
+        "operating_profit": -8800.0,
+        "ordinary_profit": -9550.0,
+        "net_profit": -9410.0,
+        "eps": -10600.0,
+        "roe": -122.1,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -2.07,
+        "sga_ratio": 101.26
+      },
+      {
+        "fiscal_year": "2017/03",
+        "sales": 419500.0,
+        "operating_profit": 18900.0,
+        "ordinary_profit": 18100.0,
+        "net_profit": 15500.0,
+        "eps": 15500.0,
+        "roe": 201.17,
+        "roa": 24.75,
+        "operating_margin": 5.38,
+        "cost_ratio": 4.51,
+        "sga_ratio": 94.59
+      },
+      {
+        "fiscal_year": "2018/03",
+        "sales": 423800.0,
+        "operating_profit": 11200.0,
+        "ordinary_profit": 8630.0,
+        "net_profit": 7950.0,
+        "eps": 7659.999999999999,
+        "roe": 103.1,
+        "roa": 11.4,
+        "operating_margin": 2.72,
+        "cost_ratio": 2.64,
+        "sga_ratio": 96.51
+      },
+      {
+        "fiscal_year": "2019/03",
+        "sales": 541600.0,
+        "operating_profit": 4880.0,
+        "ordinary_profit": 3600.0,
+        "net_profit": 2900.0,
+        "eps": 2300.0,
+        "roe": 37.58,
+        "roa": 4.06,
+        "operating_margin": 0.97,
+        "cost_ratio": 0.9,
+        "sga_ratio": 98.41
+      },
+      {
+        "fiscal_year": "2020/03",
+        "sales": 462400.0,
+        "operating_profit": -28700.0,
+        "ordinary_profit": -28800.0,
+        "net_profit": -29100.0,
+        "eps": -29400.0,
+        "roe": -377.07,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -6.2,
+        "sga_ratio": 105.27
+      },
+      {
+        "fiscal_year": "2021/03",
+        "sales": 344600.0,
+        "operating_profit": 7100.0,
+        "ordinary_profit": 8290.0,
+        "net_profit": 6530.0,
+        "eps": 6890.000000000001,
+        "roe": 84.71,
+        "roa": 13.59,
+        "operating_margin": 2.58,
+        "cost_ratio": 2.06,
+        "sga_ratio": 96.68
+      },
+      {
+        "fiscal_year": "2022/03",
+        "sales": 486000.0,
+        "operating_profit": 16300.0,
+        "ordinary_profit": 16100.0,
+        "net_profit": 15200.0,
+        "eps": 17100.0,
+        "roe": 197.28,
+        "roa": 23.62,
+        "operating_margin": 4.31,
+        "cost_ratio": 3.34,
+        "sga_ratio": 95.71
+      },
+      {
+        "fiscal_year": "2023/03",
+        "sales": 850900.0,
+        "operating_profit": 5030.0,
+        "ordinary_profit": 4700.0,
+        "net_profit": 3579.9999999999995,
+        "eps": 7859.999999999999,
+        "roe": 46.35,
+        "roa": 5.0,
+        "operating_margin": 1.06,
+        "cost_ratio": 0.59,
+        "sga_ratio": 98.83
+      },
+      {
+        "fiscal_year": "2024/03",
+        "sales": 723700.0,
+        "operating_profit": 16200.0,
+        "ordinary_profit": 18700.0,
+        "net_profit": 15500.0,
+        "eps": 15500.0,
+        "roe": 201.08,
+        "roa": 18.01,
+        "operating_margin": 3.98,
+        "cost_ratio": 2.24,
+        "sga_ratio": 96.94
+      },
+      {
+        "fiscal_year": "2025/03",
+        "sales": 822800.0,
+        "operating_profit": -2700.0,
+        "ordinary_profit": -2300.0,
+        "net_profit": -4000.0,
+        "roe": -51.79,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -0.33
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 1.08
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 1.22
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 1.71
+      },
+      {
+        "fiscal_year": "2021/03",
+        "total_dividend": 4.35
+      },
+      {
+        "fiscal_year": "2022/03",
+        "total_dividend": 3.77
+      }
+    ]
+  },
+  {
+    "code": 5018,
+    "name": "ＭＯＲＥＳＣＯ",
+    "annual_data": [
+      {
+        "date": "2010/02/26",
+        "per": 13.78,
+        "pbr": 0.84,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/02/28",
+        "per": 9.81,
+        "pbr": 1.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/02/29",
+        "per": 10.16,
+        "pbr": 1.03,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/02/28",
+        "per": 10.45,
+        "pbr": 0.9,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/02/28",
+        "per": 11.62,
+        "pbr": 1.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/02/27",
+        "per": 13.19,
+        "pbr": 1.81,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/02/29",
+        "per": 8.16,
+        "pbr": 0.98,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/02/28",
+        "per": 10.46,
+        "pbr": 1.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/02/28",
+        "per": 11.12,
+        "pbr": 1.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/02/28",
+        "per": 10.4,
+        "pbr": 0.95,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/02/28",
+        "per": 13.66,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/02/26",
+        "per": 20.88,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/02/28",
+        "per": 5.77,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/02/28",
+        "per": 17.35,
+        "pbr": 0.57,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/02/29",
+        "per": 9.93,
+        "pbr": 0.63,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2009/02",
+        "sales": 13700.0,
+        "operating_profit": 295.0,
+        "ordinary_profit": 400.0,
+        "net_profit": 185.0,
+        "roa": 3.64,
+        "operating_margin": 1.88,
+        "cost_ratio": 2.16,
+        "sga_ratio": 72.75
+      },
+      {
+        "fiscal_year": "2010/02",
+        "sales": 12700.0,
+        "operating_profit": 499.0,
+        "ordinary_profit": 571.0,
+        "net_profit": 323.0,
+        "roe": 40.28,
+        "roa": 6.13,
+        "operating_margin": 2.66,
+        "cost_ratio": 3.94,
+        "sga_ratio": 68.82
+      },
+      {
+        "fiscal_year": "2011/02",
+        "sales": 16400.0,
+        "operating_profit": 1250.0,
+        "ordinary_profit": 1410.0,
+        "net_profit": 868.0,
+        "roe": 101.9,
+        "roa": 13.01,
+        "operating_margin": 6.79,
+        "cost_ratio": 7.61,
+        "sga_ratio": 68.34
+      },
+      {
+        "fiscal_year": "2012/02",
+        "sales": 18700.0,
+        "operating_profit": 1190.0,
+        "ordinary_profit": 1300.0,
+        "net_profit": 719.0,
+        "eps": 724.0,
+        "roe": 84.41,
+        "roa": 10.09,
+        "operating_margin": 4.75,
+        "cost_ratio": 6.4,
+        "sga_ratio": 70.54
+      },
+      {
+        "fiscal_year": "2013/02",
+        "sales": 20000.0,
+        "operating_profit": 901.0,
+        "ordinary_profit": 1170.0,
+        "net_profit": 662.0,
+        "eps": 966.0,
+        "roe": 77.72,
+        "roa": 8.63,
+        "operating_margin": 4.26,
+        "cost_ratio": 4.51,
+        "sga_ratio": 71.77
+      },
+      {
+        "fiscal_year": "2014/02",
+        "sales": 23700.0,
+        "operating_profit": 1820.0,
+        "ordinary_profit": 2010.0000000000002,
+        "net_profit": 1210.0,
+        "eps": 1810.0000000000002,
+        "roe": 132.51,
+        "roa": 11.94,
+        "operating_margin": 6.17,
+        "cost_ratio": 7.66,
+        "sga_ratio": 69.87
+      },
+      {
+        "fiscal_year": "2015/02",
+        "sales": 26800.0,
+        "operating_profit": 2250.0,
+        "ordinary_profit": 2770.0,
+        "net_profit": 1639.9999999999998,
+        "eps": 2530.0,
+        "roe": 169.54,
+        "roa": 13.69,
+        "operating_margin": 6.71,
+        "cost_ratio": 8.39,
+        "sga_ratio": 69.74
+      },
+      {
+        "fiscal_year": "2016/02",
+        "sales": 26300.0,
+        "operating_profit": 2130.0,
+        "ordinary_profit": 2380.0,
+        "net_profit": 1530.0,
+        "eps": 1100.0,
+        "roe": 157.85,
+        "roa": 11.97,
+        "operating_margin": 6.14,
+        "cost_ratio": 8.09,
+        "sga_ratio": 67.49
+      },
+      {
+        "fiscal_year": "2017/02",
+        "sales": 26700.0,
+        "operating_profit": 2370.0,
+        "ordinary_profit": 2660.0,
+        "net_profit": 1600.0,
+        "eps": 1770.0,
+        "roe": 165.51,
+        "roa": 11.55,
+        "operating_margin": 6.32,
+        "cost_ratio": 8.9,
+        "sga_ratio": 65.38
+      },
+      {
+        "fiscal_year": "2018/02",
+        "sales": 27900.0,
+        "operating_profit": 2330.0,
+        "ordinary_profit": 2600.0,
+        "net_profit": 1620.0,
+        "eps": 2200.0,
+        "roe": 167.79,
+        "roa": 10.59,
+        "operating_margin": 5.95,
+        "cost_ratio": 8.34,
+        "sga_ratio": 65.92
+      },
+      {
+        "fiscal_year": "2019/02",
+        "sales": 28800.0,
+        "operating_profit": 1950.0,
+        "ordinary_profit": 2200.0,
+        "net_profit": 1440.0,
+        "eps": 1170.0,
+        "roe": 148.88,
+        "roa": 9.16,
+        "operating_margin": 5.09,
+        "cost_ratio": 6.77,
+        "sga_ratio": 67.65
+      },
+      {
+        "fiscal_year": "2020/02",
+        "sales": 27100.0,
+        "operating_profit": 1280.0,
+        "ordinary_profit": 1570.0,
+        "net_profit": 776.0,
+        "eps": 952.9999999999999,
+        "roe": 80.87,
+        "roa": 4.87,
+        "operating_margin": 2.76,
+        "cost_ratio": 4.73,
+        "sga_ratio": 67.73
+      },
+      {
+        "fiscal_year": "2021/02",
+        "sales": 24500.0,
+        "operating_profit": 842.0,
+        "ordinary_profit": 1030.0,
+        "net_profit": 518.0,
+        "eps": 683.0,
+        "roe": 54.11,
+        "roa": 3.26,
+        "operating_margin": 1.87,
+        "cost_ratio": 3.44,
+        "sga_ratio": 67.98
+      },
+      {
+        "fiscal_year": "2022/02",
+        "sales": 27300.0,
+        "operating_profit": 1430.0,
+        "ordinary_profit": 2010.0000000000002,
+        "net_profit": 1810.0000000000002,
+        "eps": 2850.0,
+        "roe": 192.78,
+        "roa": 10.07,
+        "operating_margin": 6.23,
+        "cost_ratio": 5.25,
+        "sga_ratio": 68.04
+      },
+      {
+        "fiscal_year": "2023/02",
+        "sales": 30300.0,
+        "operating_profit": 523.0,
+        "ordinary_profit": 1050.0,
+        "net_profit": 615.0,
+        "eps": 1350.0,
+        "roe": 66.24,
+        "roa": 3.32,
+        "operating_margin": 1.92,
+        "cost_ratio": 1.72,
+        "sga_ratio": 73.2
+      },
+      {
+        "fiscal_year": "2024/02",
+        "sales": 31900.0,
+        "operating_profit": 1230.0,
+        "ordinary_profit": 1830.0,
+        "net_profit": 1280.0,
+        "eps": 2270.0,
+        "roe": 138.99,
+        "roa": 6.37,
+        "operating_margin": 3.46,
+        "cost_ratio": 3.84,
+        "sga_ratio": 71.82
+      },
+      {
+        "fiscal_year": "2025/02",
+        "sales": 34000.0,
+        "operating_profit": 1500.0,
+        "ordinary_profit": 1850.0,
+        "net_profit": 1050.0,
+        "roe": 114.49,
+        "roa": 4.9,
+        "operating_margin": 2.75,
+        "cost_ratio": 4.41
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 15.0,
+        "dividend_yield": 2.7
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 25.0,
+        "dividend_yield": 2.5
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 25.0,
+        "dividend_yield": 2.91
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 25.0,
+        "dividend_yield": 3.08
+      }
+    ]
+  },
+  {
+    "code": 5019,
+    "name": "出光興産",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 47.39,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 6.42,
+        "pbr": 0.76,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 5.13,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 6.47,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 9.34,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": -1,
+        "pbr": 0.57,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": -1,
+        "pbr": 0.64,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 7.02,
+        "pbr": 1.06,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 4.79,
+        "pbr": 0.97,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.22,
+        "pbr": 0.87,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": -1,
+        "pbr": 0.64,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 24.31,
+        "pbr": 0.74,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 3.59,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 3.4,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 6.46,
+        "pbr": 0.8,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2008/03",
+        "sales": 3860000.0,
+        "operating_profit": 55900.0,
+        "ordinary_profit": 60700.0,
+        "net_profit": 4840.0,
+        "roa": 0.98,
+        "operating_margin": 0.2,
+        "cost_ratio": 1.45,
+        "sga_ratio": 92.09
+      },
+      {
+        "fiscal_year": "2009/03",
+        "sales": 3800000.0,
+        "operating_profit": 102400.0,
+        "ordinary_profit": 89300.0,
+        "net_profit": 3320.0000000000005,
+        "roa": 0.75,
+        "operating_margin": 0.15,
+        "cost_ratio": 2.7,
+        "sga_ratio": 90.61
+      },
+      {
+        "fiscal_year": "2010/03",
+        "sales": 3110000.0,
+        "operating_profit": 44500.0,
+        "ordinary_profit": 30400.0,
+        "net_profit": 5980.0,
+        "roe": 7.47,
+        "roa": 1.27,
+        "operating_margin": 0.24,
+        "cost_ratio": 1.43,
+        "sga_ratio": 90.55
+      },
+      {
+        "fiscal_year": "2011/03",
+        "sales": 3660000.0,
+        "operating_profit": 128800.0,
+        "ordinary_profit": 128000.0,
+        "net_profit": 60700.0,
+        "eps": 50400.0,
+        "roe": 75.85,
+        "roa": 11.8,
+        "operating_margin": 2.41,
+        "cost_ratio": 3.52,
+        "sga_ratio": 89.42
+      },
+      {
+        "fiscal_year": "2012/03",
+        "sales": 4310000.0,
+        "operating_profit": 138100.0,
+        "ordinary_profit": 133600.0,
+        "net_profit": 64400.0,
+        "eps": 81400.0,
+        "roe": 80.47,
+        "roa": 10.97,
+        "operating_margin": 2.4,
+        "cost_ratio": 3.2,
+        "sga_ratio": 90.78
+      },
+      {
+        "fiscal_year": "2013/03",
+        "sales": 4370000.0,
+        "operating_profit": 110700.0,
+        "ordinary_profit": 109100.0,
+        "net_profit": 50200.0,
+        "eps": 85000.0,
+        "roe": 62.71,
+        "roa": 7.68,
+        "operating_margin": 1.84,
+        "cost_ratio": 2.53,
+        "sga_ratio": 91.56
+      },
+      {
+        "fiscal_year": "2014/03",
+        "sales": 5030000.0,
+        "operating_profit": 78200.0,
+        "ordinary_profit": 81900.0,
+        "net_profit": 36300.0,
+        "eps": 69500.0,
+        "roe": 45.38,
+        "roa": 5.17,
+        "operating_margin": 1.21,
+        "cost_ratio": 1.55,
+        "sga_ratio": 93.04
+      },
+      {
+        "fiscal_year": "2015/03",
+        "sales": 4630000.0,
+        "operating_profit": -104800.0,
+        "ordinary_profit": -107600.0,
+        "net_profit": -138000.0,
+        "eps": -102900.0,
+        "roe": -172.5,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -2.26,
+        "sga_ratio": 95.71
+      },
+      {
+        "fiscal_year": "2016/03",
+        "sales": 3570000.0,
+        "operating_profit": -19600.0,
+        "ordinary_profit": -21900.0,
+        "net_profit": -36000.0,
+        "eps": -86600.0,
+        "roe": -45.0,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -0.55,
+        "sga_ratio": 92.69
+      },
+      {
+        "fiscal_year": "2017/03",
+        "sales": 3190000.0,
+        "operating_profit": 135200.0,
+        "ordinary_profit": 140000.0,
+        "net_profit": 88200.0,
+        "eps": 92800.0,
+        "roe": 110.24,
+        "roa": 15.1,
+        "operating_margin": 3.34,
+        "cost_ratio": 4.24,
+        "sga_ratio": 86.85
+      },
+      {
+        "fiscal_year": "2018/03",
+        "sales": 3730000.0,
+        "operating_profit": 201300.0,
+        "ordinary_profit": 226300.0,
+        "net_profit": 162300.0,
+        "eps": 180000.0,
+        "roe": 169.03,
+        "roa": 18.68,
+        "operating_margin": 5.56,
+        "cost_ratio": 5.4,
+        "sga_ratio": 86.76
+      },
+      {
+        "fiscal_year": "2019/03",
+        "sales": 4430000.0,
+        "operating_profit": 179300.0,
+        "ordinary_profit": 169100.0,
+        "net_profit": 81500.0,
+        "eps": 52100.0,
+        "roe": 80.33,
+        "roa": 9.67,
+        "operating_margin": 2.82,
+        "cost_ratio": 4.05,
+        "sga_ratio": 88.98
+      },
+      {
+        "fiscal_year": "2020/03",
+        "sales": 6050000.0,
+        "operating_profit": -3860.0,
+        "ordinary_profit": -14000.0,
+        "net_profit": -22900.0,
+        "eps": -40500.0,
+        "roe": -15.26,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -0.06,
+        "sga_ratio": 93.17
+      },
+      {
+        "fiscal_year": "2021/03",
+        "sales": 4560000.0,
+        "operating_profit": 140100.0,
+        "ordinary_profit": 108400.0,
+        "net_profit": 34900.0,
+        "eps": 44100.0,
+        "roe": 23.49,
+        "roa": 3.03,
+        "operating_margin": 0.88,
+        "cost_ratio": 3.07,
+        "sga_ratio": 87.73
+      },
+      {
+        "fiscal_year": "2022/03",
+        "sales": 6690000.0,
+        "operating_profit": 434500.0,
+        "ordinary_profit": 459300.0,
+        "net_profit": 279500.0,
+        "eps": 300100.0,
+        "roe": 188.03,
+        "roa": 19.79,
+        "operating_margin": 6.07,
+        "cost_ratio": 6.5,
+        "sga_ratio": 86.78
+      },
+      {
+        "fiscal_year": "2023/03",
+        "sales": 9460000.0,
+        "operating_profit": 282400.0,
+        "ordinary_profit": 321500.0,
+        "net_profit": 253600.0,
+        "eps": 272400.0,
+        "roe": 170.67,
+        "roa": 15.71,
+        "operating_margin": 5.21,
+        "cost_ratio": 2.99,
+        "sga_ratio": 91.6
+      },
+      {
+        "fiscal_year": "2024/03",
+        "sales": 8720000.0,
+        "operating_profit": 346300.0,
+        "ordinary_profit": 385200.0,
+        "net_profit": 228500.0,
+        "eps": 281500.0,
+        "roe": 161.32,
+        "roa": 12.7,
+        "operating_margin": 4.56,
+        "cost_ratio": 3.97,
+        "sga_ratio": 90.28
+      },
+      {
+        "fiscal_year": "2025/03",
+        "sales": 8700000.0,
+        "operating_profit": 169000.0,
+        "ordinary_profit": 188000.0,
+        "net_profit": 125000.0,
+        "roe": 93.88,
+        "roa": 6.69,
+        "operating_margin": 2.67,
+        "cost_ratio": 1.94
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 150.0,
+        "dividend_yield": 7.5
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 200.0,
+        "dividend_yield": 10.0
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 200.0,
+        "dividend_yield": 10.0
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 200.0,
+        "dividend_yield": 10.0
+      }
+    ]
+  },
+  {
+    "code": 5020,
+    "name": "ＥＮＥＯＳホールディングス",
+    "annual_data": [
+      {
+        "date": "2011/03/31",
+        "per": 4.48,
+        "pbr": 0.85,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 7.5,
+        "pbr": 0.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 8.15,
+        "pbr": 0.69,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 11.54,
+        "pbr": 0.63,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": -1,
+        "pbr": 0.71,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": -1,
+        "pbr": 0.68,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 9.07,
+        "pbr": 0.8,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 6.08,
+        "pbr": 0.87,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 5.32,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": -1,
+        "pbr": 0.52,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 14.15,
+        "pbr": 0.69,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 2.74,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 9.98,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 7.64,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2011/03",
+        "sales": 9630000.0,
+        "operating_profit": 334400.0,
+        "ordinary_profit": 311700.0,
+        "net_profit": 285700.0,
+        "eps": 124.92,
+        "roe": 18.96,
+        "roa": 4.98,
+        "operating_margin": 3.47,
+        "cost_ratio": 91.4,
+        "sga_ratio": 5.13
+      },
+      {
+        "fiscal_year": "2012/03",
+        "sales": 10700000.0,
+        "operating_profit": 327800.0,
+        "ordinary_profit": 170600.0,
+        "net_profit": 188000.0,
+        "eps": 68.36,
+        "roe": 9.6,
+        "roa": 2.55,
+        "operating_margin": 3.06,
+        "cost_ratio": 92.13,
+        "sga_ratio": 4.82
+      },
+      {
+        "fiscal_year": "2013/03",
+        "sales": 11200000.0,
+        "operating_profit": 251500.0,
+        "ordinary_profit": 159500.0,
+        "net_profit": 283300.0,
+        "eps": 63.91,
+        "roe": 8.41,
+        "roa": 2.19,
+        "operating_margin": 2.24,
+        "cost_ratio": 92.98,
+        "sga_ratio": 4.78
+      },
+      {
+        "fiscal_year": "2014/03",
+        "sales": 12400000.0,
+        "operating_profit": 213700.0,
+        "ordinary_profit": 107000.0,
+        "net_profit": 284000.0,
+        "eps": 43.05,
+        "roe": 5.45,
+        "roa": 1.38,
+        "operating_margin": 1.72,
+        "cost_ratio": 93.76,
+        "sga_ratio": 4.52
+      },
+      {
+        "fiscal_year": "2015/03",
+        "sales": 10900000.0,
+        "operating_profit": -218900.0,
+        "ordinary_profit": -277200.0,
+        "net_profit": -124500.0,
+        "eps": -111.49,
+        "roe": -1,
+        "roa": -1,
+        "operating_margin": -2.01,
+        "cost_ratio": 96.79,
+        "sga_ratio": 5.22
+      },
+      {
+        "fiscal_year": "2016/03",
+        "sales": 7530000.0,
+        "operating_profit": -350700.0,
+        "ordinary_profit": -273600.0,
+        "net_profit": -454500.0,
+        "eps": -110.04,
+        "roe": -1,
+        "roa": -1,
+        "operating_margin": -4.66
+      },
+      {
+        "fiscal_year": "2017/03",
+        "sales": 7030000.0,
+        "operating_profit": 271100.0,
+        "ordinary_profit": 150000.0,
+        "net_profit": 157400.0,
+        "eps": 60.33,
+        "roe": 8.79,
+        "roa": 2.21,
+        "operating_margin": 3.86
+      },
+      {
+        "fiscal_year": "2018/03",
+        "sales": 10300000.0,
+        "operating_profit": 487500.0,
+        "ordinary_profit": 361900.0,
+        "net_profit": 384100.0,
+        "eps": 105.92,
+        "roe": 14.25,
+        "roa": 4.28,
+        "operating_margin": 4.73,
+        "cost_ratio": 87.51,
+        "sga_ratio": 7.61
+      },
+      {
+        "fiscal_year": "2019/03",
+        "sales": 11100000.0,
+        "operating_profit": 537100.0,
+        "ordinary_profit": 322300.0,
+        "net_profit": 297100.0,
+        "eps": 95.36,
+        "roe": 11.86,
+        "roa": 3.8,
+        "operating_margin": 4.83,
+        "cost_ratio": 89.04,
+        "sga_ratio": 7.33
+      },
+      {
+        "fiscal_year": "2020/03",
+        "sales": 1000000.0,
+        "operating_profit": -113100.0,
+        "ordinary_profit": -187900.0,
+        "net_profit": -272300.0,
+        "eps": -57.86,
+        "roe": -1,
+        "roa": -1,
+        "operating_margin": -1.13,
+        "cost_ratio": 92.35,
+        "sga_ratio": 8.28
+      },
+      {
+        "fiscal_year": "2021/03",
+        "sales": 7660000.0,
+        "operating_profit": 254200.0,
+        "ordinary_profit": 114000.0,
+        "net_profit": 150000.0,
+        "eps": 35.48,
+        "roe": 4.9,
+        "roa": 1.41,
+        "operating_margin": 3.32,
+        "cost_ratio": 85.85,
+        "sga_ratio": 10.48
+      },
+      {
+        "fiscal_year": "2022/03",
+        "sales": 10900000.0,
+        "operating_profit": 785900.0,
+        "ordinary_profit": 537100.0,
+        "net_profit": 622300.0,
+        "eps": 167.27,
+        "roe": 18.78,
+        "roa": 5.57,
+        "operating_margin": 7.2,
+        "cost_ratio": 85.51,
+        "sga_ratio": 7.98
+      },
+      {
+        "fiscal_year": "2023/03",
+        "sales": 1500000.0,
+        "operating_profit": 281300.0,
+        "ordinary_profit": 143800.0,
+        "net_profit": 247900.0,
+        "eps": 46.57,
+        "roe": 5.03,
+        "roa": 1.44,
+        "operating_margin": 1.87,
+        "cost_ratio": 91.92,
+        "sga_ratio": 6.37
+      },
+      {
+        "fiscal_year": "2024/03",
+        "sales": 13900000.0,
+        "operating_profit": 464900.0,
+        "ordinary_profit": 288100.0,
+        "net_profit": 431500.0,
+        "eps": 95.64,
+        "roe": 8.93,
+        "roa": 2.84,
+        "operating_margin": 3.36,
+        "cost_ratio": 90.32,
+        "sga_ratio": 6.87
+      },
+      {
+        "fiscal_year": "2025/03",
+        "sales": 1400000.0,
+        "operating_profit": 420000.0,
+        "ordinary_profit": 220000.0,
+        "eps": 78.22,
+        "roe": 7.08,
+        "roa": 2.32,
+        "operating_margin": 3.0
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 15.5,
+        "dividend_yield": 2.77
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 16.0,
+        "dividend_yield": 3.12
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 16.0,
+        "dividend_yield": 3.07
+      }
+    ]
+  },
+  {
+    "code": 5021,
+    "name": "コスモエネルギーホールディングス",
+    "annual_data": [
+      {
+        "date": "2016/03/31",
+        "per": -1,
+        "pbr": 0.93,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 3.02,
+        "pbr": 0.98,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 3.98,
+        "pbr": 1.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 3.53,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": -1,
+        "pbr": 0.53,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 2.57,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 1.59,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 5.28,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.18,
+        "pbr": 1.12,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [
+      {
+        "fiscal_year": "2016/03",
+        "sales": 2240000.0,
+        "operating_profit": -29700.0,
+        "ordinary_profit": -36100.0,
+        "net_profit": -50200.0,
+        "eps": -53000.0,
+        "roe": -594.85,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": -1.33,
+        "sga_ratio": 96.0
+      },
+      {
+        "fiscal_year": "2017/03",
+        "sales": 2290000.0,
+        "operating_profit": 92200.0,
+        "ordinary_profit": 81400.0,
+        "net_profit": 53200.0,
+        "eps": 67600.0,
+        "roe": 633.32,
+        "roa": 32.32,
+        "operating_margin": 3.49,
+        "cost_ratio": 4.02,
+        "sga_ratio": 90.73
+      },
+      {
+        "fiscal_year": "2018/03",
+        "sales": 2520000.0,
+        "operating_profit": 111900.0,
+        "ordinary_profit": 116900.0,
+        "net_profit": 72800.0,
+        "eps": 89900.0,
+        "roe": 865.79,
+        "roa": 30.51,
+        "operating_margin": 4.31,
+        "cost_ratio": 4.43,
+        "sga_ratio": 90.47
+      },
+      {
+        "fiscal_year": "2019/03",
+        "sales": 2770000.0,
+        "operating_profit": 94700.0,
+        "ordinary_profit": 96700.0,
+        "net_profit": 53100.0,
+        "eps": 60200.0,
+        "roe": 630.68,
+        "roa": 18.9,
+        "operating_margin": 3.12,
+        "cost_ratio": 3.42,
+        "sga_ratio": 91.68
+      },
+      {
+        "fiscal_year": "2020/03",
+        "sales": 2740000.0,
+        "operating_profit": 13900.0,
+        "ordinary_profit": 16300.0,
+        "net_profit": -28200.0,
+        "eps": -27100.0,
+        "roe": -334.84,
+        "roa": -1,
+        "operating_margin": -1,
+        "cost_ratio": 0.51,
+        "sga_ratio": 94.46
+      },
+      {
+        "fiscal_year": "2021/03",
+        "sales": 2230000.0,
+        "operating_profit": 101300.0,
+        "ordinary_profit": 97400.0,
+        "net_profit": 85900.0,
+        "eps": 96500.0,
+        "roe": 1025.85,
+        "roa": 26.44,
+        "operating_margin": 5.03,
+        "cost_ratio": 4.54,
+        "sga_ratio": 89.58
+      },
+      {
+        "fiscal_year": "2022/03",
+        "sales": 2440000.0,
+        "operating_profit": 235300.0,
+        "ordinary_profit": 233100.0,
+        "net_profit": 138900.0,
+        "eps": 144600.0,
+        "roe": 1658.64,
+        "roa": 30.44,
+        "operating_margin": 7.17,
+        "cost_ratio": 9.64,
+        "sga_ratio": 84.48
+      },
+      {
+        "fiscal_year": "2023/03",
+        "sales": 2790000.0,
+        "operating_profit": 163800.0,
+        "ordinary_profit": 164500.0,
+        "net_profit": 67900.0,
+        "eps": 85600.0,
+        "roe": 811.14,
+        "roa": 12.87,
+        "operating_margin": 3.2,
+        "cost_ratio": 5.87,
+        "sga_ratio": 88.51
+      },
+      {
+        "fiscal_year": "2024/03",
+        "sales": 2730000.0,
+        "operating_profit": 149200.0,
+        "ordinary_profit": 161600.0,
+        "net_profit": 82100.0,
+        "eps": 99000.0,
+        "roe": 938.11,
+        "roa": 13.66,
+        "operating_margin": 3.71,
+        "cost_ratio": 5.47,
+        "sga_ratio": 88.29
+      },
+      {
+        "fiscal_year": "2025/03",
+        "sales": 3200000.0,
+        "operating_profit": 154000.0,
+        "ordinary_profit": 165000.0,
+        "net_profit": 79000.0,
+        "roe": 919.35,
+        "roa": 13.31,
+        "operating_margin": 3.56,
+        "cost_ratio": 4.81
+      }
+    ],
+    "dividend_data": [
+      {
+        "fiscal_year": "2015/03",
+        "total_dividend": 0.0
+      }
+    ]
+  }
+]

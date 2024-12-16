@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精密機器 - シンプル投資判断</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .stock-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .companies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .company-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .company-name {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .metric {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+        }
+        .metric-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 2px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="stock-card">
+        <h1>精密機器</h1>
+        <div class="companies-grid" id="companiesGrid">
+        </div>
+    </div>
+    <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
+
+    <script>
+    const companiesData = [{"code": "218A", "name": "Ｌｉｂｅｒａｗａｒｅ", "per": -1, "pbr": 9.53, "eps": 0.27, "roe": 0.74}, {"code": "255A", "name": "ジーエルテクノホールディングス", "per": -1, "pbr": 9.53, "eps": null, "roe": null}, {"code": "268A", "name": "リガク・ホールディングス", "per": -1, "pbr": 9.53, "eps": 52.87, "roe": 16.0}, {"code": "4543", "name": "テルモ", "per": 38.17, "pbr": 3.05, "eps": 83.88, "roe": 9.48}, {"code": "5187", "name": "クリエートメディック", "per": 52.72, "pbr": 0.54, "eps": null, "roe": 100.06}, {"code": "6376", "name": "日機装", "per": 7.51, "pbr": 0.55, "eps": 127.21, "roe": 6.87}, {"code": "7600", "name": "日本エム・ディ・エム", "per": 15.21, "pbr": 0.76, "eps": null, "roe": 49.36}, {"code": "7701", "name": "島津製作所", "per": 21.86, "pbr": 2.53, "eps": null, "roe": 197.25}, {"code": "7702", "name": "ＪＭＳ", "per": -1, "pbr": 0.32, "eps": null, "roe": 4.08}, {"code": "7707", "name": "プレシジョン・システム・サイエンス", "per": -1, "pbr": 1.27, "eps": null, "roe": -2.14}, {"code": "7709", "name": "クボテック", "per": -1, "pbr": 7.12, "eps": null, "roe": -13.44}, {"code": "7711", "name": "助川電気工業", "per": 16.1, "pbr": 2.43, "eps": 106.98, "roe": 13.98}, {"code": "7713", "name": "シグマ光機", "per": 15.97, "pbr": 0.64, "eps": null, "roe": 127.08}, {"code": "7715", "name": "長野計器", "per": 8.15, "pbr": 1.11, "eps": null, "roe": 287.91}, {"code": "7716", "name": "ナカニシ", "per": 8.85, "pbr": 1.79, "eps": null, "roe": 103.32}, {"code": "7717", "name": "ブイ・テクノロジー", "per": 31.14, "pbr": 0.7, "eps": null, "roe": 105.82}, {"code": "7719", "name": "東京衡機", "per": 19.17, "pbr": 1.16, "eps": null, "roe": 7.15}, {"code": "7721", "name": "東京計器", "per": 19.61, "pbr": 1.21, "eps": null, "roe": 188.08}, {"code": "7722", "name": "国際計測器", "per": -1, "pbr": 0.67, "eps": null, "roe": 14.77}, {"code": "7723", "name": "愛知時計電機", "per": 11.72, "pbr": 0.84, "eps": null, "roe": 205.5}, {"code": "7725", "name": "インターアクション", "per": 14.14, "pbr": 1.45, "eps": null, "roe": 59.85}, {"code": "7727", "name": "オーバル", "per": 11.36, "pbr": 0.84, "eps": null, "roe": 39.28}, {"code": "7729", "name": "東京精密", "per": 25.34, "pbr": 3.14, "eps": null, "roe": 568.5}, {"code": "7730", "name": "マニー", "per": 30.82, "pbr": 3.7, "eps": null, "roe": 64.45}, {"code": "7731", "name": "ニコン", "per": 16.28, "pbr": 0.78, "eps": 46.16, "roe": 2.41}, {"code": "7732", "name": "トプコン", "per": 38.02, "pbr": 1.73, "eps": null, "roe": 42.69}, {"code": "7733", "name": "オリンパス", "per": 11.07, "pbr": 3.41, "eps": 105.77, "roe": 17.21}, {"code": "7734", "name": "理研計器", "per": 21.26, "pbr": 2.46, "eps": null, "roe": 193.22}, {"code": "7740", "name": "タムロン", "per": 10.29, "pbr": 1.57, "eps": null, "roe": 313.7}, {"code": "7741", "name": "ＨＯＹＡ", "per": 36.35, "pbr": 6.79, "eps": null, "roe": null}, {"code": "7743", "name": "シード", "per": 8.57, "pbr": 1.16, "eps": null, "roe": 46.26}, {"code": "7744", "name": "ノーリツ鋼機", "per": 10.49, "pbr": 0.52, "eps": 395.13, "roe": 6.67}, {"code": "7745", "name": "Ａ＆Ｄホロンホールディングス", "per": 15.04, "pbr": 2.12, "eps": null, "roe": 225.24}, {"code": "7746", "name": "岡本硝子", "per": 31.28, "pbr": 1.88, "eps": null, "roe": 5.16}, {"code": "7747", "name": "朝日インテック", "per": 38.76, "pbr": 4.05, "eps": null, "roe": 69.22}, {"code": "7749", "name": "メディキット", "per": 15.96, "pbr": 1.01, "eps": null, "roe": 185.36}, {"code": "7760", "name": "ＩＭＶ", "per": 7.8, "pbr": 1.08, "eps": null, "roe": 94.3}, {"code": "7762", "name": "シチズン時計", "per": 10.59, "pbr": 0.79, "eps": null, "roe": 90.21}, {"code": "7769", "name": "リズム", "per": 64.91, "pbr": 0.99, "eps": null, "roe": 121.15}, {"code": "7771", "name": "日本精密", "per": 4.28, "pbr": 1.14, "eps": null, "roe": 5.13}, {"code": "7774", "name": "ジャパン・ティッシュエンジニアリング", "per": 194.03, "pbr": 4.56, "eps": 2.14, "roe": 1.49}, {"code": "7775", "name": "大研医器", "per": 16.14, "pbr": 2.28, "eps": 35.85, "roe": 14.2}, {"code": "7776", "name": "セルシード", "per": -1, "pbr": 3.98, "eps": null, "roe": -27.12}, {"code": "7777", "name": "スリー・ディー・マトリックス", "per": -1, "pbr": -1, "eps": null, "roe": null}, {"code": "7779", "name": "ＣＹＢＥＲＤＹＮＥ", "per": -1, "pbr": 1.1, "eps": -1280.0, "roe": -6.99}, {"code": "7780", "name": "メニコン", "per": 26.56, "pbr": 1.52, "eps": null, "roe": 92.29}, {"code": "7781", "name": "平山ホールディングス", "per": 9.9, "pbr": 1.71, "eps": null, "roe": 111.15}, {"code": "7782", "name": "シンシア", "per": 11.53, "pbr": 1.42, "eps": null, "roe": 35.85}, {"code": "7979", "name": "松風", "per": 14.25, "pbr": 1.26, "eps": null, "roe": 124.74}, {"code": "8050", "name": "セイコーグループ", "per": 17.07, "pbr": 1.14, "eps": null, "roe": 281.55}, {"code": "8086", "name": "ニプロ", "per": 18.0, "pbr": 0.86, "eps": null, "roe": 96.88}];
+
+    function formatNumber(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toLocaleString();
+    }
+
+    function formatRatio(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toFixed(2);
+    }
+
+    function calculateMixFactor(per, pbr) {
+        if (per === null || per === undefined || isNaN(per) || 
+            pbr === null || pbr === undefined || isNaN(pbr)) {
+            return 'N/A';
+        }
+        return (per * pbr).toFixed(2);
+    }
+
+    function renderCompanies() {
+        const grid = document.getElementById('companiesGrid');
+        companiesData.forEach(company => {
+            const card = document.createElement('div');
+            card.className = 'company-card';
+            
+            const per = Number(company.per) || 0;
+            const pbr = Number(company.pbr) || 0;
+            
+            card.innerHTML = `
+                <div class="company-name">${company.code} - ${company.name}</div>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-label">PER</div>
+                        <div class="metric-value">${formatRatio(per)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">PBR</div>
+                        <div class="metric-value">${formatRatio(pbr)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">EPS</div>
+                        <div class="metric-value">${formatNumber(company.eps)}円</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ROE</div>
+                        <div class="metric-value">${formatRatio(company.roe)}%</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ミックス係数</div>
+                        <div class="metric-value">${calculateMixFactor(per, pbr)}</div>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    renderCompanies();
+    </script>
+</body>
+</html>

@@ -5,6 +5,7 @@ import json
 import time
 from datetime import datetime
 import os
+import glob
 
 def parse_value(value_text):
     """
@@ -434,6 +435,6 @@ def main():
             continue
 
 if __name__ == "__main__":
-    # main()
+    main()
     # 実行例
-    scrape_stock_data('industry_categories/パルプ・紙.csv')
+    # scrape_stock_data('industry_categories/パルプ・紙.csv')

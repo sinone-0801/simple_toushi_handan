@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>倉庫_運輸関連業 - シンプル投資判断</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .stock-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .companies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .company-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .company-name {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .metric {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+        }
+        .metric-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 2px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="stock-card">
+        <h1>倉庫_運輸関連業</h1>
+        <div class="companies-grid" id="companiesGrid">
+        </div>
+    </div>
+    <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
+
+    <script>
+    const companiesData = [{"code": 9058, "name": "トランコム", "per": 12.43, "pbr": 1.12, "eps": null, "roe": 492.14}, {"code": 9066, "name": "日新", "per": 6.43, "pbr": 0.57, "eps": null, "roe": 1043.19}, {"code": 9193, "name": "東京汽船", "per": 11.64, "pbr": 0.31, "eps": null, "roe": 227.4}, {"code": 9301, "name": "三菱倉庫", "per": 13.84, "pbr": 0.93, "eps": null, "roe": null}, {"code": 9302, "name": "三井倉庫ホールディングス", "per": 9.68, "pbr": 1.07, "eps": null, "roe": null}, {"code": 9303, "name": "住友倉庫", "per": 16.24, "pbr": 0.79, "eps": null, "roe": null}, {"code": 9304, "name": "澁澤倉庫", "per": 12.58, "pbr": 0.76, "eps": null, "roe": null}, {"code": 9306, "name": "東陽倉庫", "per": 8.5, "pbr": 0.46, "eps": null, "roe": null}, {"code": 9307, "name": "杉村倉庫", "per": 11.49, "pbr": 0.62, "eps": null, "roe": null}, {"code": 9310, "name": "日本トランスシティ", "per": 9.28, "pbr": 0.5, "eps": null, "roe": 85.44}, {"code": 9311, "name": "アサガミ", "per": 9.23, "pbr": 0.39, "eps": null, "roe": 745.83}, {"code": 9312, "name": "ケイヒン", "per": 6.45, "pbr": 0.47, "eps": null, "roe": 321.66}, {"code": 9313, "name": "丸八倉庫", "per": 9.91, "pbr": 0.37, "eps": null, "roe": 123.29}, {"code": 9319, "name": "中央倉庫", "per": 12.84, "pbr": 0.48, "eps": null, "roe": null}, {"code": 9322, "name": "川西倉庫", "per": 11.63, "pbr": 0.45, "eps": null, "roe": null}, {"code": 9324, "name": "安田倉庫", "per": 15.27, "pbr": 0.38, "eps": null, "roe": null}, {"code": 9325, "name": "ファイズホールディングス", "per": 16.25, "pbr": 4.22, "eps": null, "roe": 87.29}, {"code": 9326, "name": "関通", "per": 102.43, "pbr": 1.68, "eps": null, "roe": 35.09}, {"code": 9327, "name": "イー・ロジット", "per": -1, "pbr": -1, "eps": null, "roe": -32.13}, {"code": 9351, "name": "東洋埠頭", "per": 10.68, "pbr": 0.39, "eps": null, "roe": null}, {"code": 9353, "name": "櫻島埠頭", "per": 13.19, "pbr": 0.44, "eps": null, "roe": 105.48}, {"code": 9355, "name": "リンコーコーポレーション", "per": 12.88, "pbr": 0.25, "eps": null, "roe": 147.89}, {"code": 9361, "name": "伏木海陸運送", "per": 9.1, "pbr": 0.39, "eps": null, "roe": 208.58}, {"code": 9362, "name": "兵機海運", "per": 5.81, "pbr": 0.65, "eps": null, "roe": 350.91}, {"code": 9363, "name": "大運", "per": 7.53, "pbr": 0.59, "eps": null, "roe": null}, {"code": 9364, "name": "上組", "per": 14.42, "pbr": 0.93, "eps": null, "roe": null}, {"code": 9365, "name": "トレーディア", "per": 6.0, "pbr": 0.44, "eps": null, "roe": null}, {"code": 9366, "name": "サンリツ", "per": 8.86, "pbr": 0.48, "eps": null, "roe": 110.75}, {"code": 9367, "name": "大東港運", "per": 12.64, "pbr": 0.75, "eps": null, "roe": null}, {"code": 9368, "name": "キムラユニティー", "per": 11.83, "pbr": 0.95, "eps": null, "roe": 152.55}, {"code": 9369, "name": "キユーソー流通システム", "per": -1, "pbr": 0.56, "eps": null, "roe": null}, {"code": 9377, "name": "エージーピー", "per": 16.84, "pbr": 1.24, "eps": null, "roe": 57.39}, {"code": 9380, "name": "東海運", "per": 26.32, "pbr": 0.5, "eps": null, "roe": null}, {"code": 9381, "name": "エーアイテイー", "per": 14.11, "pbr": 2.41, "eps": null, "roe": null}, {"code": 9384, "name": "内外トランスライン", "per": 7.61, "pbr": 1.19, "eps": null, "roe": 280.43}, {"code": 9386, "name": "日本コンセプト", "per": 9.31, "pbr": 1.24, "eps": null, "roe": 148.97}];
+
+    function formatNumber(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toLocaleString();
+    }
+
+    function formatRatio(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toFixed(2);
+    }
+
+    function calculateMixFactor(per, pbr) {
+        if (per === null || per === undefined || isNaN(per) || 
+            pbr === null || pbr === undefined || isNaN(pbr)) {
+            return 'N/A';
+        }
+        return (per * pbr).toFixed(2);
+    }
+
+    function renderCompanies() {
+        const grid = document.getElementById('companiesGrid');
+        companiesData.forEach(company => {
+            const card = document.createElement('div');
+            card.className = 'company-card';
+            
+            const per = Number(company.per) || 0;
+            const pbr = Number(company.pbr) || 0;
+            
+            card.innerHTML = `
+                <div class="company-name">${company.code} - ${company.name}</div>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-label">PER</div>
+                        <div class="metric-value">${formatRatio(per)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">PBR</div>
+                        <div class="metric-value">${formatRatio(pbr)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">EPS</div>
+                        <div class="metric-value">${formatNumber(company.eps)}円</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ROE</div>
+                        <div class="metric-value">${formatRatio(company.roe)}%</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ミックス係数</div>
+                        <div class="metric-value">${calculateMixFactor(per, pbr)}</div>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    renderCompanies();
+    </script>
+</body>
+</html>

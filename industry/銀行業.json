@@ -1,0 +1,8658 @@
+[
+  {
+    "code": 5830,
+    "name": "いよぎんホールディングス",
+    "annual_data": [
+      {
+        "date": "2023/03/31",
+        "per": 8.44,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 9.1,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 5831,
+    "name": "しずおかフィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2023/03/31",
+        "per": 10.23,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 13.89,
+        "pbr": 0.66,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 5832,
+    "name": "ちゅうぎんフィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2023/03/31",
+        "per": 8.01,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.23,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 5838,
+    "name": "楽天銀行",
+    "annual_data": [
+      {
+        "date": "2024/03/29",
+        "per": 15.57,
+        "pbr": 2.07,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2022/03",
+        "total_dividend": 0.0
+      },
+      {
+        "fiscal_year": "2023/03"
+      }
+    ]
+  },
+  {
+    "code": 5844,
+    "name": "京都フィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2024/03/29",
+        "per": 25.91,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 7150,
+    "name": "島根銀行",
+    "annual_data": [
+      {
+        "date": "2011/03/31",
+        "per": 6.73,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 9.61,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 10.03,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 9.64,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 12.98,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 9.4,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 7.52,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 12.08,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 12.04,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": -1,
+        "pbr": 0.26,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 17.14,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 15.07,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 9.87,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.25,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5.0
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 55.0,
+        "dividend_yield": 7.02
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 55.0,
+        "dividend_yield": 4.59
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 50.0,
+        "dividend_yield": 3.82
+      }
+    ]
+  },
+  {
+    "code": 7161,
+    "name": "じもとホールディングス",
+    "annual_data": [
+      {
+        "date": "2013/03/29",
+        "per": 55.76,
+        "pbr": 1.06,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 8.33,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 6.72,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 5.41,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 7.3,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 11.13,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 12.71,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 9.38,
+        "pbr": 0.15,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": -1,
+        "pbr": 0.15,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 5.16,
+        "pbr": 0.13,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": -1,
+        "pbr": 0.11,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": -1,
+        "pbr": 0.19,
+        "is_per_red": true,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 3.0,
+        "dividend_yield": 1.27
+      }
+    ]
+  },
+  {
+    "code": 7163,
+    "name": "住信ＳＢＩネット銀行",
+    "annual_data": [
+      {
+        "date": "2023/03/31",
+        "per": 9.21,
+        "pbr": 1.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 14.15,
+        "pbr": 2.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2022/03",
+        "total_dividend": 0.0,
+        "dividend_yield": 0.0
+      },
+      {
+        "fiscal_year": "2023/03",
+        "total_dividend": 198.95,
+        "dividend_yield": 198.95
+      }
+    ]
+  },
+  {
+    "code": 7167,
+    "name": "めぶきフィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2014/03/31",
+        "per": 5.42,
+        "pbr": 0.63,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 9.86,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 4.78,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 2.84,
+        "pbr": 0.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 11.18,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 7.17,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 7.06,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.3,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.57,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 10.83,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 12.29,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 0.0,
+        "dividend_yield": 0.0
+      }
+    ]
+  },
+  {
+    "code": 7173,
+    "name": "東京きらぼしフィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2015/03/31",
+        "per": 1.22,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 8.08,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 3.98,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 20.98,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.7,
+        "pbr": 0.16,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 4.53,
+        "pbr": 0.12,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 10.22,
+        "pbr": 0.14,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 2.93,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 3.74,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 5.74,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 7180,
+    "name": "九州フィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2016/03/31",
+        "per": 2.05,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 21.2,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 12.33,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.16,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 10.15,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 13.92,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 10.53,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 8.37,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 18.72,
+        "pbr": 0.69,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 7182,
+    "name": "ゆうちょ銀行",
+    "annual_data": [
+      {
+        "date": "2016/03/31",
+        "per": 15.97,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 16.58,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 15.18,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 17.03,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 13.67,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 14.24,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 10.4,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 12.47,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 16.52,
+        "pbr": 0.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 527.22,
+        "dividend_yield": 17.57
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 558.09,
+        "dividend_yield": 18.6
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 623.25,
+        "dividend_yield": 20.78
+      },
+      {
+        "fiscal_year": "2014/03",
+        "total_dividend": 626.58,
+        "dividend_yield": 20.89
+      },
+      {
+        "fiscal_year": "2015/03",
+        "total_dividend": 1477.95,
+        "dividend_yield": 49.27
+      }
+    ]
+  },
+  {
+    "code": 7184,
+    "name": "富山第一銀行",
+    "annual_data": [
+      {
+        "date": "2016/03/31",
+        "per": 5.33,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 6.37,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 6.21,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.91,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.77,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.13,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.04,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 9.01,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.49,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 7.5
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 7.5
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 7.5
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 7.5
+      },
+      {
+        "fiscal_year": "2014/03",
+        "total_dividend": 8.75
+      },
+      {
+        "fiscal_year": "2015/03",
+        "total_dividend": 10.0
+      },
+      {
+        "fiscal_year": "2016/03",
+        "total_dividend": 14.0,
+        "dividend_yield": 2.96
+      }
+    ]
+  },
+  {
+    "code": 7186,
+    "name": "コンコルディア・フィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2017/03/31",
+        "per": 5.25,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 11.21,
+        "pbr": 0.64,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.83,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.21,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 21.39,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 10.25,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 10.3,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 13.47,
+        "pbr": 0.7,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2019/03",
+        "total_dividend": 16.0,
+        "dividend_yield": 3.75
+      }
+    ]
+  },
+  {
+    "code": 7189,
+    "name": "西日本フィナンシャルホールディングス",
+    "annual_data": [
+      {
+        "date": "2017/03/31",
+        "per": 7.82,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 8.96,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.32,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 4.58,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 6.57,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 4.61,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 5.99,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.47,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 7322,
+    "name": "三十三フィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2019/03/29",
+        "per": 0.77,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 9.35,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.67,
+        "pbr": 0.15,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.84,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.49,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 7.85,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 7327,
+    "name": "第四北越フィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2019/03/29",
+        "per": 2.19,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.37,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 11.05,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.54,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 7.38,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 9.4,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 7337,
+    "name": "ひろぎんホールディングス",
+    "annual_data": [
+      {
+        "date": "2021/03/31",
+        "per": 9.77,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 8.79,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 15.55,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 12.08,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 7350,
+    "name": "おきなわフィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2022/03/31",
+        "per": 9.71,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 8.29,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 9.05,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 7380,
+    "name": "十六フィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2022/03/31",
+        "per": 4.71,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 5.58,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 9.03,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 7381,
+    "name": "北國フィナンシャルホールディングス",
+    "annual_data": [
+      {
+        "date": "2022/03/31",
+        "per": 8.98,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 12.3,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 13.4,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 7384,
+    "name": "プロクレアホールディングス",
+    "annual_data": [
+      {
+        "date": "2023/03/31",
+        "per": 1.22,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 18.74,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 7389,
+    "name": "あいちフィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2023/03/31",
+        "per": 1.11,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 15.66,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": []
+  },
+  {
+    "code": 8304,
+    "name": "あおぞら銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 26.23,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 9.46,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 8.52,
+        "pbr": 0.65,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 10.74,
+        "pbr": 0.81,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 8.1,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.37,
+        "pbr": 0.88,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 10.54,
+        "pbr": 1.13,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.91,
+        "pbr": 1.14,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 11.47,
+        "pbr": 1.13,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 8.84,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.55,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 10.21,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 8.64,
+        "pbr": 0.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 32.13,
+        "pbr": 0.64,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": -1,
+        "pbr": 0.75,
+        "is_per_red": true,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03"
+      },
+      {
+        "fiscal_year": "2011/03"
+      },
+      {
+        "fiscal_year": "2012/03"
+      },
+      {
+        "fiscal_year": "2013/03",
+        "dividend_yield": 13.9
+      }
+    ]
+  },
+  {
+    "code": 8306,
+    "name": "三菱ＵＦＪフィナンシャル・グループ",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 17.83,
+        "pbr": 0.74,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 9.32,
+        "pbr": 0.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 5.94,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 9.27,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 8.15,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 10.16,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.62,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.25,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 9.35,
+        "pbr": 0.57,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 8.22,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 9.84,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.79,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 8.59,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 9.35,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 12.49,
+        "pbr": 0.93,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.45
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 3.13
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.91
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 13.0,
+        "dividend_yield": 2.33
+      }
+    ]
+  },
+  {
+    "code": 8308,
+    "name": "りそなホールディングス",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 10.86,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 6.22,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 3.78,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 4.46,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 5.21,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 6.19,
+        "pbr": 0.7,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 5.07,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 8.59,
+        "pbr": 0.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 5.51,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.35,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 4.9,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.58,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 11.54,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 9.48,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 14.01,
+        "pbr": 0.8,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 0.85
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 3.03
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 3.15
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 2.46
+      }
+    ]
+  },
+  {
+    "code": 8309,
+    "name": "三井住友トラストグループ",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 12.47,
+        "pbr": 0.89,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 10.38,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 6.66,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 12.96,
+        "pbr": 0.94,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 13.06,
+        "pbr": 0.86,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 12.1,
+        "pbr": 0.8,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.62,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 12.17,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.67,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 8.66,
+        "pbr": 0.57,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 7.19,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 10.17,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 8.87,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 8.78,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 30.3,
+        "pbr": 0.77,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 4.0
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 4.0
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 8.5,
+        "dividend_yield": 4.25
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 9.0,
+        "dividend_yield": 4.5
+      }
+    ]
+  },
+  {
+    "code": 8316,
+    "name": "三井住友フィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 16.09,
+        "pbr": 0.88,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 7.68,
+        "pbr": 0.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 7.43,
+        "pbr": 0.74,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 6.72,
+        "pbr": 0.84,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 7.21,
+        "pbr": 0.83,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 8.35,
+        "pbr": 0.7,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.21,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 7.84,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 8.56,
+        "pbr": 0.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 7.45,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 5.12,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 10.71,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.58,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 8.97,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 12.3,
+        "pbr": 0.8,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 100.0,
+        "dividend_yield": 33.33
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 100.0,
+        "dividend_yield": 33.33
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 100.0,
+        "dividend_yield": 33.33
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 120.0,
+        "dividend_yield": 40.0
+      }
+    ]
+  },
+  {
+    "code": 8331,
+    "name": "千葉銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 13.32,
+        "pbr": 0.84,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 10.28,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 11.6,
+        "pbr": 0.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 13.38,
+        "pbr": 0.82,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 11.71,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 12.96,
+        "pbr": 0.86,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 8.37,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.95,
+        "pbr": 0.63,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 12.58,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.2,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 7.39,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 10.85,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 9.87,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 10.36,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 14.58,
+        "pbr": 0.76,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 11.0,
+        "dividend_yield": 1.97
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 11.0,
+        "dividend_yield": 2.36
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 11.0,
+        "dividend_yield": 2.08
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 1.78
+      }
+    ]
+  },
+  {
+    "code": 8334,
+    "name": "群馬銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 14.05,
+        "pbr": 0.69,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 12.33,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 11.32,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 13.04,
+        "pbr": 0.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 13.2,
+        "pbr": 0.57,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 14.4,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.29,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 9.77,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 9.25,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 7.74,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 6.21,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 12.35,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 5.59,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.5,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.19,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 7.5,
+        "dividend_yield": 1.45
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 9.0,
+        "dividend_yield": 2.04
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 9.5,
+        "dividend_yield": 2.14
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 10.5,
+        "dividend_yield": 1.86
+      }
+    ]
+  },
+  {
+    "code": 8336,
+    "name": "武蔵野銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 26.02,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 12.37,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 10.11,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 11.2,
+        "pbr": 0.66,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 11.12,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 9.35,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.57,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 11.33,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.29,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 13.84,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 5.71,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 7.63,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.54,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.85,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.69,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 2.24
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 2.23
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 70.0,
+        "dividend_yield": 2.46
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 70.0,
+        "dividend_yield": 1.9
+      }
+    ]
+  },
+  {
+    "code": 8337,
+    "name": "千葉興業銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 6.84,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 3.25,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 3.04,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 5.32,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 4.24,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 4.81,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 3.77,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 5.98,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 4.22,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 3.59,
+        "pbr": 0.11,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 3.39,
+        "pbr": 0.09,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 3.69,
+        "pbr": 0.1,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 2.44,
+        "pbr": 0.09,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 4.9,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.38,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 0.0
+      }
+    ]
+  },
+  {
+    "code": 8338,
+    "name": "筑波銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": -1,
+        "pbr": 0.49,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 7.47,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 18.84,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 31.08,
+        "pbr": 0.82,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 7.16,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 5.38,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 3.84,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 6.96,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 9.51,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 14.71,
+        "pbr": 0.14,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 11.47,
+        "pbr": 0.13,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.63,
+        "pbr": 0.14,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 3.96,
+        "pbr": 0.16,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 8.39,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.33,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 1.98
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 1.72
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 1.0
+      }
+    ]
+  },
+  {
+    "code": 8341,
+    "name": "七十七銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 17.57,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": -1,
+        "pbr": 0.54,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 13.09,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 15.64,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 11.53,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 14.93,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 9.39,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 11.17,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.15,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.5,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 5.66,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 7.0,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 5.15,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.38,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 10.3,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.31
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.44
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.92
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.38
+      }
+    ]
+  },
+  {
+    "code": 8343,
+    "name": "秋田銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 20.76,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 19.74,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 14.0,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 13.52,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 8.36,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 9.85,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 8.57,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 13.28,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.79,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.74,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.89,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.64,
+        "pbr": 0.15,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 9.45,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 9.52,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.18,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.86
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.22
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.21
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.29
+      }
+    ]
+  },
+  {
+    "code": 8344,
+    "name": "山形銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 34.1,
+        "pbr": 0.65,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 21.94,
+        "pbr": 0.66,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 16.74,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 13.98,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 11.82,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.16,
+        "pbr": 0.57,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 10.39,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 14.46,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 15.38,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 15.97,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 17.2,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 12.99,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 8.27,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 9.43,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 18.14,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.46
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.45
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.53
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.35
+      }
+    ]
+  },
+  {
+    "code": 8345,
+    "name": "岩手銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 19.84,
+        "pbr": 0.74,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 56.83,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 14.6,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 11.33,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 11.61,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 12.56,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 10.19,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 8.3,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 13.64,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 13.99,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 12.6,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 14.51,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.83,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.84,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 10.47,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 1.1
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 1.82
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 1.6
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 65.0,
+        "dividend_yield": 1.71
+      }
+    ]
+  },
+  {
+    "code": 8346,
+    "name": "東邦銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 11.62,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 12.63,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 15.31,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 12.1,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 9.26,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 12.55,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 4.98,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 14.92,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 13.98,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 20.82,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 24.95,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": -1,
+        "pbr": 0.32,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.65,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 12.17,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 17.29,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.5,
+        "dividend_yield": 2.18
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.5,
+        "dividend_yield": 2.89
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 2.47
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.5,
+        "dividend_yield": 2.15
+      }
+    ]
+  },
+  {
+    "code": 8349,
+    "name": "東北銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 20.3,
+        "pbr": 0.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": -1,
+        "pbr": 0.69,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 12.46,
+        "pbr": 0.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 16.8,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 14.84,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.68,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 6.85,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 8.6,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 21.97,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 10.95,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 7.44,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.43,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.22,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.12,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.75,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.42
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.79
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.33
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.14
+      }
+    ]
+  },
+  {
+    "code": 8354,
+    "name": "ふくおかフィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 12.29,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 11.7,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 11.44,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 13.24,
+        "pbr": 0.63,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 10.06,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 14.53,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.05,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": -1,
+        "pbr": 0.58,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 9.97,
+        "pbr": 0.63,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 8.17,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 2.46,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.94,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 8.34,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 15.4,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 12.46,
+        "pbr": 0.75,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 2.02
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 2.31
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 2.18
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 2.07
+      }
+    ]
+  },
+  {
+    "code": 8358,
+    "name": "スルガ銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 15.15,
+        "pbr": 1.13,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 73.87,
+        "pbr": 1.03,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 14.02,
+        "pbr": 1.12,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 18.46,
+        "pbr": 1.78,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 15.57,
+        "pbr": 1.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 17.97,
+        "pbr": 2.04,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 12.67,
+        "pbr": 1.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 12.73,
+        "pbr": 1.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 48.69,
+        "pbr": 0.99,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": -1,
+        "pbr": 0.49,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 3.24,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 4.62,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 11.78,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 8.26,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.84,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 13.0,
+        "dividend_yield": 1.56
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 13.0,
+        "dividend_yield": 1.76
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 13.0,
+        "dividend_yield": 1.54
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 15.0,
+        "dividend_yield": 0.99
+      }
+    ]
+  },
+  {
+    "code": 8359,
+    "name": "八十二銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 16.88,
+        "pbr": 0.63,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 12.35,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 14.65,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 13.39,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 11.21,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 15.67,
+        "pbr": 0.64,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 8.1,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 12.11,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 11.18,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 10.16,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.73,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.81,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.47,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 11.52,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 13.62,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.13
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 1.67
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.43
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 1.76
+      }
+    ]
+  },
+  {
+    "code": 8360,
+    "name": "山梨中央銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 22.46,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 18.42,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 9.29,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 12.13,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 9.35,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 10.44,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.52,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 11.59,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 14.95,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.32,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 6.32,
+        "pbr": 0.12,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.48,
+        "pbr": 0.13,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.17,
+        "pbr": 0.15,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 7.06,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 10.14,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.46
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.49
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.9
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.4
+      }
+    ]
+  },
+  {
+    "code": 8361,
+    "name": "大垣共立銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 12.55,
+        "pbr": 0.64,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 11.55,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 13.1,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 12.08,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 10.39,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.71,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 8.32,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 9.62,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 11.57,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 14.0,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 16.53,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 11.62,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.48,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 15.41,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 9.59,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 2.17
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 2.57
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 2.35
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 2.05
+      }
+    ]
+  },
+  {
+    "code": 8362,
+    "name": "福井銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 11.21,
+        "pbr": 0.76,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 9.98,
+        "pbr": 0.63,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 8.82,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": -1,
+        "pbr": 0.48,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 8.13,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 27.53,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 6.72,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 15.01,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 14.07,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 12.77,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 16.88,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 18.24,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.46,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 19.31,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 12.1,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 1.68
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 1.93
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.29
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.43
+      }
+    ]
+  },
+  {
+    "code": 8364,
+    "name": "清水銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 10.47,
+        "pbr": 0.57,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 11.6,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 19.16,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 11.12,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 12.31,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 8.51,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 6.81,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.86,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 12.1,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 8.05,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": -1,
+        "pbr": 0.26,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.08,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.07,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 11.4,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": -1,
+        "pbr": 0.24,
+        "is_per_red": true,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 1.6
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 1.63
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 1.84
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 2.13
+      }
+    ]
+  },
+  {
+    "code": 8365,
+    "name": "富山銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 21.07,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 21.39,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 11.44,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/28",
+        "per": 29.08,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/28",
+        "per": 12.71,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.29,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 19.49,
+        "pbr": 0.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 18.82,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 15.74,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 12.54,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 13.94,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 31.02,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 34.57,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 9.47,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 17.64,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.26
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.45
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.16
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.91
+      }
+    ]
+  },
+  {
+    "code": 8366,
+    "name": "滋賀銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 36.24,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 24.81,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 15.97,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 30.74,
+        "pbr": 0.65,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 13.4,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.57,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.96,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 9.98,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.05,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.35,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 10.57,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 10.5,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.15,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 8.63,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 12.47,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.02
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.37
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.21
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 0.93
+      }
+    ]
+  },
+  {
+    "code": 8367,
+    "name": "南都銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 20.24,
+        "pbr": 0.81,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 17.33,
+        "pbr": 0.63,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 31.78,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 16.21,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 11.52,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.33,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 6.75,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 8.74,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 6.86,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.04,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 22.78,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 5.92,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 5.43,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 15.73,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.09,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.15
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.48
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.53
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.34
+      }
+    ]
+  },
+  {
+    "code": 8368,
+    "name": "百五銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 20.4,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 12.84,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 12.51,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 12.6,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 9.34,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 13.27,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.85,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 12.46,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.92,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 8.24,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 6.71,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 6.54,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.34,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.49,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.5,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.59
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 7.5,
+        "dividend_yield": 2.01
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 7.5,
+        "dividend_yield": 1.97
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 7.5,
+        "dividend_yield": 1.6
+      }
+    ]
+  },
+  {
+    "code": 8370,
+    "name": "紀陽銀行",
+    "annual_data": [
+      {
+        "date": "2014/03/31",
+        "per": 8.8,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 10.7,
+        "pbr": 0.57,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 5.33,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.81,
+        "pbr": 0.55,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.0,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.14,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 7.91,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.25,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 5.98,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 24.8,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.06,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 4.0
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 4.0
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 4.0
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 3.0
+      }
+    ]
+  },
+  {
+    "code": 8377,
+    "name": "ほくほくフィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 16.0,
+        "pbr": 0.75,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 13.2,
+        "pbr": 0.57,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 16.76,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 15.31,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 9.7,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 12.72,
+        "pbr": 0.63,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 6.88,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 8.18,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 8.92,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.21,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 6.27,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 6.33,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 5.7,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 5.53,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 10.53,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 3.5,
+        "dividend_yield": 1.71
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 3.75,
+        "dividend_yield": 2.31
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 3.75,
+        "dividend_yield": 2.37
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 3.75,
+        "dividend_yield": 1.97
+      }
+    ]
+  },
+  {
+    "code": 8381,
+    "name": "山陰合同銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 15.34,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 11.8,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 10.52,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 13.4,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 10.09,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 13.04,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 8.58,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.46,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.73,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.39,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.15,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.03,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.75,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 7.44,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.05,
+        "pbr": 0.57,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 9.0,
+        "dividend_yield": 1.15
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 9.0,
+        "dividend_yield": 1.45
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 1.53
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 1.24
+      }
+    ]
+  },
+  {
+    "code": 8383,
+    "name": "鳥取銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 16.63,
+        "pbr": 0.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 11.65,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 38.52,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 19.47,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 11.08,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.24,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.93,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 12.53,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 14.5,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 13.93,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 11.7,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 10.74,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 12.51,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 10.28,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 13.19,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 1.98
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.96
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.82
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.49
+      }
+    ]
+  },
+  {
+    "code": 8386,
+    "name": "百十四銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 21.01,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 18.63,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 20.54,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 20.56,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 9.53,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 13.3,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 8.09,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 11.53,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.42,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 12.11,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 7.5,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 19.44,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 4.18,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 5.82,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.85,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.92
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 2.24
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.82
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.8
+      }
+    ]
+  },
+  {
+    "code": 8387,
+    "name": "四国銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 15.33,
+        "pbr": 0.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 14.08,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 34.09,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 15.43,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 6.69,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 9.09,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.38,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 7.07,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 8.95,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 7.13,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 11.7,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 4.99,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 3.91,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.54,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 7.0,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5.5,
+        "dividend_yield": 1.76
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 5.5,
+        "dividend_yield": 2.16
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 5.5,
+        "dividend_yield": 1.77
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 5.5,
+        "dividend_yield": 1.9
+      }
+    ]
+  },
+  {
+    "code": 8388,
+    "name": "阿波銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 26.62,
+        "pbr": 0.83,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 27.78,
+        "pbr": 0.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 31.62,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 14.74,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 11.94,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 12.79,
+        "pbr": 0.63,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 9.58,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 12.71,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 12.7,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 11.13,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.72,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 12.3,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 8.18,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 7.86,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 9.93,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.08
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.19
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.18
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.2
+      }
+    ]
+  },
+  {
+    "code": 8392,
+    "name": "大分銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 11.39,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 8.04,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 7.3,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 8.22,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 7.97,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 7.67,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 5.59,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 9.07,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.33,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.45,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 5.91,
+        "pbr": 0.16,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.38,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 5.62,
+        "pbr": 0.15,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 5.97,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 7.3,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 1.74
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.13
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.27
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.97
+      }
+    ]
+  },
+  {
+    "code": 8393,
+    "name": "宮崎銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 5.69,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 5.26,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 8.16,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 9.1,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 7.85,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 12.52,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 4.78,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 6.35,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 6.49,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 4.9,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 5.77,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 5.04,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 4.76,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 4.97,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 6.99,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.12
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 3.02
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.55
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 2.58
+      }
+    ]
+  },
+  {
+    "code": 8395,
+    "name": "佐賀銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 8.96,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 14.87,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 14.81,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 18.46,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 7.5,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 15.25,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 10.92,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 17.58,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 5.86,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 12.1,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 7.88,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 10.04,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.02,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 4.95,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 5.78,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.24
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.56
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.54
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.51
+      }
+    ]
+  },
+  {
+    "code": 8399,
+    "name": "琉球銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 8.62,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 8.61,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 18.5,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 19.12,
+        "pbr": 0.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 10.51,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.8,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 4.66,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 9.39,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 7.02,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 7.56,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 9.19,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 13.0,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.08,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.64,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.82,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 0.76
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 30.0,
+        "dividend_yield": 3.16
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 30.0,
+        "dividend_yield": 2.67
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 30.0,
+        "dividend_yield": 2.19
+      }
+    ]
+  },
+  {
+    "code": 8410,
+    "name": "セブン銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 12.77,
+        "pbr": 2.09,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 12.42,
+        "pbr": 1.74,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 12.34,
+        "pbr": 1.7,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 18.75,
+        "pbr": 2.64,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 22.71,
+        "pbr": 3.15,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 30.41,
+        "pbr": 4.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 23.13,
+        "pbr": 3.1,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 17.27,
+        "pbr": 2.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 15.96,
+        "pbr": 1.91,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 29.43,
+        "pbr": 1.83,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 12.6,
+        "pbr": 1.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 11.49,
+        "pbr": 1.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 13.49,
+        "pbr": 1.16,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 16.53,
+        "pbr": 1.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 10.86,
+        "pbr": 1.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5200.0,
+        "dividend_yield": 2.77
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 5200.0,
+        "dividend_yield": 3.11
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 2603.6,
+        "dividend_yield": 1454.53
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.75,
+        "dividend_yield": 2.21
+      }
+    ]
+  },
+  {
+    "code": 8411,
+    "name": "みずほフィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 11.98,
+        "pbr": 0.82,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 7.27,
+        "pbr": 0.69,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 6.7,
+        "pbr": 0.66,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 8.58,
+        "pbr": 0.81,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 7.17,
+        "pbr": 0.77,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 8.4,
+        "pbr": 0.64,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 6.21,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 8.55,
+        "pbr": 0.61,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 8.4,
+        "pbr": 0.53,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 44.92,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 7.01,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.61,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.49,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 8.57,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.37,
+        "pbr": 0.75,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 8.0
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 6.0
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 6.0
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 6.0
+      }
+    ]
+  },
+  {
+    "code": 8416,
+    "name": "高知銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 9.08,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 6.72,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 5.44,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 9.88,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 5.05,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 4.48,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 3.91,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 6.03,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 7.55,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 8.5,
+        "pbr": 0.12,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 4.74,
+        "pbr": 0.1,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.8,
+        "pbr": 0.12,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 4.77,
+        "pbr": 0.11,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 4.27,
+        "pbr": 0.09,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.54,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 2.5,
+        "dividend_yield": 3.29
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 2.5,
+        "dividend_yield": 2.84
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 2.5,
+        "dividend_yield": 2.58
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 2.5,
+        "dividend_yield": 2.14
+      }
+    ]
+  },
+  {
+    "code": 8418,
+    "name": "山口フィナンシャルグループ",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 10.11,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 10.63,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 11.09,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 9.24,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 7.71,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.44,
+        "pbr": 0.59,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.72,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 9.38,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 9.64,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 9.91,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 6.12,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 7.39,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": -1,
+        "pbr": 0.26,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 10.49,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 13.65,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 0.98
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 1.3
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 11.0,
+        "dividend_yield": 1.46
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 12.0,
+        "dividend_yield": 1.26
+      }
+    ]
+  },
+  {
+    "code": 8522,
+    "name": "名古屋銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 20.25,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 15.52,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 29.15,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 14.04,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 15.16,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 12.15,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 10.46,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 13.22,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 12.84,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 10.88,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 10.6,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 5.32,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 4.45,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.52,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 11.21,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.84
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.5,
+        "dividend_yield": 2.43
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.5,
+        "dividend_yield": 2.19
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.5,
+        "dividend_yield": 1.53
+      }
+    ]
+  },
+  {
+    "code": 8524,
+    "name": "北洋銀行",
+    "annual_data": [
+      {
+        "date": "2013/03/29",
+        "per": 9.8,
+        "pbr": 0.48,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 1.92,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 11.48,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 6.31,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.08,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.35,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 7.74,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 10.52,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 13.2,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.93,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 11.11,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 13.35,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 3.0,
+        "dividend_yield": 0.95
+      }
+    ]
+  },
+  {
+    "code": 8537,
+    "name": "大光銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 13.1,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 15.16,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 16.73,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 15.59,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 15.92,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 14.05,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 6.95,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 6.8,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 6.0,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.02,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 11.99,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.07,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.43,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 8.22,
+        "pbr": 0.14,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.49,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.38
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 5.5,
+        "dividend_yield": 2.04
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 1.94
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 1.98
+      }
+    ]
+  },
+  {
+    "code": 8541,
+    "name": "愛媛銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 13.17,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 14.43,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 10.52,
+        "pbr": 0.51,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 11.49,
+        "pbr": 0.49,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 8.57,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 7.65,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.11,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 8.94,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 7.98,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 8.01,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.09,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 7.36,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.31,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.1,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.78,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.28
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.55
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.54
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 6.0,
+        "dividend_yield": 2.44
+      }
+    ]
+  },
+  {
+    "code": 8542,
+    "name": "トマト銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 29.57,
+        "pbr": 0.67,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 24.07,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 29.48,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 19.22,
+        "pbr": 0.54,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 16.67,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 13.88,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 9.08,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 9.44,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 11.23,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.93,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.77,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.63,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.23,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.21,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 9.53,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.54
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.09
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.14
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.89
+      }
+    ]
+  },
+  {
+    "code": 8544,
+    "name": "京葉銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 12.24,
+        "pbr": 0.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 10.48,
+        "pbr": 0.64,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 9.65,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 10.3,
+        "pbr": 0.66,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 8.04,
+        "pbr": 0.5,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 12.99,
+        "pbr": 0.7,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.23,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.91,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 10.34,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 8.08,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 12.56,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.1,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 5.7,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.92,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 8.75,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 1.77
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 9.0,
+        "dividend_yield": 2.16
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 10.0,
+        "dividend_yield": 2.52
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 11.0,
+        "dividend_yield": 2.06
+      }
+    ]
+  },
+  {
+    "code": 8550,
+    "name": "栃木銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 8.27,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 8.54,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": -1,
+        "pbr": 0.3,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 7.65,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 6.1,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 5.71,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 4.31,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 6.98,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 9.51,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 17.18,
+        "pbr": 0.15,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.88,
+        "pbr": 0.11,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.53,
+        "pbr": 0.12,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.36,
+        "pbr": 0.14,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 10.71,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 17.94,
+        "pbr": 0.25,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.71
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.9
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 2.6
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 7.0,
+        "dividend_yield": 1.9
+      }
+    ]
+  },
+  {
+    "code": 8551,
+    "name": "北日本銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 14.63,
+        "pbr": 0.42,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": -1,
+        "pbr": 0.38,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 10.76,
+        "pbr": 0.38,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 10.12,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 8.52,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 6.92,
+        "pbr": 0.43,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 8.68,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.1,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 15.69,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 12.88,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 12.89,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 11.12,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.32,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.27,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 6.75,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 2.32
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 50.0,
+        "dividend_yield": 2.45
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 2.63
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 60.0,
+        "dividend_yield": 2.48
+      }
+    ]
+  },
+  {
+    "code": 8558,
+    "name": "東和銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 6.97,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 4.84,
+        "pbr": 0.37,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 3.78,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 4.47,
+        "pbr": 0.32,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 2.53,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 2.82,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 3.92,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 5.08,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 4.57,
+        "pbr": 0.33,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 5.48,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 8.02,
+        "pbr": 0.18,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 10.17,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 11.39,
+        "pbr": 0.16,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 4.91,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 7.52,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 1.56
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 0.97
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 2.08
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 1.79
+      }
+    ]
+  },
+  {
+    "code": 8562,
+    "name": "福島銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 29.59,
+        "pbr": 0.47,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": -1,
+        "pbr": 0.61,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 7.75,
+        "pbr": 0.71,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 10.09,
+        "pbr": 0.72,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 7.25,
+        "pbr": 0.7,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 5.92,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 7.01,
+        "pbr": 0.57,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 17.09,
+        "pbr": 0.68,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": -1,
+        "pbr": 0.6,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 16.67,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 9.25,
+        "pbr": 0.16,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": -1,
+        "pbr": 0.25,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.75,
+        "pbr": 0.24,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 7.35,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 9.88,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 2.0
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 1.47
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 1.22
+      }
+    ]
+  },
+  {
+    "code": 8563,
+    "name": "大東銀行",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 8.3,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": -1,
+        "pbr": 0.3,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 5.99,
+        "pbr": 0.35,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 5.67,
+        "pbr": 0.39,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 5.73,
+        "pbr": 0.44,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 9.1,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 8.68,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 14.65,
+        "pbr": 0.56,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 12.18,
+        "pbr": 0.41,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.48,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 6.79,
+        "pbr": 0.19,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 8.97,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 7.23,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.32,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 7.8,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 2.27
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 1.85
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 1.39
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 1.61
+      }
+    ]
+  },
+  {
+    "code": 8600,
+    "name": "トモニホールディングス",
+    "annual_data": [
+      {
+        "date": "2011/03/31",
+        "per": 1.03,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 12.38,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 11.19,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 8.13,
+        "pbr": 0.4,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 9.75,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 6.29,
+        "pbr": 0.28,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 3.7,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 6.9,
+        "pbr": 0.36,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.76,
+        "pbr": 0.31,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 7.1,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 5.18,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 4.02,
+        "pbr": 0.22,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 4.02,
+        "pbr": 0.23,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 5.09,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 2.61
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 1.99
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 8.0,
+        "dividend_yield": 1.96
+      }
+    ]
+  },
+  {
+    "code": 8713,
+    "name": "フィデアホールディングス",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": 10.72,
+        "pbr": 0.58,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 10.91,
+        "pbr": 0.74,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 8.89,
+        "pbr": 0.62,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 9.52,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 4.5,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 4.08,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 3.33,
+        "pbr": 0.26,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 8.01,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 8.22,
+        "pbr": 0.3,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 6.28,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 13.75,
+        "pbr": 0.17,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 7.5,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 6.58,
+        "pbr": 0.21,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 7.37,
+        "pbr": 0.27,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 24.53,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 3.07
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.1
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.23
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 5.0,
+        "dividend_yield": 2.09
+      }
+    ]
+  },
+  {
+    "code": 8714,
+    "name": "池田泉州ホールディングス",
+    "annual_data": [
+      {
+        "date": "2010/03/31",
+        "per": -1,
+        "pbr": 1.39,
+        "is_per_red": true,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2011/03/31",
+        "per": 20.85,
+        "pbr": 0.91,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2012/03/30",
+        "per": 41.7,
+        "pbr": 0.98,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2013/03/29",
+        "per": 14.11,
+        "pbr": 0.81,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2014/03/31",
+        "per": 6.71,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2015/03/31",
+        "per": 7.72,
+        "pbr": 0.6,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2016/03/31",
+        "per": 6.79,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2017/03/31",
+        "per": 10.4,
+        "pbr": 0.52,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2018/03/30",
+        "per": 13.21,
+        "pbr": 0.45,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2019/03/29",
+        "per": 12.89,
+        "pbr": 0.34,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2020/03/31",
+        "per": 11.58,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2021/03/31",
+        "per": 9.79,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2022/03/31",
+        "per": 4.25,
+        "pbr": 0.2,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2023/03/31",
+        "per": 6.84,
+        "pbr": 0.29,
+        "is_per_red": false,
+        "is_pbr_red": false
+      },
+      {
+        "date": "2024/03/29",
+        "per": 10.19,
+        "pbr": 0.46,
+        "is_per_red": false,
+        "is_pbr_red": false
+      }
+    ],
+    "daily_data": [],
+    "financial_data": [],
+    "dividend_data": [
+      {
+        "fiscal_year": "2010/03",
+        "total_dividend": 2.7,
+        "dividend_yield": 1.59
+      },
+      {
+        "fiscal_year": "2011/03",
+        "total_dividend": 3.0,
+        "dividend_yield": 2.65
+      },
+      {
+        "fiscal_year": "2012/03",
+        "total_dividend": 3.0,
+        "dividend_yield": 2.61
+      },
+      {
+        "fiscal_year": "2013/03",
+        "total_dividend": 15.0,
+        "dividend_yield": 2.83
+      }
+    ]
+  }
+]

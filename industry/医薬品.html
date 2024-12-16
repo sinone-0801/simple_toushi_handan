@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医薬品 - シンプル投資判断</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .stock-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .companies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .company-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .company-name {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .metric {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+        }
+        .metric-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 2px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="stock-card">
+        <h1>医薬品</h1>
+        <div class="companies-grid" id="companiesGrid">
+        </div>
+    </div>
+    <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
+
+    <script>
+    const companiesData = [{"code": "130A", "name": "Ｖｅｒｉｔａｓ　Ｉｎ　Ｓｉｌｉｃｏ", "per": 0, "pbr": 0, "eps": null, "roe": null}, {"code": "190A", "name": "Ｃｈｏｒｄｉａ　Ｔｈｅｒａｐｅｕｔｉｃｓ", "per": -1, "pbr": 12.7, "eps": null, "roe": null}, {"code": "197A", "name": "タウンズ", "per": 7.1, "pbr": 3.0, "eps": 59.49, "roe": 42.25}, {"code": "206A", "name": "ＰＲＩＳＭ　ＢｉｏＬａｂ", "per": -1, "pbr": 4.21, "eps": -33.51, "roe": -1}, {"code": "2160", "name": "ジーエヌアイグループ", "per": 16.7, "pbr": 4.17, "eps": 245.13, "roe": 37.13}, {"code": "219A", "name": "Ｈｅａｒｔｓｅｅｄ", "per": -1, "pbr": 4.63, "eps": null, "roe": null}, {"code": "4151", "name": "協和キリン", "per": 15.69, "pbr": 1.52, "eps": 129.37, "roe": 8.14}, {"code": "4502", "name": "武田薬品工業", "per": 45.43, "pbr": 0.9, "eps": 42.9, "roe": 0.98}, {"code": "4503", "name": "アステラス製薬", "per": 173.05, "pbr": 1.85, "eps": 27.93, "roe": 3.27}, {"code": "4506", "name": "住友ファーマ", "per": -1, "pbr": 1.01, "eps": -40.27, "roe": -1}, {"code": "4507", "name": "塩野義製薬", "per": 13.88, "pbr": 1.78, "eps": null, "roe": 201.01}, {"code": "4512", "name": "わかもと製薬", "per": 72.99, "pbr": 0.59, "eps": 3.14, "roe": 0.91}, {"code": "4516", "name": "日本新薬", "per": 11.65, "pbr": 1.37, "eps": null, "roe": 445.24}, {"code": "4519", "name": "中外製薬", "per": 27.0, "pbr": 5.41, "eps": 197.83, "roe": 20.02}, {"code": "4521", "name": "科研製薬", "per": 16.27, "pbr": 0.91, "eps": null, "roe": 374.93}, {"code": "4523", "name": "エーザイ", "per": 42.04, "pbr": 2.04, "eps": 155.03, "roe": 5.24}, {"code": "4524", "name": "森下仁丹", "per": 14.47, "pbr": 0.83, "eps": null, "roe": 171.1}, {"code": "4527", "name": "ロート製薬", "per": 21.88, "pbr": 2.75, "eps": null, "roe": 141.14}, {"code": "4528", "name": "小野薬品工業", "per": 9.21, "pbr": 1.45, "eps": 123.48, "roe": 7.41}, {"code": "4530", "name": "久光製薬", "per": 21.33, "pbr": 1.11, "eps": null, "roe": 215.43}, {"code": "4534", "name": "持田製薬", "per": 25.4, "pbr": 0.89, "eps": null, "roe": 157.96}, {"code": "4536", "name": "参天製薬", "per": 21.16, "pbr": 1.82, "eps": 100.85, "roe": 11.59}, {"code": "4538", "name": "扶桑薬品工業", "per": 13.76, "pbr": 0.51, "eps": 304.36, "roe": 6.86}, {"code": "4539", "name": "日本ケミファ", "per": -1, "pbr": 0.32, "eps": null, "roe": 16.63}, {"code": "4540", "name": "ツムラ", "per": 17.39, "pbr": 1.07, "eps": null, "roe": 375.33}, {"code": "4547", "name": "キッセイ薬品工業", "per": 14.34, "pbr": 0.71, "eps": null, "roe": 273.33}, {"code": "4548", "name": "生化学工業", "per": 19.09, "pbr": 0.58, "eps": null, "roe": 63.21}, {"code": "4549", "name": "栄研化学", "per": 27.9, "pbr": 1.52, "eps": null, "roe": 75.65}, {"code": "4551", "name": "鳥居薬品", "per": 24.25, "pbr": 0.83, "eps": 177.08, "roe": 4.25}, {"code": "4552", "name": "ＪＣＲファーマ", "per": 19.47, "pbr": 1.94, "eps": null, "roe": 29.48}, {"code": "4553", "name": "東和薬品", "per": 8.84, "pbr": 0.92, "eps": null, "roe": 304.71}, {"code": "4554", "name": "富士製薬工業", "per": 5.04, "pbr": 0.68, "eps": null, "roe": 139.02}, {"code": "4556", "name": "カイノス", "per": 7.87, "pbr": 0.81, "eps": 130.47, "roe": 8.51}, {"code": "4558", "name": "中京医薬品", "per": -1, "pbr": 0.88, "eps": 5.16, "roe": 2.21}, {"code": "4559", "name": "ゼリア新薬工業", "per": 12.16, "pbr": 1.18, "eps": null, "roe": 192.83}, {"code": "4563", "name": "アンジェス", "per": -1, "pbr": 0.55, "eps": null, "roe": null}, {"code": "4564", "name": "オンコセラピー・サイエンス", "per": -1, "pbr": 15.63, "eps": null, "roe": null}, {"code": "4565", "name": "ネクセラファーマ", "per": -1, "pbr": 1.9, "eps": -87.17, "roe": -1}, {"code": "4568", "name": "第一三共", "per": 45.63, "pbr": 5.43, "eps": 118.66, "roe": 13.86}, {"code": "4569", "name": "杏林製薬", "per": 19.54, "pbr": 0.8, "eps": null, "roe": 87.03}, {"code": "4570", "name": "免疫生物研究所", "per": 26.38, "pbr": 3.89, "eps": null, "roe": 12.35}, {"code": "4571", "name": "ＮＡＮＯ　ＭＲＮＡ", "per": -1, "pbr": 3.82, "eps": null, "roe": -14.08}, {"code": "4572", "name": "カルナバイオサイエンス", "per": -1, "pbr": 2.31, "eps": null, "roe": -116.45}, {"code": "4574", "name": "大幸薬品", "per": -1, "pbr": 2.25, "eps": null, "roe": 10.86}, {"code": "4575", "name": "キャンバス", "per": -1, "pbr": 4.25, "eps": null, "roe": null}, {"code": "4576", "name": "デ・ウエスタン・セラピテクス研究所", "per": -1, "pbr": 3.54, "eps": null, "roe": -39.76}, {"code": "4577", "name": "ダイト", "per": 10.6, "pbr": 0.65, "eps": null, "roe": 150.39}, {"code": "4578", "name": "大塚ホールディングス", "per": 23.6, "pbr": 1.2, "eps": 437.4, "roe": 9.73}, {"code": "4579", "name": "ラクオリア創薬", "per": -1, "pbr": 2.44, "eps": null, "roe": null}, {"code": "4582", "name": "シンバイオ製薬", "per": -1, "pbr": 1.5, "eps": null, "roe": -79.0}, {"code": "4583", "name": "カイオム・バイオサイエンス", "per": -1, "pbr": 6.23, "eps": -24.62, "roe": -1}, {"code": "4584", "name": "キッズウェル・バイオ", "per": -1, "pbr": 8.72, "eps": null, "roe": -23.37}, {"code": "4586", "name": "メドレックス", "per": -1, "pbr": 3.12, "eps": null, "roe": -17.87}, {"code": "4587", "name": "ペプチドリーム", "per": 63.52, "pbr": 4.78, "eps": null, "roe": 107.68}, {"code": "4588", "name": "オンコリスバイオファーマ", "per": -1, "pbr": 7.63, "eps": -108.92, "roe": -1}, {"code": "4591", "name": "リボミック", "per": -1, "pbr": 0.99, "eps": null, "roe": null}, {"code": "4592", "name": "サンバイオ", "per": -1, "pbr": 14.86, "eps": null, "roe": null}, {"code": "4593", "name": "ヘリオス", "per": -1, "pbr": 3.19, "eps": -3890.0, "roe": -56.22}, {"code": "4594", "name": "ブライトパス・バイオ", "per": -1, "pbr": 4.96, "eps": -10.87, "roe": -1}, {"code": "4595", "name": "ミズホメディー", "per": 7.92, "pbr": 1.91, "eps": null, "roe": null}, {"code": "4596", "name": "窪田製薬ホールディングス", "per": -1, "pbr": 1.69, "eps": null, "roe": null}, {"code": "4597", "name": "ソレイジア・ファーマ", "per": -1, "pbr": 4.17, "eps": null, "roe": null}, {"code": "4598", "name": "Ｄｅｌｔａ－Ｆｌｙ　Ｐｈａｒｍａ", "per": -1, "pbr": 5.62, "eps": null, "roe": null}, {"code": "4599", "name": "ステムリム", "per": -1, "pbr": 3.64, "eps": null, "roe": null}, {"code": "4880", "name": "セルソース", "per": 99.16, "pbr": 3.92, "eps": 12.88, "roe": null}, {"code": "4881", "name": "ファンペップ", "per": -1, "pbr": 1.42, "eps": null, "roe": null}, {"code": "4882", "name": "ペルセウスプロテオミクス", "per": -1, "pbr": 3.01, "eps": -93.69, "roe": -1}, {"code": "4883", "name": "モダリス", "per": -1, "pbr": 3.05, "eps": null, "roe": null}, {"code": "4884", "name": "クリングルファーマ", "per": -1, "pbr": 2.76, "eps": -202.63, "roe": -1}, {"code": "4885", "name": "室町ケミカル", "per": 8.13, "pbr": 1.19, "eps": null, "roe": 75.36}, {"code": "4886", "name": "あすか製薬ホールディングス", "per": 8.33, "pbr": 1.02, "eps": null, "roe": 176.28}, {"code": "4887", "name": "サワイグループホールディングス", "per": 19.29, "pbr": 1.24, "eps": null, "roe": null}, {"code": "4888", "name": "ステラファーマ", "per": -1, "pbr": 3.83, "eps": -7.64, "roe": -1}, {"code": "4889", "name": "レナサイエンス", "per": -1, "pbr": 3.01, "eps": null, "roe": null}, {"code": "4890", "name": "坪田ラボ", "per": -1, "pbr": 6.62, "eps": 3.91, "roe": 7.08}, {"code": "4891", "name": "ティムス", "per": -1, "pbr": 3.8, "eps": null, "roe": null}, {"code": "4892", "name": "サイフューズ", "per": -1, "pbr": 1.88, "eps": -111.15, "roe": -1}, {"code": "4893", "name": "ノイルイミューン・バイオテック", "per": -1, "pbr": 1.62, "eps": null, "roe": null}, {"code": "4894", "name": "クオリプス", "per": -1, "pbr": 4.92, "eps": null, "roe": -123.93}, {"code": "4896", "name": "ケイファーマ", "per": 28.32, "pbr": 2.69, "eps": -91.08, "roe": -1}];
+
+    function formatNumber(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toLocaleString();
+    }
+
+    function formatRatio(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toFixed(2);
+    }
+
+    function calculateMixFactor(per, pbr) {
+        if (per === null || per === undefined || isNaN(per) || 
+            pbr === null || pbr === undefined || isNaN(pbr)) {
+            return 'N/A';
+        }
+        return (per * pbr).toFixed(2);
+    }
+
+    function renderCompanies() {
+        const grid = document.getElementById('companiesGrid');
+        companiesData.forEach(company => {
+            const card = document.createElement('div');
+            card.className = 'company-card';
+            
+            const per = Number(company.per) || 0;
+            const pbr = Number(company.pbr) || 0;
+            
+            card.innerHTML = `
+                <div class="company-name">${company.code} - ${company.name}</div>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-label">PER</div>
+                        <div class="metric-value">${formatRatio(per)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">PBR</div>
+                        <div class="metric-value">${formatRatio(pbr)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">EPS</div>
+                        <div class="metric-value">${formatNumber(company.eps)}円</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ROE</div>
+                        <div class="metric-value">${formatRatio(company.roe)}%</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ミックス係数</div>
+                        <div class="metric-value">${calculateMixFactor(per, pbr)}</div>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    renderCompanies();
+    </script>
+</body>
+</html>

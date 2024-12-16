@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金属製品 - シンプル投資判断</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .stock-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .companies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .company-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .company-name {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .metric {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+        }
+        .metric-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 2px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="stock-card">
+        <h1>金属製品</h1>
+        <div class="companies-grid" id="companiesGrid">
+        </div>
+    </div>
+    <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
+
+    <script>
+    const companiesData = [{"code": 2961, "name": "日本調理機", "per": 5.69, "pbr": 0.56, "eps": 270.39, "roe": 4.26}, {"code": 2962, "name": "テクニスコ", "per": -1, "pbr": 1.02, "eps": null, "roe": -68.67}, {"code": 3420, "name": "ケー・エフ・シー", "per": 9.37, "pbr": 0.54, "eps": null, "roe": 128.4}, {"code": 3421, "name": "稲葉製作所", "per": 11.55, "pbr": 0.64, "eps": null, "roe": 152.12}, {"code": 3422, "name": "Ｊ－ＭＡＸ", "per": -1, "pbr": 0.3, "eps": null, "roe": -209.28}, {"code": 3423, "name": "エスイー", "per": 10.99, "pbr": 0.97, "eps": null, "roe": 9.96}, {"code": 3426, "name": "アトムリビンテック", "per": 21.46, "pbr": 0.54, "eps": 60.15, "roe": 2.37}, {"code": 3431, "name": "宮地エンジニアリンググループ", "per": 13.71, "pbr": 1.5, "eps": null, "roe": null}, {"code": 3433, "name": "トーカロ", "per": 16.97, "pbr": 1.92, "eps": null, "roe": 126.15}, {"code": 3434, "name": "アルファＣｏ", "per": 8.91, "pbr": 0.47, "eps": null, "roe": 83.38}, {"code": 3435, "name": "サンコーテクノ", "per": 6.93, "pbr": 0.7, "eps": null, "roe": 164.4}, {"code": 3436, "name": "ＳＵＭＣＯ", "per": 11.58, "pbr": 1.29, "eps": null, "roe": 57.69}, {"code": 3437, "name": "特殊電極", "per": 10.35, "pbr": 0.55, "eps": null, "roe": 253.01}, {"code": 3439, "name": "三ツ知", "per": 9.59, "pbr": 0.4, "eps": null, "roe": 60.45}, {"code": 3440, "name": "日創プロニティ", "per": 6.65, "pbr": 0.6, "eps": null, "roe": 138.97}, {"code": 3441, "name": "山王", "per": 13.1, "pbr": 0.62, "eps": null, "roe": 44.79}, {"code": 3443, "name": "川田テクノロジーズ", "per": 7.9, "pbr": 0.72, "eps": null, "roe": 398.96}, {"code": 3444, "name": "菊池製作所", "per": -1, "pbr": 0.95, "eps": null, "roe": 5.88}, {"code": 3445, "name": "ＲＳ　Ｔｅｃｈｎｏｌｏｇｉｅｓ", "per": 10.21, "pbr": 1.4, "eps": null, "roe": 288.06}, {"code": 3446, "name": "ジェイテックコーポレーション", "per": 47.58, "pbr": 3.51, "eps": null, "roe": 39.22}, {"code": 3447, "name": "信和", "per": 25.66, "pbr": 0.69, "eps": 71.89, "roe": 6.41}, {"code": 3449, "name": "テクノフレックス", "per": 20.64, "pbr": 0.89, "eps": null, "roe": 70.22}, {"code": 5900, "name": "ダイケン", "per": 13.74, "pbr": 0.35, "eps": 65.65, "roe": 2.76}, {"code": 5901, "name": "東洋製罐グループホールディングス", "per": 18.74, "pbr": 0.64, "eps": null, "roe": 142.69}, {"code": 5902, "name": "ホッカンホールディングス", "per": 8.45, "pbr": 0.41, "eps": null, "roe": 154.48}, {"code": 5903, "name": "シンポ", "per": 12.1, "pbr": 1.18, "eps": null, "roe": 144.03}, {"code": 5905, "name": "日本製罐", "per": 9.82, "pbr": 0.51, "eps": null, "roe": 50.09}, {"code": 5906, "name": "エムケー精工", "per": 8.86, "pbr": 0.42, "eps": null, "roe": 81.53}, {"code": 5909, "name": "コロナ", "per": 21.52, "pbr": 0.37, "eps": null, "roe": 41.08}, {"code": 5911, "name": "横河ブリッジホールディングス", "per": 10.13, "pbr": 0.96, "eps": null, "roe": 257.91}, {"code": 5915, "name": "駒井ハルテック", "per": 15.95, "pbr": 0.31, "eps": null, "roe": 299.57}, {"code": 5918, "name": "瀧上工業", "per": 18.17, "pbr": 0.4, "eps": null, "roe": null}, {"code": 5921, "name": "川岸工業", "per": 7.39, "pbr": 0.38, "eps": null, "roe": null}, {"code": 5922, "name": "那須電機鉄工", "per": 7.02, "pbr": 0.48, "eps": null, "roe": 1373.54}, {"code": 5923, "name": "高田機工", "per": 8.32, "pbr": 0.36, "eps": null, "roe": null}, {"code": 5928, "name": "アルメタックス", "per": 40.72, "pbr": 0.34, "eps": 4.31, "roe": 0.47}, {"code": 5929, "name": "三和ホールディングス", "per": 13.68, "pbr": 2.07, "eps": null, "roe": 236.53}, {"code": 5930, "name": "文化シヤッター", "per": 11.08, "pbr": 1.19, "eps": null, "roe": 160.21}, {"code": 5932, "name": "三協立山", "per": -1, "pbr": 0.27, "eps": null, "roe": 47.86}, {"code": 5933, "name": "アルインコ", "per": 10.28, "pbr": 0.67, "eps": null, "roe": 105.91}, {"code": 5935, "name": "元旦ビューティ工業", "per": 19.02, "pbr": 1.34, "eps": 137.67, "roe": 9.22}, {"code": 5936, "name": "東洋シヤッター", "per": 4.68, "pbr": 0.5, "eps": null, "roe": 142.11}, {"code": 5938, "name": "ＬＩＸＩＬ", "per": -1, "pbr": 0.84, "eps": 27.85, "roe": 1.31}, {"code": 5939, "name": "大谷工業", "per": 18.03, "pbr": 1.62, "eps": 346.52, "roe": 6.91}, {"code": 5940, "name": "不二サッシ", "per": 7.07, "pbr": 0.58, "eps": null, "roe": 126.8}, {"code": 5941, "name": "中西製作所", "per": 14.79, "pbr": 0.67, "eps": 219.14, "roe": 7.21}, {"code": 5942, "name": "日本フイルコン", "per": 7.5, "pbr": 0.41, "eps": null, "roe": 20.3}, {"code": 5943, "name": "ノーリツ", "per": 80.29, "pbr": 0.57, "eps": null, "roe": 78.26}, {"code": 5945, "name": "天龍製鋸", "per": 12.67, "pbr": 0.45, "eps": null, "roe": 141.87}, {"code": 5946, "name": "長府製作所", "per": 17.37, "pbr": 0.52, "eps": null, "roe": 84.7}, {"code": 5947, "name": "リンナイ", "per": 18.86, "pbr": 1.16, "eps": null, "roe": 200.54}, {"code": 5950, "name": "日本パワーファスニング", "per": -1, "pbr": 0.51, "eps": null, "roe": 28.89}, {"code": 5951, "name": "ダイニチ工業", "per": 12.9, "pbr": 0.42, "eps": 55.61, "roe": 3.35}, {"code": 5952, "name": "アマテイ", "per": 12.92, "pbr": 1.25, "eps": null, "roe": 10.97}, {"code": 5955, "name": "ワイズホールディングス", "per": 48.35, "pbr": 1.03, "eps": null, "roe": 1.86}, {"code": 5956, "name": "トーソー", "per": 16.53, "pbr": 0.34, "eps": null, "roe": 39.41}, {"code": 5957, "name": "日東精工", "per": 11.2, "pbr": 0.59, "eps": null, "roe": 52.52}, {"code": 5958, "name": "三洋工業", "per": 6.06, "pbr": 0.55, "eps": null, "roe": 508.06}, {"code": 5959, "name": "岡部", "per": -1, "pbr": 0.54, "eps": null, "roe": -20.29}, {"code": 5965, "name": "フジマック", "per": 6.22, "pbr": 0.48, "eps": null, "roe": 140.13}, {"code": 5966, "name": "京都機械工具", "per": 10.63, "pbr": 0.55, "eps": null, "roe": 289.63}, {"code": 5967, "name": "ＴＯＮＥ", "per": 12.65, "pbr": 1.16, "eps": null, "roe": 69.96}, {"code": 5969, "name": "ロブテックス", "per": 8.57, "pbr": 0.49, "eps": null, "roe": 101.75}, {"code": 5970, "name": "ジーテクト", "per": 6.87, "pbr": 0.47, "eps": null, "roe": 232.02}, {"code": 5971, "name": "共和工業所", "per": 5.83, "pbr": 0.54, "eps": null, "roe": 468.67}, {"code": 5973, "name": "トーアミ", "per": 13.96, "pbr": 0.3, "eps": null, "roe": 0.0}, {"code": 5974, "name": "中国工業", "per": 9.86, "pbr": 0.4, "eps": null, "roe": 64.64}, {"code": 5975, "name": "東プレ", "per": 7.99, "pbr": 0.63, "eps": null, "roe": 256.76}, {"code": 5976, "name": "高周波熱錬", "per": 26.74, "pbr": 0.68, "eps": null, "roe": 45.45}, {"code": 5981, "name": "東京製綱", "per": 11.3, "pbr": 0.66, "eps": null, "roe": 189.57}, {"code": 5982, "name": "マルゼン", "per": 11.83, "pbr": 0.95, "eps": null, "roe": 237.56}, {"code": 5983, "name": "イワブチ", "per": 12.07, "pbr": 0.44, "eps": null, "roe": 475.86}, {"code": 5984, "name": "兼房", "per": 11.46, "pbr": 0.36, "eps": null, "roe": 64.75}, {"code": 5985, "name": "サンコール", "per": -1, "pbr": 0.5, "eps": null, "roe": -92.85}, {"code": 5986, "name": "モリテック　スチール", "per": 18.36, "pbr": 0.41, "eps": null, "roe": 11.16}, {"code": 5987, "name": "オーネックス", "per": -1, "pbr": 0.58, "eps": null, "roe": 175.75}, {"code": 5988, "name": "パイオラックス", "per": 23.03, "pbr": 0.87, "eps": null, "roe": 64.57}, {"code": 5989, "name": "エイチワン", "per": -1, "pbr": 0.36, "eps": 285.16, "roe": 13.78}, {"code": 5990, "name": "スーパーツール", "per": 15.62, "pbr": 0.45, "eps": null, "roe": 138.88}, {"code": 5991, "name": "日本発條", "per": 8.64, "pbr": 0.82, "eps": null, "roe": 209.48}, {"code": 5992, "name": "中央発條", "per": 13.51, "pbr": 0.31, "eps": null, "roe": 67.36}, {"code": 5997, "name": "協立エアテック", "per": 6.04, "pbr": 0.35, "eps": null, "roe": 78.33}, {"code": 5998, "name": "アドバネクス", "per": 22.38, "pbr": 0.73, "eps": null, "roe": 73.06}, {"code": 7985, "name": "ネポン", "per": 27.0, "pbr": 0.67, "eps": null, "roe": 31.33}, {"code": 7989, "name": "立川ブラインド工業", "per": 9.72, "pbr": 0.56, "eps": null, "roe": 132.92}, {"code": 8155, "name": "三益半導体工業", "per": 16.61, "pbr": 1.45, "eps": 222.45, "roe": 8.76}];
+
+    function formatNumber(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toLocaleString();
+    }
+
+    function formatRatio(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toFixed(2);
+    }
+
+    function calculateMixFactor(per, pbr) {
+        if (per === null || per === undefined || isNaN(per) || 
+            pbr === null || pbr === undefined || isNaN(pbr)) {
+            return 'N/A';
+        }
+        return (per * pbr).toFixed(2);
+    }
+
+    function renderCompanies() {
+        const grid = document.getElementById('companiesGrid');
+        companiesData.forEach(company => {
+            const card = document.createElement('div');
+            card.className = 'company-card';
+            
+            const per = Number(company.per) || 0;
+            const pbr = Number(company.pbr) || 0;
+            
+            card.innerHTML = `
+                <div class="company-name">${company.code} - ${company.name}</div>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-label">PER</div>
+                        <div class="metric-value">${formatRatio(per)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">PBR</div>
+                        <div class="metric-value">${formatRatio(pbr)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">EPS</div>
+                        <div class="metric-value">${formatNumber(company.eps)}円</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ROE</div>
+                        <div class="metric-value">${formatRatio(company.roe)}%</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ミックス係数</div>
+                        <div class="metric-value">${calculateMixFactor(per, pbr)}</div>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    renderCompanies();
+    </script>
+</body>
+</html>

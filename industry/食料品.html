@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>食料品 - シンプル投資判断</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .stock-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .companies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .company-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .company-name {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .metric {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+        }
+        .metric-value {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 2px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="stock-card">
+        <h1>食料品</h1>
+        <div class="companies-grid" id="companiesGrid">
+        </div>
+    </div>
+    <a href="../index.html" class="back-link">← 業種一覧に戻る</a>
+
+    <script>
+    const companiesData = [{"code": "2001", "name": "ニップン", "per": 7.01, "pbr": 0.83, "eps": null, "roe": 307.48}, {"code": "2002", "name": "日清製粉グループ本社", "per": 19.67, "pbr": 1.25, "eps": null, "roe": 131.18}, {"code": "2003", "name": "日東富士製粉", "per": 11.43, "pbr": 0.98, "eps": null, "roe": 472.26}, {"code": "2004", "name": "昭和産業", "per": 9.47, "pbr": 0.9, "eps": null, "roe": 338.74}, {"code": "2009", "name": "鳥越製粉", "per": 15.73, "pbr": 0.44, "eps": null, "roe": 43.4}, {"code": "2053", "name": "中部飼料", "per": 10.55, "pbr": 0.54, "eps": null, "roe": 114.98}, {"code": "2055", "name": "日和産業", "per": 10.41, "pbr": 0.31, "eps": null, "roe": 16.56}, {"code": "2060", "name": "フィード・ワン", "per": 7.35, "pbr": 0.74, "eps": null, "roe": 117.54}, {"code": "2107", "name": "東洋精糖", "per": 9.05, "pbr": 1.23, "eps": null, "roe": 165.06}, {"code": "2108", "name": "日本甜菜製糖", "per": 15.01, "pbr": 0.37, "eps": null, "roe": 473.77}, {"code": "2109", "name": "ＤＭ三井製糖ホールディングス", "per": 11.9, "pbr": 0.9, "eps": null, "roe": 216.85}, {"code": "2112", "name": "塩水港精糖", "per": 5.64, "pbr": 0.61, "eps": null, "roe": 47.36}, {"code": "2114", "name": "フジ日本", "per": 11.3, "pbr": 1.12, "eps": null, "roe": 99.66}, {"code": "2117", "name": "ウェルネオシュガー", "per": 13.82, "pbr": 1.07, "eps": null, "roe": 152.6}, {"code": "2201", "name": "森永製菓", "per": 15.86, "pbr": 1.81, "eps": null, "roe": 186.21}, {"code": "2204", "name": "中村屋", "per": 45.29, "pbr": 0.67, "eps": 115.39, "roe": 2.69}, {"code": "2206", "name": "江崎グリコ", "per": 18.79, "pbr": 1.01, "eps": null, "roe": 160.66}, {"code": "2207", "name": "名糖産業", "per": -1, "pbr": 0.59, "eps": null, "roe": 259.92}, {"code": "2208", "name": "ブルボン", "per": 18.7, "pbr": 1.02, "eps": null, "roe": 158.17}, {"code": "2209", "name": "井村屋グループ", "per": 17.13, "pbr": 1.58, "eps": null, "roe": 141.4}, {"code": "2211", "name": "不二家", "per": 64.7, "pbr": 1.12, "eps": null, "roe": 96.96}, {"code": "2212", "name": "山崎製パン", "per": 22.0, "pbr": 1.66, "eps": null, "roe": 165.7}, {"code": "2215", "name": "第一屋製パン", "per": 9.67, "pbr": 0.74, "eps": null, "roe": 230.88}, {"code": "2216", "name": "カンロ", "per": 11.73, "pbr": 1.99, "eps": 182.82, "roe": 17.62}, {"code": "2217", "name": "モロゾフ", "per": 16.49, "pbr": 1.42, "eps": null, "roe": 200.38}, {"code": "2220", "name": "亀田製菓", "per": 39.89, "pbr": 1.29, "eps": null, "roe": 189.72}, {"code": "2221", "name": "岩塚製菓", "per": 15.68, "pbr": 0.45, "eps": null, "roe": 230.67}, {"code": "2222", "name": "寿スピリッツ", "per": 27.54, "pbr": 8.47, "eps": null, "roe": 75.81}, {"code": "2224", "name": "コモ", "per": 239.78, "pbr": 4.99, "eps": null, "roe": 28.78}, {"code": "2226", "name": "湖池屋", "per": 22.08, "pbr": 2.85, "eps": null, "roe": 234.35}, {"code": "2229", "name": "カルビー", "per": 21.54, "pbr": 2.23, "eps": null, "roe": 156.08}, {"code": "2264", "name": "森永乳業", "per": 4.49, "pbr": 0.98, "eps": null, "roe": 221.56}, {"code": "2266", "name": "六甲バター", "per": 57.93, "pbr": 0.86, "eps": 48.95, "roe": 3.47}, {"code": "2267", "name": "ヤクルト本社", "per": 18.96, "pbr": 1.72, "eps": null, "roe": 171.5}, {"code": "2268", "name": "Ｂ－Ｒ　サーティワン　アイスクリーム", "per": 32.35, "pbr": 3.14, "eps": null, "roe": 141.01}, {"code": "2269", "name": "明治ホールディングス", "per": 18.64, "pbr": 1.27, "eps": null, "roe": 192.58}, {"code": "2270", "name": "雪印メグミルク", "per": 9.47, "pbr": 0.79, "eps": null, "roe": 201.28}, {"code": "2281", "name": "プリマハム", "per": 15.45, "pbr": 0.97, "eps": null, "roe": 198.95}, {"code": "2282", "name": "日本ハム", "per": 18.59, "pbr": 0.99, "eps": 265.27, "roe": 5.15}, {"code": "2286", "name": "林兼産業", "per": 6.69, "pbr": 0.45, "eps": null, "roe": 76.45}, {"code": "2288", "name": "丸大食品", "per": -1, "pbr": 0.65, "eps": null, "roe": 189.1}, {"code": "2291", "name": "福留ハム", "per": 33.21, "pbr": 2.1, "eps": null, "roe": -155.84}, {"code": "2292", "name": "Ｓ　Ｆｏｏｄｓ", "per": 10.89, "pbr": 0.83, "eps": null, "roe": 132.7}, {"code": "2293", "name": "滝沢ハム", "per": 52.41, "pbr": 1.62, "eps": null, "roe": -108.11}, {"code": "2294", "name": "柿安本店", "per": 20.56, "pbr": 1.63, "eps": null, "roe": 114.84}, {"code": "2296", "name": "伊藤ハム米久ホールディングス", "per": 14.68, "pbr": 0.8, "eps": null, "roe": 264.39}, {"code": "2501", "name": "サッポロホールディングス", "per": 55.52, "pbr": 2.66, "eps": null, "roe": 127.29}, {"code": "2502", "name": "アサヒグループホールディングス", "per": 16.24, "pbr": 1.08, "eps": 127.88, "roe": 7.54}, {"code": "2503", "name": "キリンホールディングス", "per": 14.85, "pbr": 1.48, "eps": 138.95, "roe": 10.85}, {"code": "250A", "name": "シマダヤ", "per": 14.85, "pbr": 1.48, "eps": null, "roe": 139.95}, {"code": "2531", "name": "宝ホールディングス", "per": 13.05, "pbr": 0.91, "eps": null, "roe": 88.09}, {"code": "2533", "name": "オエノンホールディングス", "per": 6.07, "pbr": 0.96, "eps": null, "roe": 30.49}, {"code": "2540", "name": "養命酒製造", "per": 27.3, "pbr": 0.56, "eps": 47.65, "roe": 1.44}, {"code": "2573", "name": "北海道コカ・コーラボトリング", "per": 26.09, "pbr": 0.84, "eps": null, "roe": 95.53}, {"code": "2579", "name": "コカ・コーラ　ボトラーズジャパンホールディングス", "per": 194.15, "pbr": 0.77, "eps": null, "roe": 47.26}, {"code": "2585", "name": "ライフドリンク　カンパニー", "per": 20.65, "pbr": 5.77, "eps": null, "roe": 73.67}, {"code": "2586", "name": "フルッタフルッタ", "per": -1, "pbr": 1.56, "eps": 0.34, "roe": 0.93}, {"code": "2587", "name": "サントリー食品インターナショナル", "per": 17.37, "pbr": 1.32, "eps": 279.94, "roe": 7.44}, {"code": "2588", "name": "プレミアムウォーターホールディングス", "per": 16.29, "pbr": 4.16, "eps": null, "roe": 185.09}, {"code": "2590", "name": "ダイドーグループホールディングス", "per": 21.09, "pbr": 1.04, "eps": null, "roe": 155.3}, {"code": "2593", "name": "伊藤園", "per": 21.6, "pbr": 1.86, "eps": null, "roe": 197.01}, {"code": "25935", "name": "伊藤園第１種優先株式", "per": 21.6, "pbr": 1.86, "eps": null, "roe": null}, {"code": "2594", "name": "キーコーヒー", "per": 238.64, "pbr": 1.4, "eps": null, "roe": 23.35}, {"code": "2597", "name": "ユニカフェ", "per": 27.87, "pbr": 2.0, "eps": null, "roe": 25.24}, {"code": "2602", "name": "日清オイリオグループ", "per": 11.02, "pbr": 0.91, "eps": null, "roe": 447.24}, {"code": "2607", "name": "不二製油グループ本社", "per": 31.51, "pbr": 0.75, "eps": null, "roe": 139.58}, {"code": "2612", "name": "かどや製油", "per": 15.53, "pbr": 1.02, "eps": null, "roe": 217.31}, {"code": "2613", "name": "Ｊ－オイルミルズ", "per": 9.45, "pbr": 0.63, "eps": null, "roe": 196.52}, {"code": "2801", "name": "キッコーマン", "per": 33.27, "pbr": 3.81, "eps": null, "roe": 64.62}, {"code": "2802", "name": "味の素", "per": 33.81, "pbr": 3.56, "eps": 191.36, "roe": 12.33}, {"code": "2804", "name": "ブルドックソース", "per": 191.16, "pbr": 1.29, "eps": null, "roe": 36.69}, {"code": "2805", "name": "ヱスビー食品", "per": 7.93, "pbr": 0.73, "eps": null, "roe": 562.72}, {"code": "2806", "name": "ユタカフーズ", "per": 28.37, "pbr": 0.59, "eps": 82.04, "roe": 2.55}, {"code": "2809", "name": "キユーピー", "per": 27.22, "pbr": 1.27, "eps": null, "roe": 146.29}, {"code": "2810", "name": "ハウス食品グループ本社", "per": 17.15, "pbr": 1.03, "eps": null, "roe": 141.64}, {"code": "2811", "name": "カゴメ", "per": 25.91, "pbr": 2.04, "eps": null, "roe": 255.63}, {"code": "2813", "name": "和弘食品", "per": 9.24, "pbr": 1.33, "eps": null, "roe": 535.24}, {"code": "2814", "name": "佐藤食品工業", "per": 10.45, "pbr": 0.4, "eps": 140.16, "roe": 2.76}, {"code": "2815", "name": "アリアケジャパン", "per": 22.78, "pbr": 1.41, "eps": null, "roe": 244.91}, {"code": "2816", "name": "ダイショー", "per": 23.2, "pbr": 1.46, "eps": 47.66, "roe": 4.73}, {"code": "2818", "name": "ピエトロ", "per": 104.49, "pbr": 1.94, "eps": null, "roe": 14.33}, {"code": "2819", "name": "エバラ食品工業", "per": 15.75, "pbr": 0.86, "eps": null, "roe": 92.1}, {"code": "2820", "name": "やまみ", "per": 15.51, "pbr": 2.41, "eps": 234.1, "roe": 17.49}, {"code": "2830", "name": "アヲハタ", "per": 92.75, "pbr": 1.54, "eps": null, "roe": 34.97}, {"code": "2831", "name": "はごろもフーズ", "per": 17.72, "pbr": 0.79, "eps": null, "roe": 212.53}, {"code": "2871", "name": "ニチレイ", "per": 21.6, "pbr": 2.09, "eps": null, "roe": 212.92}, {"code": "2872", "name": "セイヒョー", "per": 45.24, "pbr": 1.96, "eps": 48.73, "roe": 4.75}, {"code": "2875", "name": "東洋水産", "per": 17.39, "pbr": 2.09, "eps": null, "roe": 592.21}, {"code": "2876", "name": "デルソーレ", "per": 9.08, "pbr": 0.82, "eps": 67.38, "roe": 8.55}, {"code": "2877", "name": "日東ベスト", "per": 24.51, "pbr": 0.64, "eps": null, "roe": 37.2}, {"code": "2882", "name": "イートアンドホールディングス", "per": -1, "pbr": 2.29, "eps": null, "roe": 123.41}, {"code": "2883", "name": "大冷", "per": 14.88, "pbr": 1.17, "eps": 142.99, "roe": 8.78}, {"code": "2884", "name": "ヨシムラ・フード・ホールディングス", "per": 28.45, "pbr": 3.37, "eps": null, "roe": 63.1}, {"code": "2892", "name": "日本食品化工", "per": 9.01, "pbr": 0.9, "eps": 264.32, "roe": 4.6}, {"code": "2894", "name": "石井食品", "per": 12.13, "pbr": 1.66, "eps": null, "roe": 4.8}, {"code": "2897", "name": "日清食品ホールディングス", "per": 23.57, "pbr": 2.59, "eps": null, "roe": null}, {"code": "2901", "name": "ウェルディッシュ", "per": -1, "pbr": -1, "eps": null, "roe": 17.09}, {"code": "2903", "name": "シノブフーズ", "per": 10.31, "pbr": 0.81, "eps": null, "roe": 139.35}, {"code": "2904", "name": "一正蒲鉾", "per": 14.7, "pbr": 0.97, "eps": null, "roe": 52.24}, {"code": "2907", "name": "あじかん", "per": 5.96, "pbr": 0.57, "eps": null, "roe": null}, {"code": "2908", "name": "フジッコ", "per": 49.17, "pbr": 0.79, "eps": null, "roe": 54.45}, {"code": "2910", "name": "ロック・フィールド", "per": 32.98, "pbr": 1.39, "eps": null, "roe": 23.99}, {"code": "2911", "name": "旭松食品", "per": 18.21, "pbr": 0.54, "eps": null, "roe": 129.83}, {"code": "2914", "name": "日本たばこ産業", "per": 13.42, "pbr": 1.69, "eps": 233.5, "roe": 12.0}, {"code": "2915", "name": "ケンコーマヨネーズ", "per": 11.81, "pbr": 0.82, "eps": null, "roe": 199.2}, {"code": "2916", "name": "仙波糖化工業", "per": 16.52, "pbr": 0.69, "eps": null, "roe": 57.1}, {"code": "2917", "name": "大森屋", "per": 25.32, "pbr": 0.39, "eps": null, "roe": 35.99}, {"code": "2918", "name": "わらべや日洋ホールディングス", "per": 11.17, "pbr": 0.9, "eps": null, "roe": 114.51}, {"code": "2922", "name": "なとり", "per": 19.13, "pbr": 1.07, "eps": null, "roe": 117.62}, {"code": "2923", "name": "サトウ食品", "per": 13.96, "pbr": 1.56, "eps": null, "roe": 339.04}, {"code": "2924", "name": "イフジ産業", "per": 7.81, "pbr": 1.29, "eps": null, "roe": 207.93}, {"code": "2926", "name": "篠崎屋", "per": -1, "pbr": 1.15, "eps": -1.98, "roe": -1}, {"code": "2927", "name": "ＡＦＣ－ＨＤアムスライフサイエンス", "per": 9.34, "pbr": 0.84, "eps": null, "roe": 93.86}, {"code": "2929", "name": "ファーマフーズ", "per": 9.77, "pbr": 2.67, "eps": null, "roe": 57.05}, {"code": "2931", "name": "ユーグレナ", "per": -1, "pbr": 4.04, "eps": null, "roe": null}, {"code": "2932", "name": "ＳＴＩフードホールディングス", "per": 16.93, "pbr": 3.55, "eps": null, "roe": 329.04}, {"code": "2933", "name": "紀文食品", "per": 10.1, "pbr": 1.53, "eps": null, "roe": 125.06}, {"code": "2934", "name": "ジェイフロンティア", "per": -1, "pbr": 10.14, "eps": null, "roe": null}, {"code": "2935", "name": "ピックルスホールディングス", "per": 12.59, "pbr": 0.83, "eps": null, "roe": 96.49}, {"code": "2936", "name": "ベースフード", "per": -1, "pbr": 27.21, "eps": 0.0, "roe": 0.0}, {"code": "2937", "name": "サンクゼール", "per": 26.74, "pbr": 4.66, "eps": null, "roe": 17.11}, {"code": "2938", "name": "オカムラ食品工業", "per": 12.54, "pbr": 1.8, "eps": null, "roe": 258.17}, {"code": "3069", "name": "ＪＦＬＡホールディングス", "per": -1, "pbr": 1.14, "eps": null, "roe": null}, {"code": "4404", "name": "ミヨシ油脂", "per": 6.21, "pbr": 0.46, "eps": null, "roe": 235.76}, {"code": "4526", "name": "理研ビタミン", "per": 9.6, "pbr": 1.02, "eps": null, "roe": 266.81}];
+
+    function formatNumber(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toLocaleString();
+    }
+
+    function formatRatio(value) {
+        if (value === null || value === undefined || isNaN(value)) {
+            return 'N/A';
+        }
+        return Number(value).toFixed(2);
+    }
+
+    function calculateMixFactor(per, pbr) {
+        if (per === null || per === undefined || isNaN(per) || 
+            pbr === null || pbr === undefined || isNaN(pbr)) {
+            return 'N/A';
+        }
+        return (per * pbr).toFixed(2);
+    }
+
+    function renderCompanies() {
+        const grid = document.getElementById('companiesGrid');
+        companiesData.forEach(company => {
+            const card = document.createElement('div');
+            card.className = 'company-card';
+            
+            const per = Number(company.per) || 0;
+            const pbr = Number(company.pbr) || 0;
+            
+            card.innerHTML = `
+                <div class="company-name">${company.code} - ${company.name}</div>
+                <div class="metrics">
+                    <div class="metric">
+                        <div class="metric-label">PER</div>
+                        <div class="metric-value">${formatRatio(per)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">PBR</div>
+                        <div class="metric-value">${formatRatio(pbr)}倍</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">EPS</div>
+                        <div class="metric-value">${formatNumber(company.eps)}円</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ROE</div>
+                        <div class="metric-value">${formatRatio(company.roe)}%</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">ミックス係数</div>
+                        <div class="metric-value">${calculateMixFactor(per, pbr)}</div>
+                    </div>
+                </div>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    renderCompanies();
+    </script>
+</body>
+</html>
